@@ -1,0 +1,242 @@
+\documentclass{casconpaper}
+
+\title{\Large\sffamily{\bfseries{Goal-Supporting Opportunistic Framework}}}
+\author{
+	Elena Voyloshnikova\\
+	elenavoy@uvic.ca\\
+	\and
+	Dr. Margaret-Anne Storey\\
+	mstorey@uvic.ca
+}
+\date{
+	University of Victoria\\
+	Victoria, BC, Canada\vspace{5ex}
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty} % remove number on first page 
+
+{\section*{Abstract\let\thefootnote\relax\footnotetext{Copyright \copyright\ 2014 Dr. Margaret-Anne Storey and Elena Voyloshnikova. Permission to copy is hereby granted provided the original copyright notice is reproduced in copies made.}}
+} % end abstract
+
+{\section{Introduction}
+Today, people commonly use web technologies to support personal endeavours. These endeavors include a wide range of personal goals and activities, such as making decisions, planning projects, and researching personal interests.  For example, some people research their travel destinations using various online resources, and some shoppers look for product characteristics and conduct purchases online. In order to accommodate diverse and evolving user needs, web applications continuously introduce new features and services empowering goal-oriented activities. 
+
+Sometimes, web users aim to find particular pieces of information, such as showtimes and phone numbers, or perform particular actions, such as making purchases and banking transactions. Other times, users lack well-articulated objectives and information needs, which results in their actions, intentions, and information needs continuously changing and interweaving. Consequently, people often use web technologies to satisfy their personal interests adaptively or, in other words, opportunistically [ac]. 
+
+Opportunistic use usually occurs when a person casually browses through sites in hopes to satisfy some mind curiosity, gain knowledge about a hobby-related topic, research long-term ambitions, or plan activities, events, and projects that she hopes to take on in the future [ac]. This mode of web use characterized by underdefined or absent information needs. For example, someone who is planning a hiking trip will try to research famous hiking trails in her geographic region, required physical fitness level, training strategies, hiking tips, etc. As noted above, the user is not looking for any specific information but rather trying to research general topics related to hiking. 
+
+Although opportunistic use can be related to user's long-term goals, goal realization per se however, is not necessarily an outcome of this use. Often, users need to purposefully go online in order to acquire some information or perform an action that would help them achieve some outcome or complete some other activity. Therefore, purposeful use is characterized by a precise piece of information needed or an action required to complete some wider activity, such as making a decision or planning [ac]. For example, when a user plans to go to a concert, she might try to check if there is parking available by the concert venue.  Here, parking availability is the missing piece of information that the user needs in order to make a transit-related decision. 
+
+It is important to note that purposeful use is not always associated with opportunistic. According to Lindley et al. [ac], this mode or web use occurs when users need to find some concrete information or perform an exact action, often in the context of some other wider activity. In this paper, we study purposeful web use only in the context of applications that support opportunistic doings. The fundamental assumption is that when users opportunistically search for information related to personal interests, they often save information for future exploitation and then use it for some concrete goal. For example, a person who browses the Internet to find a new book to read, might want to order that book online later on or look up it’s name so that she can put it on hold at the library. 
+
+To satisfy their information needs for diverse personal endeavors, people turn to various web technologies ranging from generic search tools to specialized web applications that provide relevant services. Several web usage studies have been directed at exploring high-level web tasks [ac], deriving models of information seeking behaviours [ac], and looking at methods of information curation [ac]. However, more research is necessary to determine how different tools and their features provide fundamental support for opportunistic use and further goal realization.
+
+To enhance goal-related web-usage experiences and support users’ high-level endeavors, we extend existing research by (1) deriving web application design elements for goal-oriented opportunistic web use, (2) validating those design elements by studying and describing currently existing web applications, and (3) providing guidelines to address elements of the framework when designing new applications. Specifically, our research goal is to gain understanding of how existing tools support goal-oriented opportunistic web use. 
+
+The remainder of this paper is organized as follows. Section 2 highlights some of the studies and technologies related to web usage. Section 3 outlines case study based methodology that was used for this study. In Section 4, we derive initial cognitive support elements for opportunistic mode of web use.  Sections 5 and 6 deal with data collection and analysis phasis of this research respectively. In Section 7, we describe the final framework, followed by limitations and the conclusion in sections 8 and 9.
+
+} % end section
+
+
+{\section{Related Work}
+
+Several researchers have studied various characteristics of web usage behaviour. To gain understanding of how currently existing web tools support goal-oriented opportunistic web use, we study known mechanics of web usage, including high-level web tasks, information seeking behaviour, information curation, and modes of web use. 
+
+In [year] Kellar et al. [ac] separated web tasks into five categories: transactions, browsing, fact finding, information gathering, and other uncategorized tasks.  In their later work, Kellar et al [ac] added communication and maintenance as additional web tasks. Similarly to Kellar, Sellen [ac] identified six web tasks that are commonly performed by web users: browsing, finding, housekeeping, information gathering, communicating, and transacting. Although Kellar et al. and Sellen make a clear distinction between different types of high-level tasks, it is evident that some information seeking tasks can overlap. For example, when gathering information about a new fitness studio, the user might be interested in its location. Location lookup is classified as fact finding; however, it contributes to the information gathering process and can be performed while the user is browsing.
+
+At first, it seems convenient to think of user motivation behind various web tasks being conducting the task itself, such as communicating for the sake of communication. However, tasks such as browsing or fact funding can be motivated by higher goals, such as planning a weekend getaway or researching fitness programs and related topics. Therefore, when providing tool support for various tasks, it is useful to consider the motivation behind these tasks, as it may differ. Morrison et al. [ca] makes a distinction between methods of web use and purposes. The authors derived a purpose taxonomy web use, including three purposes or motivations: finding information, comparing or choosing to make a decision, and using the web to find relevant information to gain understanding of some subject. Consequently, methods of finding information identified by Morrison et al. are collecting, finding, exploring, and monitoring. The differences between the two taxonomies suggest that different information seeking tasks may be performed to satisfy each of the information seeking purposes. Therefore, each purpose may require more than one task-supporting mechanisms. 
+
+A number of researchers have studies information seeking behaviour [ac]. Ellis et al [ac], proposed a model of information seeking characterized by six different patterns: starting, chaining, browsing, extracting, monitoring, and differentiating. Based on these patterns, Choo et al. [ac], derived corresponding anticipated web moves. According to authors [ac], when users identify sources of interest, they usually identify which web sites can point to that information of interest.  Chaining occurs when users navigate through links on those initial pages. When people browse, they scan top-level pages, headings, lists, and site maps. Differentiating takes place when people bookmark, print, copy and paste information, or choose earlier selected site. Monitoring occurs when users revisit web pages or receive updates from some earlier visited sites. Finally, extracting can occur when the user systematically searches the site to extract information of interest. 
+
+In [insert year], Bates [ac] proposed a model of four information seeking modes that consists of being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the levels of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterised as undirected active information seeking because users do not know directly what information they are looking for, but they actively look for some information. Searching falls under active directed information seeking because the information need is clearly defined s the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed, and being aware is undirected.   
+
+In [insert year], Bates [ac] extended her research with the notion of information farming. Information farming involves people collect and organize information for future use and revisitation. More commonly, it is referred to as digital curation, which is the notion of collecting and managing digital information for the purpose of adding value to the collection, and revisitation [ac]. Wittaker [ac] believes that in terms of web use, there is happening a significant shift from information consumption to information curation, which means that people no longer just use the web to find and consume the information that they are interested in, including the information related to their personal endeavors, but they also try to save and manage that information so that later it can be reaccessed and exploited, at times for the purpose of goal realization. 
+
+Categorizing web usage into information seeking,  digital curation, and other web tasks does not necessarily give full insight about how web usage related to personal goals is performed. Lindley et al. [ac] conducted a qualitative study involving 24 participants tracking their daily web usages in a form of a diary. As a result of this study, the researchers identified five distinct modes of web use: respite, orienting, opportunistic, purposeful, and lean-back [ac]. According to authors [ac], people web browse opportunistically when they look for information related to some personal interest, long-term goal, or future ambition. Purposeful use occurs when the user knows for a fact what information she needs to acquire or what action online she needs to perform in order to continue or finish some other activity. Respite mode usually occurs when users are in the process of waiting for something or taking a break, and it serves as means for people to temporarily occupy themselves when high engagement with the content is not a requirement. Orienting mode usually occurs when people want to be updated on what has been happening in their environment. Examples of this mode are checking email at work or looking at the news and updates on a social networking site. Finally, lean-back mode of web use can be thought of as listening to the radio or watching TV. It usually involves watching videos online or browsing through other types of entertainment content. 
+
+Lindley’s et al. [ac] primary motivations behind looking at use modes that occur when people browse Internet was that traditional web use studies and web tasks discovered by other researchers could not reflect the depth of user’s intentions online. It is evident that modes of web use make user’s motivations clearer. In the context of goal-oriented activities, the mode that is best associated with user’s long-term ambitions and personal hobbies and interests is opportunistic. Purposeful use often relates to immediate goals that feed into some wider context. 
+
+To further compare opportunistic and purposeful use modes, we summarized some essential differences between the two in Table 1. Opportunistic mode is usually performed because it relates to some user interest  and the act of performing it is enjoyable by itself, whereas purposeful mode usually serves as a tool for completion or continuation of some other activity. An information need for opportunistic use can be blur and change continuously throughout web use session, whereas with purposeful use, people know exactly what information they are interested in and that information need usually does not change. Purposeful use has a well-defined point of completion, which occurs when objective is achieved or information is acquired, whereas with opportunistic use, people often cannot indicate completion of the web task and they finish whenever they have been browsing Internet for too long or they need to complete some other task of higher priority. Finally, opportunistic use is ‘grasshopper-like’: users jump from one resource to another. Purposeful use is characterized by direct actions or search. Motivation, information need, and duration, and usage patterns are the four characteristics that we will use in order to estimate whether a task is performed during the opportunistic mode of web use.
+
+A number of researchers have studied how people use the web, including major tasks, information seeking behaviours, and information curation. However, there is lack of research on how currently existing technologies support people in performing these tasks in the context of goal-associated user intentions. With this overview of related work in mind, we proceed with building a framework of web application design elements for goal-oriented opportunistic web use.
+} % end section
+
+{\section{Methodology}
+The study presented in this paper has two primary goals. The first goal is to build and validate a framework of goal-oriented opportunistic web application design elements described in the following section. The second goal of the study is to gain perspectives on how to address different elements our framework when designing real-world applications. 
+
+In order to understand how applications support opportunistic web use, we first research how they support opportunistic information discovery (RQ1). Repeatedly mentioned by Lindley et al [ac], opportunistic use is often accompanied by users collecting and organizing discovered information, especially if the purpose of opportunistic use is to satisfy some long-term goal or ambition. Thus, in the second research question (RQ2), we ask about information curation support. Lastly, to learn about the goal-oriented aspect of existing opportunistic applications, we look at how opportunistic applications help with goal realization (RQ3). Therefore, the research questions are the following:
+
+RQ1: How do existing web applications support opportunistic information discovery?
+RQ2: How do existing opportunistic web applications support information curation?
+RQ3: How do existing opportunistic web applications support immediate goal realization?
+
+Our methodology for studying existing web applications is based on Yin’s guidelines for designing a case study [ac]. The motivation behind choosing a case study over other methods of qualitative research was based on our choice of research questions, which have explanatory nature, lack of control over existing applications and their development, and having to focus on contemporary use of real-life web applications. According to Yin [ac], case study would be an optimal research strategy given above characteristics of the subject matter.
+
+To answer each of the research questions, we conducted three independent case studies, where we considered web applications as our units of analysis, or ‘cases’. For each case, we examined overall purpose of the application, its description as defined by the site itself, and available literature and documentation related to the case against the features present at a site. For example, if an application has bookmarking capabilities as well as means for information categorization (features), we would check if it is indeed used for information curation purposes (site description, literature, and documentation).
+
+To increase external validity of our study, we chose the cases based on replication logic [ac]. Using replication logic in a case study design means carefully selecting each case so that it either predicts analogous results or predicts contrasting results but for anticipated reasons [ac]. Choosing cases to predict analogous results is called literal replication, whereas choosing cases to predict contrasting results is called theoretical replication. Carefully following this logic allows for analytic generalization when it comes to generalizing results of the study [ac].
+
+Before conducting the full study, we derived a set of initial theoretical propositions that would let us predict the results of analyzing each case. Therefore, each case study had a form of an iterative process of selecting cases, analyzing each case, and determining whether or not each case meets the theoretical propositions. If it did not support the theory, then we modified the propositions and selected a new set of cases until the results of analyzing the case gave the anticipated results for all cases. We then transformed the final set of propositions into a set of design requirements and constructed a goal-supporting opportunistic framework (see Fig. 1, with design elements E1-E12) by grouping and connecting the design elements. The following subsections provide more details about each chosen case and logic behind choosing each case for each study. Limitations of our study are presented in Section 6.
+} % end section
+
+
+{\subsection{Case Study 1: Opportunistic Information Discovery}
+The first case study we conducted aimed at answering our first research question:
+RQ1: How do existing web applications support opportunistic information discovery?
+
+Based on preliminary research and continuous iterations of this case study, we formulate the first proposition: a web application strongly supports opportunistic information discovery if it provides information access by bringing insightful information together in a uniform way and integrates with the global information space; supports browsing activities by allowing the user to directly navigate to resources related to the topic of interest and allows for undirected navigation among those resources; and supports visual information representation by providing visual preview of the resource and arranging resources in a spatially meaningful way.
+
+We used nine final cases (C1.1-C1.9, see Table 2) for this study. Cases C1.1-C1.3 were used for literal replication, meaning that the cases supported opportunistic information discovery as described in our proposition. Cases C1.4-C1.9 were used for theoretical replication, with C1.4 and C1.5 lacking information access capabilities and C1.6 and C1.7 lacking topic-oriented navigation features and having lack of insightful information with the content being primarily selected for entertainment purposes. Finally, C1.8 and C1.9 have poor visual representation, and therefore, lack some support for opportunistic information discovery.
+
+
+} % end section
+{\subsection{Case Study 2: Information Curation Within Opportunistic Applications}
+The second case study was designed to answer RQ2:
+RQ2: How do existing opportunistic web applications support information curation?
+
+The final theoretical proposition can be stated as follows: an opportunistic web application strongly supports information curation if it provides bookmarking capabilities, means for custom information categorization and social information curation. We used five final cases (C2.1-C2.5, see Table 3) for this study, all of which were opportunistic web applications. Cases C2.1-C2.2 were used for literal replication, meaning that the cases supported information curation by providing means for bookmarking and custom information categorization, and allowing for public information sharing. Cases C2.3-C2.5 were used for theoretical replication, meaning that the cases did not support information curation because they lack design elements mentioned above. 
+
+
+} % end section
+
+{\subsection{4.2. Case Study 3: Goal Realization Within Opportunistic Applications}
+The third case study was designed to answer RQ3:
+RQ3: How do existing opportunistic web applications support immediate goal realization?
+
+The final proposition can be stated as follows: an opportunistic web application strongly aids goal realization if it supports revisitation mechanisms, and provides specific information and means for associated actions and transactions We used six final cases (C3.1-C3.6, see Table 4) for this study, all of which were opportunistic web applications. Cases C3.1-C3.3 were used for literal replication, meaning that the cases supported goal realization by empowering purposeful use using with design elements from proposition above. Cases C3.4-C3.5 were used for theoretical replication, meaning that the cases do not aid goal realization effectively because they didn’t allow for purposeful use, such as looking up specific information or performing specific actions. C3.6 was chosen because, as many other blogs, it lacks revisitation mechanisms. 
+
+} % end section
+
+
+{\section{Goal-Supporting Opportunistic Framework}
+
+By supporting opportunistic doings, currently existing web technologies often aid users in pursuing their personal interests and ambitions. People frequently use web applications to discover, collect, and manage information related to their endeavors. However, there is lack of systematic guidelines for designing such web applications, as well as for describing existing technologies. We hope to reduce this the gap by providing a framework of application design elements that support opportunistic web use. 
+
+This paper presents a framework of application design elements that facilitate goal-oriented opportunistic web use. The framework consists of 12 elements (E1-E12, see Fig. 1) that are connected by user support goals and direct methods of accomplishing those goals. Specifically, the design goals are to support and expedite opportunistic information discovery, to facilitate information curation, and to aid goal realization. This section highlights methods of addressing those goals as well as corresponding design elements.
+
+} % end section
+
+{\subsection{ Opportunistic Information Discovery}
+
+Information discovery is usually performed by users who wish close some type of knowledge gap. This knowledge gap creates an information need that is sometimes well defined and sometimes underdefined or even hidden. Opportunistic goal-oriented web use can be thought of information discovery with underdefined or hidden information need. Therefore, a goal of an opportunistic goal-oriented application would be to support underdefined information discovery. Proposed in this paper, the way to address this goal is to build applications that provide access to relevant information, support browsing activities, as well as allow for visual information discovery. 
+3.1.1. Information Access
+To close an information gap, a user needs to have access to relevant information. If an application does not provide such access, then it cannot be used to support opportunistic information discovery. The idea might seem trivial at first; however, a web application can have a completely different purpose rather than being an information portal that brings together insights about different topics. Some web applications provide access to very specific information, making it possible to use them to satisfy a specific information need. Therefore, it is possible to use them to discover information, but rather than being opportunistic, it would be a purposeful information discovery. In order to let user discover information opportunistically, an application needs to bring insightful information together and to provide integration with the global information space.
+E1: Bring insightful information together in a uniform way
+The first design requirement for creating goal-orienting opportunistic application would be to turn it into an information portal by bringing information together. Pinterest (C1.1) helps accomplishing that by letting users ‘pin’ different images from all over the web. YouTube (C1.2) lets their users upload videos with diverse content. Finally, StumbleUpon (C1.3) works as a web page discovery engine, and let’s its users ‘stumble upon’ various pages from the web. On the contrary, applications such as Trello and DropBox serve different functions as productivity tools. I Waste So Much Time (C1.7) brings information together. However, the content of the information they provide is usually entertainment and humour-related, leaving little incentives for learning. Learning is an important part of information discovery since it allows for filling the knowledge gap with the information found [ac]. Thus, the first requirement of building an opportunistic goal-oriented web application would be to not only bring information together in a uniform way but also to insure that the content can be characterized as insightful and worth learning. 
+
+E2: Provide seamless integration with the global information space 
+Since opportunistic web use is characterized by underdefined  or absent (or hidden) information need, one information portal often cannot provide access to all of the information needed. Therefore applications need to link back to the site where that information came from. In case with user-generated content providers (such as YouTube), the content is original. Therefore, there is lack of integration with the global information space provided by the application itself. Users however, often post links to the related pages under the videos they post. Entertainment-oriented sites, such as C1.6 and C1.7 usually have weak integration or no integration at all with the global information space since the information they provide does not serve to close any knowledge gap, and therefore, the user does not need to go anywhere beyond the site. 
+3.1.2 Browsing 
+Another relatively trivial aspect of opportunistic information discovery is the ability to browse through the resources. More specifically, the user should be able to directly specify topic of interest and then navigate among available resources related to the topic.
+
+E3: Allow direct specification of the topic of interest
+Since opportunistic information discovery is oriented towards satisfying some mind curiosity or researching a hobbyist topic, the user at least knows the area of research before conducting the search. A search mechanism might be one way to directly specify the area of interest. Providing categories is another way, and it can be seen in Pinterest, StumbleUpon, and to a small extent in YouTube. In addition, StumbleUpon tries to guess which categories you would be interested in, and Pinterest provides overview of your interests with direct access to browsing through any of them.  Applications such as C1.6 and C1.7 do not allow you to specify the topic, and C1.4 and C1.5 do not even provide access to information. 
+
+E4: Support arbitrary navigation among resources within application
+Once the user directly navigates to resources that relate to the area of interest, she needs to arbitrary browse through them. StumbleUpon has two distinct features. One of them takes you directly to another arbitrary site letting you discover new information related to the specified area, and another feature lets the user browse through multiple resources at once and then accessing the ones that might be interesting. The later one is more common and  can be seen in Pinterest and Youtube. The first feature gives less control to the user, but still allows for (more truly) arbitrary navigation. In applications such as Dropbox, navigation is often more direct. 
+3.1.2. Information Representation
+Abrams et al [ac] identified bookmark visualization and representation to be two of four major problems with bookmarking. By information representation they meant visual representation of a single bookmark, which is in traditional bookmarking system is a title of the page. By visualization they meant visualization of multiple bookmarks in one bookmarking manager. Similar to bookmarking, any representation of a large collection of information faces these problems. The way to deal of them is to present information in a spatially meaningful way and to display visual preview of the resource.   
+
+E5: Represent information in a spatially meaningful way
+Some applications, such as Pinterest and StumbleUpon, when displaying a lot of resources at the same time, arrange those resources on boards. As a result, their spatial representation has all of the resources listen in a form of a mood board making it easier and faster to scan through the information provided. YouTube presents videos either in a list r in a 4 by 4 grid. Various applications have different ways to arrange their resources to make it easier for the user to scan through them. It is an important aspect of design to take into consideration when building opportunistic applications.  
+
+E6: Display visual preview of the resource
+Pinterest lets users ‘pin’ various images from the sites, and sometimes adds the title of the page where it was pinned from. StumbleUpon provides a snippet of text from the web page where it came from, a title, and an image from the page. If there is no image present at a site then just a snippet of text or just the title of the page. Similarly, Youtube presents thumbnails of the videos, so that it’s easier for the user to guess what’s in the video.
+
+} % end section
+
+{\subsection{Information Curation}
+Opportunistic web use is often motivated by users’ long-term ambitions. In order to use information in the long term, it often needs to be gathered and organized. The notion of digital information preservation and management is called digital curation [ac]. When designing tools empowering users’ opportunistic web use, it is important to facilitate information curation mechanisms, such as data collection and management [ac]. In addition, with the web being evolved into a highly social global space, it is important to provide support for social information curation.
+3.2.1. Information Preservation and Management
+The two major principles behind digital curation is that the curator, in our case the user, can save and manage the information. In a goal-oriented opportunistic application it can be archived by bookmarking capabilities and custom categorization.
+
+E7: Provide bookmarking capabilities for internal and external resources
+Different applications have different ways of presenting bookmarks. Often, the user can add resource to ‘Collections’, such as in We Heart It. Scoop.it! lets the user create a new ‘Scoop’. Other applications make use of playlists (Youtube), boards (Pinterest), Lists (StumbleUpon), and other types of collections. On the average, blogs (e.g. Precision Nutrition and How To Geek) don’t make use of such bookmarking mechanisms within the sites themselves. Instead, users make use of bookmarking mechanisms of other sites to save resources found on such blogs. Some applications, such as Pinterest, let other sites embed a “Pin it” button on their sites to make it easier to utilize their bookmarking mechanism.
+
+E8: Allow for custom information categorization
+Abrams et al. [ac], identified bookmark organization as one of the primary problems with bookmarking. Folders containing bookmarks become easily cluttered. Custom information categorization is a common way of solving this problem among opportunistic web applications. We Heart It lets users save resources to custom collections, Scoop.it! lets the user create a custom ‘Scoop’. With lack of bookmarking mechanisms, a lot of blogs have no means of custom information categorization. 
+3.2.2. Social Information Curation
+Recently, a new trend in bookmarking, social bookmarking, started to gain popularity. Social bookmarking refers to the notion of bookmarking and organizing pages and other resources on the web and sharing them with other people by means of social bookmarking systems [ac]. In other words, social bookmarking is a commonly accepted synonym of social information curation. One of the first visions of social bookmarking was associated with web blogging. Oravec [ac] believed that web blogs help “annotate” or “bookmark” important information and build a “map” of the Internet. However, blogs usually have a limited number of moderators that curate information within the blog. 
+
+E9: Allow for public resource sharing 
+In order to facilitate a deeper content engagement and build a community, an opportunistic web application has to allow for public resource sharing in addition to private digital curation. By sharing a resource, the user adds to the whole pool of information enhancing other users’ information discovery experience. Some applications, such as Pinterest, let you add comments or tags as well. Thus, the users add value to the resource they share which is in the definition of digital curation [ac].
+
+} % end section
+
+{\subsection{Goal Realization }
+The last important goal of designing a goal-oriented opportunistic application would be to aid goal realization. Opportunistic use itself only allows to partially fulfil some knowledge gap overtime. In order to enable user to fulfill some goal when she knows exactly what she needs to do or what information she needs to archive it, then we need to provide support for purposeful web use, specifically to allow resource revisitation and to provide access to specific information and actions or transactions.
+3.3.1. Purposeful Use Integration
+E10: Provide revisitation mechanisms for future information reaccess and exploitation
+According to Wittaker [ac], information revisitation and later exploitation is the final goal of information curation. For the user however, information revisitation has nothing to do with the information curation but rather serves as a mechanism that allows her to accomplish certain task by revisiting the resource found earlier.
+
+E11: Provide easy access to specific (not only general) information
+PolyVore let’s the users see the prices of items that they would like to purchase (comparing to Pinterest that does not show prices). Bucketlist let’s you see the steps of accomplishing some goal. StumbleUpon shows you the whole page, so that users can see details about the information they are interested in. 
+
+E12: Provide support for associated actions and transactions
+Transaction being of high importance when it comes to purposeful web use, it is essential to provide relevant support. 500px lets you purchase photographs and art right from the page where you view the photo. Bucketlist lets you plan steps in accomplishing your goals. Finally, PolyVore’s shop section displays all of the clothing for sale. When the user clicks on the resource, the application take her to the page where the clothing item can be bought.
+
+
+} % end section
+
+{\section{Discussion}
+Through analysis of twenty different applications in total, we were able to derive twelve key design elements that can help support goal-oriented opportunistic use.  However, depending on the nature of the information need and the possible goals behind researching a topic, the amount of support needed can vary. Thus, there exists a large spectrum of goal-supporting opportunistic applications.  Some have no support for information curation, others have no means for goal realization or visual information discovery, etc.
+
+We do know for a fact that facilitating information curation is not the determinant of an application being goal-oriented or opportunistic. Blogs, for instance, provide no formal means for information preservation and management. However, they can surely be browsed opportunistically [ac], and often, people can accomplish their goals depending on their nature of what they would like to learn about. Blogs also do not provide the same social curation capabilities as truly social-networking sites. 
+
+Analogously, the amount of support needed for accomplishing a goal can very. On some occasions, the information need is limited to visual information, then no other specific information is required. Sometimes, there are no associated actions of transactions that can be performed.  If the purpose of opportunistic information discovery can be satisfied within a single browsing session, then no revisitation mechanisms are needed. Similarly to information curation, goal realization design elements cannot be considered as essential requirements of an opportunistic web application. Although they help goal-realization, goal realization itself is not the final target of opportunistic use. 
+
+It is challenging to say for a fact what are the bounds of the framework’s design elements’ implementations. It is more probable that the bounds do not even exist. All of the methods of implementing each of the design elements are simply examples of how real-world applications use them. Spatial information representation, for example, varies even within some applications (Pinterest, Youtube). Visual preview is often limited because of the resources that can be previewed.
+
+Applying the framework can extend existing tools’ current uses. For example, Google Maps effectively supports purposeful use by letting users search for places and their addresses. Making information more visual and rearranging information displayed, as well as suggesting categories to facilitate opportunistic information discovery can expand the tools use from just purposeful to opportunistic. Letting the users extensively curate information that they might be interested in would not only add value to the information that is already available through the Google Maps, but would also facilitate engagement. 
+
+As another example, Facebook is known to be used for socializing or networking purposes.  Applications such as Pinvolve, extend its use and make it possible to discover information in a visual format as well bookmark it and categorize. Thus, the purpose  of facebook is extended from being used purposefully, in respite, lean-back, and oriented modes, to being used in opportunistic goal-oriented mode. 
+
+Currently existing ecommerce environments often have mechanisms similar to what one can find in a goal-oriented opportunistic web application. However,  they often lack information curation (especially social information) curation mechanisms. A lot of online stores, however, utilize the social and curation capabilities of other applications, such as Pinterest and PolyVore to sell their items. When people republish different items, they often categorize them, add comments, description, or just like them. All of those aspects of information curation add value to the item, so it can become more appealing for buyers to purchase. 
+
+Another application of our framework is to describe existing tools in the context of goal-oriented opportunistic doings. 
+} % end section
+
+
+{\section{Limitations and Threats to Validity}
+Construct Validity
+Internal Validity
+External Validity
+Reliability
+} % end section
+
+{\section{ Future Work}
+One of the possible future research objectives would be to test the framework on a real-world application, and to either enhance its use as an opportunistic goal-oriented application, or to extend it’s use  to support opportunistic information discovery, information curation, or goal realization. 
+
+} % end section
+
+{\section{Conclusion}
+This paper presents the goal-supporting opportunistic framework of web application design elements derives from 3 different studies that included 20 applications in total. 
+} % end section
+
+
+
+{\begin{thebibliography}{9}
+
+\bibitem{anexample91}
+    A.N. Example. A Development Environment for Software. 
+    \emph{National Journal on \dots } 
+    pages 42-54, July 1991.
+    
+\bibitem{asample90}
+	A. Sample. 
+    \emph{Software Development. }
+    Printit Publishing Co., 1990.
+
+\bibitem{bsample95}
+    B. Sample. 
+    A Software Design Approach. In Proc. 
+    \emph{Of the 15th Software Conference, }
+    pages 40-50, Somecity, Somecountry, 1995.
+    
+\end{thebibliography}
+} % end references
+
+\end{document}
