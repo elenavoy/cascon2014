@@ -1,6 +1,7 @@
 \documentclass{casconpaper}
 
-\title{\Large\sffamily{\bfseries{Goal-Supporting Opportunistic Framework}}}
+\title{\Large\sffamily{\bfseries{Designing Goal-Oriented Web Applications: \\ 
+Goal-Supporting Information Discovery Framework}}}
 \author{
 	Elena Voyloshnikova\\
 	elenavoy@uvic.ca\\
@@ -19,10 +20,14 @@
 \thispagestyle{empty} % remove number on first page 
 
 {\section*{Abstract\let\thefootnote\relax\footnotetext{Copyright \copyright\ 2014 Dr. Margaret-Anne Storey and Elena Voyloshnikova. Permission to copy is hereby granted provided the original copyright notice is reproduced in copies made.}}
+
+To accomplish personal goals, people often seek support within web applications. For example, one might search for information online to gain knowledge necessary to complete a goal-related task. The information need however, can be not well-articulated or even hidden. 
+In this paper, we study information discovery tools and their role in goal realization. We propose an information discovery framework that deals with underdefined information needs and supports goal realization.
+
 } % end abstract
 
 {\section{Introduction}
-Today, people commonly use web technologies to support personal endeavours. These endeavors include a wide range of personal goals and activities, such as making decisions, planning projects, and researching personal interests.  For example, some people research their travel destinations using various online resources, and some shoppers look for product characteristics and conduct purchases online. In order to accommodate diverse and evolving user needs, web applications continuously introduce new features and services empowering goal-oriented activities. 
+Today, people commonly use web technologies to support personal endeavors. These endeavors include a wide range of personal goals and activities, such as making decisions, planning projects, and researching personal interests.  For example, some people research their travel destinations using various online resources, and some shoppers look for product characteristics and conduct purchases online. In order to accommodate diverse and evolving user needs, web applications continuously introduce new features and services empowering goal-oriented activities. 
 
 Sometimes, web users aim to find particular pieces of information, such as showtimes and phone numbers, or perform particular actions, such as making purchases and banking transactions. Other times, users lack well-articulated objectives and information needs, which results in their actions, intentions, and information needs continuously changing and interweaving. Consequently, people often use web technologies to satisfy their personal interests adaptively or, in other words, opportunistically [ac]. 
 
@@ -124,15 +129,16 @@ This paper presents a framework of application design elements that facilitate g
 Information discovery is usually performed by users who wish close some type of knowledge gap. This knowledge gap creates an information need that is sometimes well defined and sometimes underdefined or even hidden. Opportunistic goal-oriented web use can be thought of information discovery with underdefined or hidden information need. Therefore, a goal of an opportunistic goal-oriented application would be to support underdefined information discovery. Proposed in this paper, the way to address this goal is to build applications that provide access to relevant information, support browsing activities, as well as allow for visual information discovery. 
 3.1.1. Information Access
 To close an information gap, a user needs to have access to relevant information. If an application does not provide such access, then it cannot be used to support opportunistic information discovery. The idea might seem trivial at first; however, a web application can have a completely different purpose rather than being an information portal that brings together insights about different topics. Some web applications provide access to very specific information, making it possible to use them to satisfy a specific information need. Therefore, it is possible to use them to discover information, but rather than being opportunistic, it would be a purposeful information discovery. In order to let user discover information opportunistically, an application needs to bring insightful information together and to provide integration with the global information space.
-E1: Bring insightful information together in a uniform way
+
+E1: Bring insightful information together in a uniform way \\
 The first design requirement for creating goal-orienting opportunistic application would be to turn it into an information portal by bringing information together. Pinterest (C1.1) helps accomplishing that by letting users ‘pin’ different images from all over the web. YouTube (C1.2) lets their users upload videos with diverse content. Finally, StumbleUpon (C1.3) works as a web page discovery engine, and let’s its users ‘stumble upon’ various pages from the web. On the contrary, applications such as Trello and DropBox serve different functions as productivity tools. I Waste So Much Time (C1.7) brings information together. However, the content of the information they provide is usually entertainment and humour-related, leaving little incentives for learning. Learning is an important part of information discovery since it allows for filling the knowledge gap with the information found [ac]. Thus, the first requirement of building an opportunistic goal-oriented web application would be to not only bring information together in a uniform way but also to insure that the content can be characterized as insightful and worth learning. 
 
-E2: Provide seamless integration with the global information space 
+E2: Provide seamless integration with the global information space \\
 Since opportunistic web use is characterized by underdefined  or absent (or hidden) information need, one information portal often cannot provide access to all of the information needed. Therefore applications need to link back to the site where that information came from. In case with user-generated content providers (such as YouTube), the content is original. Therefore, there is lack of integration with the global information space provided by the application itself. Users however, often post links to the related pages under the videos they post. Entertainment-oriented sites, such as C1.6 and C1.7 usually have weak integration or no integration at all with the global information space since the information they provide does not serve to close any knowledge gap, and therefore, the user does not need to go anywhere beyond the site. 
 3.1.2 Browsing 
 Another relatively trivial aspect of opportunistic information discovery is the ability to browse through the resources. More specifically, the user should be able to directly specify topic of interest and then navigate among available resources related to the topic.
 
-E3: Allow direct specification of the topic of interest
+E3: Allow direct specification of the topic of interest\\
 Since opportunistic information discovery is oriented towards satisfying some mind curiosity or researching a hobbyist topic, the user at least knows the area of research before conducting the search. A search mechanism might be one way to directly specify the area of interest. Providing categories is another way, and it can be seen in Pinterest, StumbleUpon, and to a small extent in YouTube. In addition, StumbleUpon tries to guess which categories you would be interested in, and Pinterest provides overview of your interests with direct access to browsing through any of them.  Applications such as C1.6 and C1.7 do not allow you to specify the topic, and C1.4 and C1.5 do not even provide access to information. 
 
 E4: Support arbitrary navigation among resources within application

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  10 JUN 2014 11:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  10 JUN 2014 21:08
 entering extended mode
 **main.tex
 (C:\Users\elenavoyl\git\cascon2014\main.tex
@@ -330,20 +330,21 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
 ))
-No file main.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
+(C:\Users\elenavoyl\git\cascon2014\main.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 17.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -395,115 +396,107 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \makeMPintoPDFobject=\count96
 \everyMPtoPDFconversion=\toks20
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 19.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 19.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 21.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 21.
+(Font)              <5> on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 22.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
 
-Underfull \hbox (badness 1221) in paragraph at lines 27--28
+Underfull \hbox (badness 1221) in paragraph at lines 32--33
 \OT1/ptm/m/n/10 pieces of in-for-ma-tion, such as show-times and
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+] [2] [3] [4]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+ |[]\OT1/ptm/b/n/14.4 Goal-Supporting Op-por-
+ []
+
+[5]
+Underfull \hbox (badness 1158) in paragraph at lines 127--127
+ |[] \OT1/ptm/b/n/12 Op-por-tunis-tic In-for-ma-tion Dis-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 129--132
+\OT1/ptm/m/n/10 Information dis-cov-ery is usu-ally per-formed by
+ []
+
+[6]
+Underfull \hbox (badness 1077) in paragraph at lines 144--148
+[]\OT1/ptm/m/n/10 E4: Sup-port ar-bi-trary nav-i-ga-tion among re-
+ []
+
+[7]
+Underfull \hbox (badness 1895) in paragraph at lines 176--180
+\OT1/ptm/m/n/10 The last im-por-tant goal of de-sign-ing a goal-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-] [2] [3] [4]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
- |[]\OT1/ptm/b/n/14.4 Goal-Supporting Op-por-
- []
-
-
-Underfull \vbox (badness 1158) has occurred while \output is active []
-
- [5]
-Underfull \hbox (badness 1158) in paragraph at lines 122--122
- |[] \OT1/ptm/b/n/12 Op-por-tunis-tic In-for-ma-tion Dis-
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 124--129
-\OT1/ptm/m/n/10 Information dis-cov-ery is usu-ally per-formed by
- []
-
-
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [6]
-Underfull \hbox (badness 1077) in paragraph at lines 138--142
-[]\OT1/ptm/m/n/10 E4: Sup-port ar-bi-trary nav-i-ga-tion among re-
- []
-
-[7]
-Underfull \hbox (badness 1895) in paragraph at lines 170--174
-\OT1/ptm/m/n/10 The last im-por-tant goal of de-sign-ing a goal-
- []
-
-
-Underfull \vbox (badness 4328) has occurred while \output is active []
-
  [8]
-Underfull \hbox (badness 1708) in paragraph at lines 203--203
+Underfull \hbox (badness 1708) in paragraph at lines 209--209
  |[]\OT1/ptm/b/n/14.4 Limitations and Threats to
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 211--212
+Underfull \hbox (badness 1253) in paragraph at lines 217--218
 \OT1/ptm/m/n/10 One of the pos-si-ble fu-ture re-search ob-jec-tives
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 229--232
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 1077) in paragraph at lines 235--238
 []\OT1/ptm/m/n/10 A. Sam-ple. \OT1/ptm/m/it/10 Soft-ware De-vel-op-ment.  \OT1/
 ptm/m/n/10 Printit
  []
 
-[9] (C:\Users\elenavoyl\git\cascon2014\main.aux)
+[10
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (C:\Users\elenavoyl\git\cascon2014\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2291 strings out of 493921
- 30549 string characters out of 3144865
- 97130 words of memory out of 3000000
+ 2293 strings out of 493921
+ 30633 string characters out of 3144865
+ 97244 words of memory out of 3000000
  5566 multiletter control sequences out of 15000+200000
  19827 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,8n,37p,1481b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 97262 bytes).
+{C:/Program Files (x86)/MiKTeX 
+2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 99037 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
