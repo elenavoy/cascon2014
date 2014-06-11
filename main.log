@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  11 JUN 2014 11:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  11 JUN 2014 11:45
 entering extended mode
 **main.tex
 (C:\Users\elenavoyl\git\cascon2014\main.tex
@@ -483,7 +483,7 @@ ptm/m/n/10 Printit
 Here is how much of TeX's memory you used:
  2293 strings out of 493921
  30633 string characters out of 3144865
- 97238 words of memory out of 3000000
+ 96238 words of memory out of 3000000
  5566 multiletter control sequences out of 15000+200000
  19827 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -494,7 +494,7 @@ pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 99920 bytes).
+Output written on main.pdf (10 pages, 99935 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
