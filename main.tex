@@ -1,5 +1,4 @@
 \documentclass{casconpaper}
-
 \title{\Large\sffamily{\bfseries{From Opportunistic to Purposeful Information Discovery and Curation}}}
 \author{
 	Elena Voyloshnikova\\
@@ -20,8 +19,9 @@
 
 {\section*{Abstract\let\thefootnote\relax\footnotetext{Copyright \copyright\ 2014 Dr. Margaret-Anne Storey and Elena Voyloshnikova. Permission to copy is hereby granted provided the original copyright notice is reproduced in copies made.}}
 
-Digital information discovery and curation are of growing importance for a wide range of everyday activities. People search the web for diverse purposes, from quickly looking up the information they need to accomplish a task to endlessly searching for inspiration and knowledge. Several studies aimed at modeling information seeking strategies and characterizing information seeking and curation activities on the web. However, there is lack of research on how existing web applications support information discovery and curation, especially in regard to the motivation behind them.    
-In this paper, we present a study of information discovery tools and their functions in relation to the nature of information discovery. We then propose an information discovery framework that deals with opportunistic and purposeful aspects of information discovery and curation. The framework is applicable for designing new web applications, broadening the use of existing web applications, as well as describing existing web applications. 
+Everyday life revolves around the discovery and curation of digital information. People search the Web continuously, from quickly looking up the information needed to complete a task, to endlessly searching for inspiration and knowledge. A variety of studies have modelled information seeking strategies and characterized information seeking and curation activities on the Web. However, there is a lack of research on how existing Web applications support the discovery and management of information, especially concerning the motivations behind them and how different approaches can be compared.
+
+In this paper, we present a study of information discovery tools and how they relate to the nature of information seeking. We propose a conceptual framework that deals with the opportunistic and purposeful aspects of how people discover and manage digital information. This framework can be used when designing new, evaluating, or updating existing Web applications to match expanded use case objectives.
 
 
 } % end abstract
@@ -111,12 +111,69 @@ The final theoretical proposition can be stated as follows: an opportunistic web
 The third case study was designed to answer RQ3:
 RQ3: How do existing opportunistic web applications support immediate goal realization?
 
-The final proposition can be stated as follows: an opportunistic web application strongly aids goal realization if it supports revisitation mechanisms, and provides specific information and means for associated actions and transactions We used six final cases (C3.1-C3.6, see Table 4) for this study, all of which were opportunistic web applications. Cases C3.1-C3.3 were used for literal replication, meaning that the cases supported goal realization by empowering purposeful use using with design elements from proposition above. Cases C3.4-C3.5 were used for theoretical replication, meaning that the cases do not aid goal realization effectively because they didn’t allow for purposeful use, such as looking up specific information or performing specific actions. C3.6 was chosen because, as many other blogs, it lacks revisitation mechanisms. 
+The final proposition can be stated as follows: an opportunistic web application strongly aids goal realization if it supports revisitation mechanisms, and provides specific information and means for associated actions and transactions We used six final cases (C3.1-C3.6, see Table 4) for this study, all of which were opportunistic web applications. Cases C3.1-C3.3 were used for literal replication, meaning that the cases supported goal realization by empowering purposeful use using with design elements from proposition above. Cases C3.4-C3.5 were used for theoretical replication, meaning that the cases do not aid goal realization effectively because they did not allow for purposeful use, such as looking up specific information or performing specific actions. C3.6 was chosen because, as many other blogs, it lacks revisitation mechanisms. 
 
 } % end section
 
 
-{\section{Goal-Supporting Opportunistic Framework}
+{\section{Conceptual Framework}
+\begin{table*}[htbp]
+\caption{Conceptual Framework.}
+\centering
+\begin{tabular}{|p{0.27\linewidth}|p{0.73\linewidth}|}
+\hline
+&\\
+\textbf{\large{Factors}}   & \textbf{\large{Questions}}  \\
+\hline
+&\\
+\textbf{\large{Discovery}}                     &                                                                                                           \\
+&\\
+\emph{\textbf{Serendipitous discovery}}     &                                                                                                           \\
+
+Arbitrary navigation         & Does the application provide means for arbitrary navigation among resources?                              \\
+Search-based navigation      & Does the search feature help discover arbitrary resources related to the topic of interest?               \\
+Navigation with a dictionary & Does the dictionary suggest and help navigating to resources related to the topic of interest?           \\
+Integration                  & Does the application support navigation to information sources beyond the application?                   \\
+Visual preview               & Do resources have visual previews?                                                                        \\
+Spatial arrangement          & Are resources presented in a spatially meaningful way?                                                    \\
+&\\
+\emph{\textbf{Fact discovery}}                &                                                                                                           \\
+Search-based navigation      & Does the search feature help discover the specific resource of interest?                                  \\
+Navigation with a dictionary & Does the dictionary help narrow results to specific types of resources?                                   \\
+Uniform representation       & Are resources presented in a uniform way?                                                                 \\
+&\\
+\emph{\textbf{Rediscovery}}                     &                                                                                                           \\
+History-based rediscovery    & Does the application save and provide access to browsing history?                                        \\
+Bookmark-based rediscovery   & Does the application support bookmark-based resource revisitation?                                        \\
+Search-based rediscovery     & Is the search within application a reliable method for resource revisitation?                             \\
+&\\
+\emph{\textbf{Channel-based discovery}}          &                                                                                                           \\
+Site subscription            & Does the application allow subscriptions to news and updates?                                             \\
+User subscription             & Does the application allow subscriptions to other users' activities?                                      \\
+Notifications                & Does the application have notification mechanism(s)?                                                      \\
+News stream                  & Can subscription updates be visible within the application?  \\
+&\\
+\hline     
+&\\                                        
+\textbf{\large{Curation}}                     &                                                                                                        \\
+&\\        
+\emph{\textbf{Management}}                    &                                                                                                           \\
+Categorization               & Does the application support information categorization?                                                  \\
+&\\
+\emph{\textbf{Preservation}}                   &                                                                                                           \\
+Internal Preservation        & Does the application have bookmarking mechanism for preserving information within the application?        \\
+External Preservation        & Does the application have bookmarking mechanism(s) for preserving information outside of the application? \\
+&\\
+\emph{\textbf{Augmentation}}            &                                                                                                           \\
+Evaluation                   & Can resources be evaluated?                                                                               \\
+Annotation                   & Can resources be annotated?                                                                               \\
+&\\
+\emph{\textbf{Social curation}}              &                                                                                                           \\
+Adding resources             & Can resources be added to the publicly available pool of information from outside of the application?     \\
+Resharing resources          & Can resources be publicly reshared within the application?         \\               
+\hline
+\end{tabular}
+\end{table*}
 
 By supporting opportunistic doings, currently existing web technologies often aid users in pursuing their personal interests and ambitions. People frequently use web applications to discover, collect, and manage information related to their endeavors. However, there is lack of systematic guidelines for designing such web applications, as well as for describing existing technologies. We hope to reduce this the gap by providing a framework of application design elements that support opportunistic web use. 
 
@@ -124,66 +181,16 @@ This paper presents a framework of application design elements that facilitate g
 
 } % end section
 
-{\subsection{ Opportunistic Information Discovery}
+{\subsection{Information Discovery}
 
-Information discovery is usually performed by users who wish close some type of knowledge gap. This knowledge gap creates an information need that is sometimes well defined and sometimes underdefined or even hidden. Opportunistic goal-oriented web use can be thought of information discovery with underdefined or hidden information need. Therefore, a goal of an opportunistic goal-oriented application would be to support underdefined information discovery. Proposed in this paper, the way to address this goal is to build applications that provide access to relevant information, support browsing activities, as well as allow for visual information discovery. 
-3.1.1. Information Access
-To close an information gap, a user needs to have access to relevant information. If an application does not provide such access, then it cannot be used to support opportunistic information discovery. The idea might seem trivial at first; however, a web application can have a completely different purpose rather than being an information portal that brings together insights about different topics. Some web applications provide access to very specific information, making it possible to use them to satisfy a specific information need. Therefore, it is possible to use them to discover information, but rather than being opportunistic, it would be a purposeful information discovery. In order to let user discover information opportunistically, an application needs to bring insightful information together and to provide integration with the global information space.
 
-E1: Bring insightful information together in a uniform way \\
-The first design requirement for creating goal-orienting opportunistic application would be to turn it into an information portal by bringing information together. Pinterest (C1.1) helps accomplishing that by letting users ‘pin’ different images from all over the web. YouTube (C1.2) lets their users upload videos with diverse content. Finally, StumbleUpon (C1.3) works as a web page discovery engine, and let’s its users ‘stumble upon’ various pages from the web. On the contrary, applications such as Trello and DropBox serve different functions as productivity tools. I Waste So Much Time (C1.7) brings information together. However, the content of the information they provide is usually entertainment and humour-related, leaving little incentives for learning. Learning is an important part of information discovery since it allows for filling the knowledge gap with the information found [ac]. Thus, the first requirement of building an opportunistic goal-oriented web application would be to not only bring information together in a uniform way but also to insure that the content can be characterized as insightful and worth learning. 
-
-E2: Provide seamless integration with the global information space \\
-Since opportunistic web use is characterized by underdefined  or absent (or hidden) information need, one information portal often cannot provide access to all of the information needed. Therefore applications need to link back to the site where that information came from. In case with user-generated content providers (such as YouTube), the content is original. Therefore, there is lack of integration with the global information space provided by the application itself. Users however, often post links to the related pages under the videos they post. Entertainment-oriented sites, such as C1.6 and C1.7 usually have weak integration or no integration at all with the global information space since the information they provide does not serve to close any knowledge gap, and therefore, the user does not need to go anywhere beyond the site. 
-3.1.2 Browsing 
-Another relatively trivial aspect of opportunistic information discovery is the ability to browse through the resources. More specifically, the user should be able to directly specify topic of interest and then navigate among available resources related to the topic.
-
-E3: Allow direct specification of the topic of interest\\
-Since opportunistic information discovery is oriented towards satisfying some mind curiosity or researching a hobbyist topic, the user at least knows the area of research before conducting the search. A search mechanism might be one way to directly specify the area of interest. Providing categories is another way, and it can be seen in Pinterest, StumbleUpon, and to a small extent in YouTube. In addition, StumbleUpon tries to guess which categories you would be interested in, and Pinterest provides overview of your interests with direct access to browsing through any of them.  Applications such as C1.6 and C1.7 do not allow you to specify the topic, and C1.4 and C1.5 do not even provide access to information. 
-
-E4: Support arbitrary navigation among resources within application
-Once the user directly navigates to resources that relate to the area of interest, she needs to arbitrary browse through them. StumbleUpon has two distinct features. One of them takes you directly to another arbitrary site letting you discover new information related to the specified area, and another feature lets the user browse through multiple resources at once and then accessing the ones that might be interesting. The later one is more common and  can be seen in Pinterest and Youtube. The first feature gives less control to the user, but still allows for (more truly) arbitrary navigation. In applications such as Dropbox, navigation is often more direct. 
-3.1.2. Information Representation
-Abrams et al [ac] identified bookmark visualization and representation to be two of four major problems with bookmarking. By information representation they meant visual representation of a single bookmark, which is in traditional bookmarking system is a title of the page. By visualization they meant visualization of multiple bookmarks in one bookmarking manager. Similar to bookmarking, any representation of a large collection of information faces these problems. The way to deal of them is to present information in a spatially meaningful way and to display visual preview of the resource.   
-
-E5: Represent information in a spatially meaningful way
-Some applications, such as Pinterest and StumbleUpon, when displaying a lot of resources at the same time, arrange those resources on boards. As a result, their spatial representation has all of the resources listen in a form of a mood board making it easier and faster to scan through the information provided. YouTube presents videos either in a list r in a 4 by 4 grid. Various applications have different ways to arrange their resources to make it easier for the user to scan through them. It is an important aspect of design to take into consideration when building opportunistic applications.  
-
-E6: Display visual preview of the resource
-Pinterest lets users ‘pin’ various images from the sites, and sometimes adds the title of the page where it was pinned from. StumbleUpon provides a snippet of text from the web page where it came from, a title, and an image from the page. If there is no image present at a site then just a snippet of text or just the title of the page. Similarly, Youtube presents thumbnails of the videos, so that it’s easier for the user to guess what’s in the video.
 
 } % end section
 
 {\subsection{Information Curation}
-Opportunistic web use is often motivated by users’ long-term ambitions. In order to use information in the long term, it often needs to be gathered and organized. The notion of digital information preservation and management is called digital curation [ac]. When designing tools empowering users’ opportunistic web use, it is important to facilitate information curation mechanisms, such as data collection and management [ac]. In addition, with the web being evolved into a highly social global space, it is important to provide support for social information curation.
-3.2.1. Information Preservation and Management
-The two major principles behind digital curation is that the curator, in our case the user, can save and manage the information. In a goal-oriented opportunistic application it can be archived by bookmarking capabilities and custom categorization.
 
-E7: Provide bookmarking capabilities for internal and external resources
-Different applications have different ways of presenting bookmarks. Often, the user can add resource to ‘Collections’, such as in We Heart It. Scoop.it! lets the user create a new ‘Scoop’. Other applications make use of playlists (Youtube), boards (Pinterest), Lists (StumbleUpon), and other types of collections. On the average, blogs (e.g. Precision Nutrition and How To Geek) don’t make use of such bookmarking mechanisms within the sites themselves. Instead, users make use of bookmarking mechanisms of other sites to save resources found on such blogs. Some applications, such as Pinterest, let other sites embed a “Pin it” button on their sites to make it easier to utilize their bookmarking mechanism.
-
-E8: Allow for custom information categorization
-Abrams et al. [ac], identified bookmark organization as one of the primary problems with bookmarking. Folders containing bookmarks become easily cluttered. Custom information categorization is a common way of solving this problem among opportunistic web applications. We Heart It lets users save resources to custom collections, Scoop.it! lets the user create a custom ‘Scoop’. With lack of bookmarking mechanisms, a lot of blogs have no means of custom information categorization. 
-3.2.2. Social Information Curation
-Recently, a new trend in bookmarking, social bookmarking, started to gain popularity. Social bookmarking refers to the notion of bookmarking and organizing pages and other resources on the web and sharing them with other people by means of social bookmarking systems [ac]. In other words, social bookmarking is a commonly accepted synonym of social information curation. One of the first visions of social bookmarking was associated with web blogging. Oravec [ac] believed that web blogs help “annotate” or “bookmark” important information and build a “map” of the Internet. However, blogs usually have a limited number of moderators that curate information within the blog. 
-
-E9: Allow for public resource sharing 
-In order to facilitate a deeper content engagement and build a community, an opportunistic web application has to allow for public resource sharing in addition to private digital curation. By sharing a resource, the user adds to the whole pool of information enhancing other users’ information discovery experience. Some applications, such as Pinterest, let you add comments or tags as well. Thus, the users add value to the resource they share which is in the definition of digital curation [ac].
-
-} % end section
-
-{\subsection{Goal Realization }
-The last important goal of designing a goal-oriented opportunistic application would be to aid goal realization. Opportunistic use itself only allows to partially fulfil some knowledge gap overtime. In order to enable user to fulfill some goal when she knows exactly what she needs to do or what information she needs to archive it, then we need to provide support for purposeful web use, specifically to allow resource revisitation and to provide access to specific information and actions or transactions.
-3.3.1. Purposeful Use Integration
-E10: Provide revisitation mechanisms for future information reaccess and exploitation
-According to Wittaker [ac], information revisitation and later exploitation is the final goal of information curation. For the user however, information revisitation has nothing to do with the information curation but rather serves as a mechanism that allows her to accomplish certain task by revisiting the resource found earlier.
-
-E11: Provide easy access to specific (not only general) information
-PolyVore let’s the users see the prices of items that they would like to purchase (comparing to Pinterest that does not show prices). Bucketlist let’s you see the steps of accomplishing some goal. StumbleUpon shows you the whole page, so that users can see details about the information they are interested in. 
-
-E12: Provide support for associated actions and transactions
-Transaction being of high importance when it comes to purposeful web use, it is essential to provide relevant support. 500px lets you purchase photographs and art right from the page where you view the photo. Bucketlist lets you plan steps in accomplishing your goals. Finally, PolyVore’s shop section displays all of the clothing for sale. When the user clicks on the resource, the application take her to the page where the clothing item can be bought.
-
+{\section{Conceptual Framework}
+{\section{Conceptual Framework}
 
 } % end section
 
@@ -207,10 +214,7 @@ Another application of our framework is to describe existing tools in the contex
 
 
 {\section{Limitations and Threats to Validity}
-Construct Validity
-Internal Validity
-External Validity
-Reliability
+
 } % end section
 
 {\section{ Future Work}
