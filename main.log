@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  23 JUN 2014 19:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 JUN 2014 20:37
 entering extended mode
 **main.tex
-(C:\Users\elenavoyl\git\cascon2014\main.tex
+(C:\Users\Elena\git\cascon2014\cascon2014\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\elenavoyl\git\cascon2014\casconpaper.cls
+(C:\Users\Elena\git\cascon2014\cascon2014\casconpaper.cls
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -249,7 +249,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titling\titling.sty"
+(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip43
 \thanksmargin=\skip44
@@ -318,7 +318,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip46
@@ -330,7 +330,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
 ))
-(C:\Users\elenavoyl\git\cascon2014\main.aux)
+(C:\Users\Elena\git\cascon2014\cascon2014\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -382,7 +382,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\Elena\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
 \scratchdimen=\dimen118
@@ -424,10 +424,11 @@ Underfull \hbox (badness 1221) in paragraph at lines 32--33
 \OT1/ptm/m/n/10 pieces of in-for-ma-tion, such as show-times and
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Elena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] [2] [3] [4]
+] [2]
+[3] [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
  [5]
@@ -438,54 +439,59 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 131.
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 123--176
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]\OT1/ptm/b/it/10 Subscription-based dis-cov-
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 123--177
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 31.28978pt on input line 176.
+LaTeX Warning: Float too large for page by 55.28978pt on input line 177.
 
-[6] [7]
-Underfull \hbox (badness 1708) in paragraph at lines 216--216
+
+Underfull \hbox (badness 4531) in paragraph at lines 202--204
+\OT1/ptm/m/n/10 A num-ber of re-searchers have talked about
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 202--204
+\OT1/ptm/m/n/10 subscription-based in-for-ma-tion dis-tri-bu-tion [].
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+[7]
+Underfull \hbox (badness 1708) in paragraph at lines 243--243
  |[]\OT1/ptm/b/n/14.4 Limitations and Threats to
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 221--222
+Underfull \hbox (badness 1253) in paragraph at lines 248--249
 \OT1/ptm/m/n/10 One of the pos-si-ble fu-ture re-search ob-jec-tives
  []
 
-
-Underfull \vbox (badness 7238) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 239--242
-[]\OT1/ptm/m/n/10 A. Sam-ple. \OT1/ptm/m/it/10 Soft-ware De-vel-op-ment.  \OT1/
-ptm/m/n/10 Printit
- []
-
-[8] (C:\Users\elenavoyl\git\cascon2014\main.aux) )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 192 ({)
-### simple group (level 1) entered at line 190 ({)
-### bottom level 
+[8] (C:\Users\Elena\git\cascon2014\cascon2014\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2301 strings out of 493921
- 30727 string characters out of 3144865
- 109195 words of memory out of 3000000
- 5572 multiletter control sequences out of 15000+200000
- 21975 words of font info for 44 fonts, out of 3000000 for 9000
+ 2306 strings out of 493921
+ 30953 string characters out of 3144876
+ 109192 words of memory out of 3000000
+ 5576 multiletter control sequences out of 15000+200000
+ 23082 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,10n,37p,1481b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 101008 bytes).
+{C:/Program Files (x86
+)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
+/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 99908 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

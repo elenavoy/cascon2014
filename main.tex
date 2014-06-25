@@ -35,9 +35,9 @@ Opportunistic use usually occurs when a person casually browses through sites in
 
 Although opportunistic use can be related to user's long-term goals, goal realization per se however, is not necessarily an outcome of this use. Often, users need to purposefully go online in order to acquire some information or perform an action that would help them achieve some outcome or complete some other activity. Therefore, purposeful use is characterized by a precise piece of information needed or an action required to complete some wider activity, such as making a decision or planning [ac]. For example, when a user plans to go to a concert, she might try to check if there is parking available by the concert venue.  Here, parking availability is the missing piece of information that the user needs in order to make a transit-related decision. 
 
-It is important to note that purposeful use is not always associated with opportunistic. According to Lindley et al. [ac], this mode or web use occurs when users need to find some concrete information or perform an exact action, often in the context of some other wider activity. In this paper, we study purposeful web use only in the context of applications that support opportunistic doings. The fundamental assumption is that when users opportunistically search for information related to personal interests, they often save information for future exploitation and then use it for some concrete goal. For example, a person who browses the Internet to find a new book to read, might want to order that book online later on or look up it’s name so that she can put it on hold at the library. 
+It is important to note that purposeful use is not always associated with opportunistic. According to Lindley et al. [ac], this mode or web use occurs when users need to find some concrete information or perform an exact action, often in the context of some other wider activity. In this paper, we study purposeful web use only in the context of applications that support opportunistic doings. The fundamental assumption is that when users opportunistically search for information related to personal interests, they often save information for future exploitation and then use it for some concrete goal. For example, a person who browses the Internet to find a new book to read, might want to order that book online later on or look up its name so that she can put it on hold at the library. 
 
-To satisfy their information needs for diverse personal endeavors, people turn to various web technologies ranging from generic search tools to specialized web applications that provide relevant services. Several web usage studies have been directed at exploring high-level web tasks [ac], deriving models of information seeking behaviours [ac], and looking at methods of information curation [ac]. However, more research is necessary to determine how different tools and their features provide fundamental support for opportunistic use and further goal realization.
+To satisfy their information needs for diverse personal endeavors, people turn to various web technologies ranging from generic search tools to specialized web applications that provide relevant services. Several web usage studies have been directed at exploring high-level web tasks [ac], deriving models of information seeking behaviors [ac], and looking at methods of information curation [ac]. However, more research is necessary to determine how different tools and their features provide fundamental support for opportunistic use and further goal realization.
 
 To enhance goal-related web-usage experiences and support users’ high-level endeavors, we extend existing research by (1) deriving web application design elements for goal-oriented opportunistic web use, (2) validating those design elements by studying and describing currently existing web applications, and (3) providing guidelines to address elements of the framework when designing new applications. Specifically, our research goal is to gain understanding of how existing tools support goal-oriented opportunistic web use. 
 
@@ -56,7 +56,7 @@ At first, it seems convenient to think of user motivation behind various web tas
 
 A number of researchers have studies information seeking behaviour [ac]. Ellis et al [ac], proposed a model of information seeking characterized by six different patterns: starting, chaining, browsing, extracting, monitoring, and differentiating. Based on these patterns, Choo et al. [ac], derived corresponding anticipated web moves. According to authors [ac], when users identify sources of interest, they usually identify which web sites can point to that information of interest.  Chaining occurs when users navigate through links on those initial pages. When people browse, they scan top-level pages, headings, lists, and site maps. Differentiating takes place when people bookmark, print, copy and paste information, or choose earlier selected site. Monitoring occurs when users revisit web pages or receive updates from some earlier visited sites. Finally, extracting can occur when the user systematically searches the site to extract information of interest. 
 
-In [insert year], Bates [ac] proposed a model of four information seeking modes that consists of being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the levels of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterised as undirected active information seeking because users do not know directly what information they are looking for, but they actively look for some information. Searching falls under active directed information seeking because the information need is clearly defined s the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed, and being aware is undirected.   
+In [insert year], Bates [ac] proposed a model of four information seeking modes that consists of being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the levels of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterized as undirected active information seeking because users do not know directly what information they are looking for, but they actively look for some information. Searching falls under active directed information seeking because the information need is clearly defined s the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed, and being aware is undirected.   
 
 In [insert year], Bates [ac] extended her research with the notion of information farming. Information farming involves people collect and organize information for future use and revisitation. More commonly, it is referred to as digital curation, which is the notion of collecting and managing digital information for the purpose of adding value to the collection, and revisitation [ac]. Wittaker [ac] believes that in terms of web use, there is happening a significant shift from information consumption to information curation, which means that people no longer just use the web to find and consume the information that they are interested in, including the information related to their personal endeavors, but they also try to save and manage that information so that later it can be reaccessed and exploited, at times for the purpose of goal realization. 
 
@@ -147,7 +147,7 @@ History-based rediscovery    & Does the application save and provide access to b
 Bookmark-based rediscovery   & Does the application support bookmark-based resource revisitation?                                        \\
 Search-based rediscovery     & Is the search within application a reliable method for resource revisitation?                             \\
 &\\
-\emph{\textbf{Channel-based discovery}}          &                                                                                                           \\
+\emph{\textbf{Subscription-based discovery}}          &                                                                                                           \\
 Site subscription            & Does the application allow subscriptions to news and updates?                                             \\
 User subscription             & Does the application allow subscriptions to other users' activities?                                      \\
 Notifications                & Does the application have notification mechanism(s)?                                                      \\
@@ -170,29 +170,56 @@ Annotation                   & Can resources be annotated?                      
 &\\
 \emph{\textbf{Social curation}}              &                                                                                                           \\
 Adding resources             & Can resources be added to the publicly available pool of information from outside of the application?     \\
-Resharing resources          & Can resources be publicly reshared within the application?         \\               
+Resharing resources          & Can resources be publicly reshared within the application?         \\     
+&\\          
 \hline
 \end{tabular}
 \end{table*}
 
-By supporting opportunistic doings, currently existing web technologies often aid users in pursuing their personal interests and ambitions. People frequently use web applications to discover, collect, and manage information related to their endeavors. However, there is lack of systematic guidelines for designing such web applications, as well as for describing existing technologies. We hope to reduce this the gap by providing a framework of application design elements that support opportunistic web use. 
+Although information discovery and curation tasks elicit predominant portion of interactions within many Web applications today, there is lack of systematic guidelines for designing and evaluating applications that could afford these tasks. We hope to reduce this gap by developing a framework of design factors that enable digital information discovery and curation. 
 
-This paper presents a framework of application design elements that facilitate goal-oriented opportunistic web use. The framework consists of 12 elements (E1-E12, see Fig. 1) that are connected by user support goals and direct methods of accomplishing those goals. Specifically, the design goals are to support and expedite opportunistic information discovery, to facilitate information curation, and to aid goal realization. This section highlights methods of addressing those goals as well as corresponding design elements.
+The framework (see Table 1) consists of two main categories of factors, discovery and curation, that are consequently broken down into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions to ask when designing or evaluating an application. This section outlines main components of the framework.
 
 } % end section
 
 {\subsection{Information Discovery}
+The process of information discovery  \cite{curation, subscr} It consists of serendipitous discovery, fact discovery, rediscovery, and channel-based discovery. 
+} % end subsection
 
+{\subsubsection{Serendipitous discovery}
 
+} % end subsubsection
 
-} % end section
+{\subsubsection{Fact discovery}
+
+} % end subsubsection
+
+{\subsubsection{Rediscovery}
+
+} % end subsubsection
+
+{\subsubsection{Subscription-based discovery}
+A number of researchers have talked about subscription-based information distribution []. However,  Although blog subscriptions have been around before microblogging gained popularity, channel based discovery significantly 
+} % end subsubsection
 
 {\subsection{Information Curation}
+} % end subsection
 
-{\section{Conceptual Framework}
-{\section{Conceptual Framework}
+{\subsubsection{Management}
 
-} % end section
+} % end subsubsection
+
+{\subsubsection{Information Preservation}
+
+} % end subsubsection
+
+{\subsubsection{Augmentation}
+
+} % end subsubsection
+
+{\subsubsection{Social Curation}
+Recently, a new trend in bookmarking, social bookmarking, started to gain popularity. Social bookmarking refers to the notion of bookmarking and organizing pages and other resources on the web and sharing them with other people by means of social bookmarking systems [ac]. In other words, social bookmarking is a commonly accepted synonym of social information curation. One of the first visions of social bookmarking was associated with web blogging. Oravec [ac] believed that web blogs help “annotate” or “bookmark” important information and build a “map” of the Internet. However, blogs usually have a limited number of moderators that curate information within the blog. 
+} % end subsubsection
 
 {\section{Discussion}
 Through analysis of twenty different applications in total, we were able to derive twelve key design elements that can help support goal-oriented opportunistic use.  However, depending on the nature of the information need and the possible goals behind researching a topic, the amount of support needed can vary. Thus, there exists a large spectrum of goal-supporting opportunistic applications.  Some have no support for information curation, others have no means for goal realization or visual information discovery, etc.
@@ -223,28 +250,19 @@ One of the possible future research objectives would be to test the framework on
 } % end section
 
 {\section{Conclusion}
-This paper presents the goal-supporting opportunistic framework of web application design elements derives from 3 different studies that included 20 applications in total. 
+ 
 } % end section
 
 
 
 {\begin{thebibliography}{9}
 
-\bibitem{anexample91}
-    A.N. Example. A Development Environment for Software. 
-    \emph{National Journal on \dots } 
-    pages 42-54, July 1991.
-    
-\bibitem{asample90}
-	A. Sample. 
-    \emph{Software Development. }
-    Printit Publishing Co., 1990.
+\bibitem{curation}Beagrie, Neil. "Digital curation for science, digital libraries, and individuals." \emph{International Journal of Digital Curation} 1.1 (2008): 3-16.
 
-\bibitem{bsample95}
-    B. Sample. 
-    A Software Design Approach. In Proc. 
-    \emph{Of the 15th Software Conference, }
-    pages 40-50, Somecity, Somecountry, 1995.
+\bibitem{subscr}
+	Java, Akshay, et al. "Feeds That Matter: A Study of Bloglines 		Subscriptions." \emph{ ICWSM.} 2007.
+   
+    
     
 \end{thebibliography}
 } % end references
