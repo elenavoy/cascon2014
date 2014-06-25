@@ -69,51 +69,7 @@ To further compare opportunistic and purposeful use modes, we summarized some es
 A number of researchers have studied how people use the web, including major tasks, information seeking behaviours, and information curation. However, there is lack of research on how currently existing technologies support people in performing these tasks in the context of goal-associated user intentions. With this overview of related work in mind, we proceed with building a framework of web application design elements for goal-oriented opportunistic web use.
 } % end section
 
-{\section{Methodology}
-The study presented in this paper has two primary goals. The first goal is to build and validate a framework of goal-oriented opportunistic web application design elements described in the following section. The second goal of the study is to gain perspectives on how to address different elements our framework when designing real-world applications. 
 
-In order to understand how applications support opportunistic web use, we first research how they support opportunistic information discovery (RQ1). Repeatedly mentioned by Lindley et al [ac], opportunistic use is often accompanied by users collecting and organizing discovered information, especially if the purpose of opportunistic use is to satisfy some long-term goal or ambition. Thus, in the second research question (RQ2), we ask about information curation support. Lastly, to learn about the goal-oriented aspect of existing opportunistic applications, we look at how opportunistic applications help with goal realization (RQ3). Therefore, the research questions are the following:
-
-RQ1: How do existing web applications support opportunistic information discovery?
-RQ2: How do existing opportunistic web applications support information curation?
-RQ3: How do existing opportunistic web applications support immediate goal realization?
-
-Our methodology for studying existing web applications is based on Yin’s guidelines for designing a case study [ac]. The motivation behind choosing a case study over other methods of qualitative research was based on our choice of research questions, which have explanatory nature, lack of control over existing applications and their development, and having to focus on contemporary use of real-life web applications. According to Yin [ac], case study would be an optimal research strategy given above characteristics of the subject matter.
-
-To answer each of the research questions, we conducted three independent case studies, where we considered web applications as our units of analysis, or ‘cases’. For each case, we examined overall purpose of the application, its description as defined by the site itself, and available literature and documentation related to the case against the features present at a site. For example, if an application has bookmarking capabilities as well as means for information categorization (features), we would check if it is indeed used for information curation purposes (site description, literature, and documentation).
-
-To increase external validity of our study, we chose the cases based on replication logic [ac]. Using replication logic in a case study design means carefully selecting each case so that it either predicts analogous results or predicts contrasting results but for anticipated reasons [ac]. Choosing cases to predict analogous results is called literal replication, whereas choosing cases to predict contrasting results is called theoretical replication. Carefully following this logic allows for analytic generalization when it comes to generalizing results of the study [ac].
-
-Before conducting the full study, we derived a set of initial theoretical propositions that would let us predict the results of analyzing each case. Therefore, each case study had a form of an iterative process of selecting cases, analyzing each case, and determining whether or not each case meets the theoretical propositions. If it did not support the theory, then we modified the propositions and selected a new set of cases until the results of analyzing the case gave the anticipated results for all cases. We then transformed the final set of propositions into a set of design requirements and constructed a goal-supporting opportunistic framework (see Fig. 1, with design elements E1-E12) by grouping and connecting the design elements. The following subsections provide more details about each chosen case and logic behind choosing each case for each study. Limitations of our study are presented in Section 6.
-} % end section
-
-
-{\subsection{Case Study 1: Opportunistic Information Discovery}
-The first case study we conducted aimed at answering our first research question:
-RQ1: How do existing web applications support opportunistic information discovery?
-
-Based on preliminary research and continuous iterations of this case study, we formulate the first proposition: a web application strongly supports opportunistic information discovery if it provides information access by bringing insightful information together in a uniform way and integrates with the global information space; supports browsing activities by allowing the user to directly navigate to resources related to the topic of interest and allows for undirected navigation among those resources; and supports visual information representation by providing visual preview of the resource and arranging resources in a spatially meaningful way.
-
-We used nine final cases (C1.1-C1.9, see Table 2) for this study. Cases C1.1-C1.3 were used for literal replication, meaning that the cases supported opportunistic information discovery as described in our proposition. Cases C1.4-C1.9 were used for theoretical replication, with C1.4 and C1.5 lacking information access capabilities and C1.6 and C1.7 lacking topic-oriented navigation features and having lack of insightful information with the content being primarily selected for entertainment purposes. Finally, C1.8 and C1.9 have poor visual representation, and therefore, lack some support for opportunistic information discovery.
-
-
-} % end section
-{\subsection{Case Study 2: Information Curation Within Opportunistic Applications}
-The second case study was designed to answer RQ2:
-RQ2: How do existing opportunistic web applications support information curation?
-
-The final theoretical proposition can be stated as follows: an opportunistic web application strongly supports information curation if it provides bookmarking capabilities, means for custom information categorization and social information curation. We used five final cases (C2.1-C2.5, see Table 3) for this study, all of which were opportunistic web applications. Cases C2.1-C2.2 were used for literal replication, meaning that the cases supported information curation by providing means for bookmarking and custom information categorization, and allowing for public information sharing. Cases C2.3-C2.5 were used for theoretical replication, meaning that the cases did not support information curation because they lack design elements mentioned above. 
-
-
-} % end section
-
-{\subsection{4.2. Case Study 3: Goal Realization Within Opportunistic Applications}
-The third case study was designed to answer RQ3:
-RQ3: How do existing opportunistic web applications support immediate goal realization?
-
-The final proposition can be stated as follows: an opportunistic web application strongly aids goal realization if it supports revisitation mechanisms, and provides specific information and means for associated actions and transactions We used six final cases (C3.1-C3.6, see Table 4) for this study, all of which were opportunistic web applications. Cases C3.1-C3.3 were used for literal replication, meaning that the cases supported goal realization by empowering purposeful use using with design elements from proposition above. Cases C3.4-C3.5 were used for theoretical replication, meaning that the cases do not aid goal realization effectively because they did not allow for purposeful use, such as looking up specific information or performing specific actions. C3.6 was chosen because, as many other blogs, it lacks revisitation mechanisms. 
-
-} % end section
 
 
 {\section{Conceptual Framework}
@@ -164,7 +120,7 @@ Categorization               & Does the application support information categori
 Internal Preservation        & Does the application have bookmarking mechanism for preserving information within the application?        \\
 External Preservation        & Does the application have bookmarking mechanism(s) for preserving information outside of the application? \\
 &\\
-\emph{\textbf{Augmentation}}            &                                                                                                           \\
+\emph{\textbf{Information enhancement}}            &                                                                                                           \\
 Evaluation                   & Can resources be evaluated?                                                                               \\
 Annotation                   & Can resources be annotated?                                                                               \\
 &\\
@@ -190,13 +146,13 @@ A number of researchers attempted classification of information seeking tasks an
 Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information need, and it is usually involves browsing through diverse resources with varying content types. The following is the key criteria that influence serendipitous information discovery:
 
 \begin{itemize}
-  \item \textbf{Arbitrary navigation.} In order to browse through 
-  \item \textbf{Search-based navigation.}
-  \item \textbf{Navigation with a dictionary.}
-  \item \textbf{Integration.}
-  \item \textbf{Visual preview.}
+  \item \textbf{Arbitrary navigation.} In order to browse through diverse information, an information discovery tool needs to provide a way to arbitrary navigate among resources adapting to varying information needs and interests.
+  \item \textbf{Search-based navigation.} Search-based navigation helps narrow the results. In case of serendipitous discovery, since the information need is not well-articulated, the results must be narrowed to resources related to a broad topic of interest.
+  \item \textbf{Navigation with a dictionary.} Similarly to search-based navigation, navigation with a dictionary should provide a way to narrow the results to those related to one topic. In addition, navigation with a dictionary can suggest topics of interest.
+  \item \textbf{Integration.} Having ambiguous information need, one information discovery application might not provide access to all information f interest. If an information discovery application combines resources from various sources, the user should be able to navigate to the original source of the information.
+  \item \textbf{Visual preview.} Browsing through diverse resources can be time consuming. Visual preview should make it possible to evaluate the relevance of the resource more easily.
   
-  \item \textbf{Spatial arrangement.}
+  \item \textbf{Spatial arrangement.} Similarly to visual preview, spatial arrangement can help with scanning the resources faster. 
   
 \end{itemize}
 
@@ -204,66 +160,96 @@ Serendipitous discovery refers to information discovery resulting from serendipi
 } % end subsubsection
 
 {\subsubsection{Fact discovery}
+Fact discovery refers to information discovery resulting from looking for a specific piece of information. It is characterized by a well-defined information need, and is usually performed within systems that provide access to homogeneous types of information.
 \begin{itemize}
-  \item \textbf{Arbitrary navigation.} 
-  \item \textbf{Search-based navigation.}
-  \item \textbf{Navigation with a dictionary.}
+  \item \textbf{Search-based navigation.} For fact discovery, the goal of search-based navigation is to navigate to the resource of interest as directly as possible. 
+  \item \textbf{Navigation with a dictionary.} Navigation with a dictionary is used to direct the user to relevant resources. In case of fact discovery, it should narrow the results to a specific type of resource so that further fact discovery is limited to the type of interest. 
+  \item \textbf{Uniform representation.} Uniform representation means displaying information ina uniforms way, so that it is easier to evaluate it and find the fact of interest.
 \end{itemize}
 
 } % end subsubsection
 
 {\subsubsection{Rediscovery}
+Rediscovery refers to to information discovery resulting from revisiting previously discovered resources. 
 \begin{itemize}
-  \item \textbf{History-based rediscovery.} 
-  \item \textbf{Bookmark-based rediscovery.}
-  \item \textbf{Search-based rediscovery.}
+  \item \textbf{History-based rediscovery.} History-based rediscovery is a convenient way of finding previously found information because it does not require any effort to save the information. The system automatically preserves the history of user finds. 
+  \item \textbf{Bookmark-based rediscovery.} Bookmark-based rediscovery is one of the most common ways of information revisitation. Traditionally, users have used browser bookmarks. However, modern web application often provide internal mechanisms for bookmarking and bookmark-based information rediscovery.
+  \item \textbf{Search-based rediscovery.} Search-based rediscovery is not always a reliable way of refinding information. In information portals that provide access to fairly ambiguous information and that have information regularly populated and updated,   search is usually designed around retrieving information related to some topic, and it is often not very specific. In order to revisit a resource, search must provide consistent results.
 \end{itemize}
 } % end subsubsection
 
 {\subsubsection{Subscription-based discovery}
-A number of researchers have talked about subscription-based information distribution []. However,  Although blog subscriptions have been around before microblogging gained popularity, channel based discovery significantly 
+Subscription-based discovery is based on a combination of monitoring and awareness types of information seeking. It occurs when information is suggested to users based on their subscriptions. If they actively look for updates, then it incorporates monitoring. If they receive notifications about updates, then it can be considered as them becoming aware of new information. 
 
 \begin{itemize}
-  \item \textbf{Site subscription.} 
-  \item \textbf{User subscription.}
-  \item \textbf{Notifications.}
-  \item \textbf{News stream.}
+  \item \textbf{Site subscription.} Subscribing to site updates can help follow the news.
+  \item \textbf{User subscription.} Alternatively to site subscriptions, user subscription can help following individual users and their activities.
+  \item \textbf{Notifications.} Notifications enable awareness about updates associated with a particular Web application. 
+  \item \textbf{News stream.} Displaying news stream within application promotes awareness and can serve s a monitoring mechanism.
 \end{itemize}
 } % end subsubsection
 
 {\subsection{Information Curation}
+Digital information curation. Thus, the curation category consists of information management, preservation, information enhancement, and social curation.  
 } % end subsection
 
 {\subsubsection{Management}
+Information management is one of the key factors of information curation. In realm of information categorization within application the following factor is of major importance:
 \begin{itemize}
-  \item \textbf{Categorization.} 
+  \item \textbf{Categorization.} Information categorization is a way of managing information. Allowing to customary categorize information can aid rediscovery, discovery in a socially curated space, as well can add value to the resource.
 \end{itemize}
 } % end subsubsection
 
 {\subsubsection{Information Preservation}
+Traditional information preservation mechanism has a form of bookmarking. 
 \begin{itemize}
-  \item \textbf{Internal Preservation.} 
-  \item \textbf{External Preservation.}
+  \item \textbf{Internal Preservation.} Internal information preservation means bookmarking resources within application to be accessible within this application.
+  
+  \item \textbf{External Preservation.}External preservation means bookmarking resources to be available within some other bookmarking system.
  
 \end{itemize}
 } % end subsubsection
 
-{\subsubsection{Augmentation}
+{\subsubsection{Information Enhancement}
+One of the aspects of digital curation is adding value to information overtime. In other words, enhancing already present information.  
 \begin{itemize}
-  \item \textbf{Evaluation.} 
-  \item \textbf{Annotation.}
+  \item \textbf{Evaluation.} Evaluation also adds value to resources. Evaluation methods vary from ratings to 'likes'. However, they add value to already present resources.
+  \item \textbf{Annotation.} Annotations are metadata attached to a resource. They can take have forms of comments, tags, descriptions, etc. Annotations make it easier to search for resources as well interpret them. 
  
 \end{itemize}
 } % end subsubsection
 
 {\subsubsection{Social Curation}
-Recently, a new trend in bookmarking, social bookmarking, started to gain popularity. Social bookmarking refers to the notion of bookmarking and organizing pages and other resources on the web and sharing them with other people by means of social bookmarking systems [ac]. In other words, social bookmarking is a commonly accepted synonym of social information curation. One of the first visions of social bookmarking was associated with web blogging. Oravec [ac] believed that web blogs help “annotate” or “bookmark” important information and build a “map” of the Internet. However, blogs usually have a limited number of moderators that curate information within the blog. 
+Recently, a new trend in bookmarking, social bookmarking, started to gain popularity. Social bookmarking refers to the notion of bookmarking and organizing pages and other resources on the web and sharing them with other people by means of social bookmarking systems [ac]. In other words, social bookmarking is a commonly accepted synonym of social information curation. One of the first visions of social bookmarking was associated with web blogging. Oravec [ac] believed that web blogs help 'annotate' or 'bookmark' important information and build a 'map' of the Internet. However, blogs usually have a limited number of moderators that curate information within the blog. 
 \begin{itemize}
-  \item \textbf{Adding resources.} 
-  \item \textbf{Resharing resources.}
+  \item \textbf{Adding resources.} Adding resources does not only facilitate global Web information curation but also scales the information available through the system up providing more opportunities for information discovery.
+  \item \textbf{Resharing resources.} Resharing currently existing in the system resources supports subscription-based information discovery in a way that it channels information that can be of interest to related groups of users. 
  
 \end{itemize}
 } % end subsubsection
+
+The following section describes the methodology for evaluating the conceptual framework and understanding how to address the elements of the framework when designing real world applications.
+
+{\section{Methodology}
+The study presented in this paper has two primary goals. The first goal is to build and validate a framework of goal-oriented opportunistic web application design elements described in the following section. The second goal of the study is to gain perspectives on how to address different elements our framework when designing real-world applications. 
+
+In order to understand how applications support opportunistic web use, we first research how they support opportunistic information discovery (RQ1). Repeatedly mentioned by Lindley et al [ac], opportunistic use is often accompanied by users collecting and organizing discovered information, especially if the purpose of opportunistic use is to satisfy some long-term goal or ambition. Thus, in the second research question (RQ2), we ask about information curation support. Lastly, to learn about the goal-oriented aspect of existing opportunistic applications, we look at how opportunistic applications help with goal realization (RQ3). Therefore, the research questions are the following:
+
+RQ1: How do existing web applications support opportunistic information discovery?
+RQ2: How do existing opportunistic web applications support information curation?
+RQ3: How do existing opportunistic web applications support immediate goal realization?
+
+Our methodology for studying existing web applications is based on Yin’s guidelines for designing a case study [ac]. The motivation behind choosing a case study over other methods of qualitative research was based on our choice of research questions, which have explanatory nature, lack of control over existing applications and their development, and having to focus on contemporary use of real-life web applications. According to Yin [ac], case study would be an optimal research strategy given above characteristics of the subject matter.
+
+To answer each of the research questions, we conducted three independent case studies, where we considered web applications as our units of analysis, or ‘cases’. For each case, we examined overall purpose of the application, its description as defined by the site itself, and available literature and documentation related to the case against the features present at a site. For example, if an application has bookmarking capabilities as well as means for information categorization (features), we would check if it is indeed used for information curation purposes (site description, literature, and documentation).
+
+To increase external validity of our study, we chose the cases based on replication logic [ac]. Using replication logic in a case study design means carefully selecting each case so that it either predicts analogous results or predicts contrasting results but for anticipated reasons [ac]. Choosing cases to predict analogous results is called literal replication, whereas choosing cases to predict contrasting results is called theoretical replication. Carefully following this logic allows for analytic generalization when it comes to generalizing results of the study [ac].
+
+Before conducting the full study, we derived a set of initial theoretical propositions that would let us predict the results of analyzing each case. Therefore, each case study had a form of an iterative process of selecting cases, analyzing each case, and determining whether or not each case meets the theoretical propositions. If it did not support the theory, then we modified the propositions and selected a new set of cases until the results of analyzing the case gave the anticipated results for all cases. We then transformed the final set of propositions into a set of design requirements and constructed a goal-supporting opportunistic framework (see Fig. 1, with design elements E1-E12) by grouping and connecting the design elements. The following subsections provide more details about each chosen case and logic behind choosing each case for each study. Limitations of our study are presented in Section 6.
+} % end section
+{\section{Purposeful and Opportunistic Information Discovery and Curation}
+
+} % end section
 
 {\section{Discussion}
 Through analysis of twenty different applications in total, we were able to derive twelve key design elements that can help support goal-oriented opportunistic use.  However, depending on the nature of the information need and the possible goals behind researching a topic, the amount of support needed can vary. Thus, there exists a large spectrum of goal-supporting opportunistic applications.  Some have no support for information curation, others have no means for goal realization or visual information discovery, etc.
@@ -300,13 +286,28 @@ One of the possible future research objectives would be to test the framework on
 
 
 {\begin{thebibliography}{9}
+\bibitem{abrams} Abrams, David, Ron Baecker, and Mark Chignell. "Information archiving with bookmarks: personal Web space construction and organization." \emph{Proceedings of the SIGCHI conference on Human factors in computing systems}. ACM Press/Addison-Wesley Publishing Co., 1998.
 
-\bibitem{curation}Beagrie, Neil. "Digital curation for science, digital libraries, and individuals." \emph{International Journal of Digital Curation} 1.1 (2008): 3-16.
+
+\bibitem{beagrie}Beagrie, Neil. "Digital curation for science, digital libraries, and individuals." \emph{International Journal of Digital Curation} 1.1 (2008): 3-16.
+
+\bibitem{choo}Choo, C. W., Detlor, B., and Tunbull, D. (2000). Information seeking on the web: An integrated model of browsing and searching.  \emph{FirstMonday}, 5(2). Available from http://firstmonday.org/issues/issue5\_
+2/choo/index.html.
 
 \bibitem{subscr}
 	Java, Akshay, et al. "Feeds That Matter: A Study of Bloglines 		Subscriptions." \emph{ ICWSM.} 2007.
    
-    
+\bibitem{kellar2006} Kellar, Melanie, Carolyn Watters, and Michael Shepherd. "A Goal-based Classification of Web Information Tasks." \emph{Proceedings of the American Society for Information Science and Technology} 43.1 (2006): 1-22.
+
+\bibitem{kellar2007}Kellar, Melanie, Carolyn Watters, and Michael Shepherd. "A field study characterizing Web-based information-seeking tasks." \emph{Journal of the American Society for Information Science and Technology} 58.7 (2007): 999-1018.
+
+\bibitem{levene}Levene, Mark.  \emph{An introduction to search engines and web navigation.} John Wiley \& Sons, 2011.
+
+\bibitem{lindley}Lindley, Siân E., et al. "It's simply integral to what I do: enquiries into how the web is weaved into everyday life." \emph{Proceedings of the 21st international conference on World Wide Web.} ACM, 2012.
+
+\bibitem{morrison}Morrison, Julie B., Peter Pirolli, and Stuart K. Card. "A taxonomic analysis of what World Wide Web activities significantly impact people's decisions and actions." \emph{CHI'01 extended abstracts on Human factors in computing systems.} ACM, 2001.
+
+\bibitem{wittaker}Whittaker, Steve. "Personal information management: from information consumption to curation." \emph{Annual review of information science and technology} 45.1 (2011): 1-62.
     
 \end{thebibliography}
 } % end references
