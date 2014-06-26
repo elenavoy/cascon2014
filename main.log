@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  25 JUN 2014 21:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  26 JUN 2014 16:09
 entering extended mode
 **main.tex
 (C:\Users\elenavoyl\git\cascon2014\main.tex
@@ -467,72 +467,86 @@ Underfull \hbox (badness 1546) in paragraph at lines 224--225
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
- \OT1/ptm/b/n/14.4 tic In-for-ma-tion Dis-cov-ery
+Underfull \hbox (badness 1107) in paragraph at lines 232--234
+\OT1/ptm/m/n/10 frame-work of fac-tors that en-able dig-i-tal in-for-
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
- [8]
-Underfull \hbox (badness 1708) in paragraph at lines 271--271
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+ \OT1/ptm/b/n/14.4 tic In-for-ma-tion Dis-cov-ery
+ []
+
+[8]
+Underfull \hbox (badness 1708) in paragraph at lines 273--273
  |[]\OT1/ptm/b/n/14.4 Limitations and Threats to
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 276--277
+Underfull \hbox (badness 1253) in paragraph at lines 278--279
 \OT1/ptm/m/n/10 One of the pos-si-ble fu-ture re-search ob-jec-tives
  []
 
-[9]
-Underfull \hbox (badness 2626) in paragraph at lines 287--288
+
+Underfull \hbox (badness 2626) in paragraph at lines 289--290
 []\OT1/ptm/m/n/10 Abrams, David, Ron Baecker, and Mark
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 295--297
+Underfull \hbox (badness 3679) in paragraph at lines 297--299
 \OT1/ptm/m/n/10 (2000). In-for-ma-tion seek-ing on the web:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
 \OT1/ptm/m/n/10 An in-te-grated model of brows-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
 \OT1/ptm/m/n/10 search-ing. \OT1/ptm/m/it/10 First-Mon-day\OT1/ptm/m/n/10 , 5(2
 ). Avail-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
 \OT1/ptm/m/n/10 from http://firstmonday.org/issues/issue5[]
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 301--302
+Underfull \hbox (badness 2020) in paragraph at lines 303--304
 \OT1/ptm/m/n/10 Shep-herd. "A Goal-based Clas-si-fi-ca-tion of
  []
 
-[10] (C:\Users\elenavoyl\git\cascon2014\main.aux) ) 
+[9] [10
+
+] (C:\Users\elenavoyl\git\cascon2014\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2319 strings out of 493921
- 30954 string characters out of 3144865
- 109221 words of memory out of 3000000
- 5589 multiletter control sequences out of 15000+200000
+ 2320 strings out of 493921
+ 30959 string characters out of 3144865
+ 109225 words of memory out of 3000000
+ 5590 multiletter control sequences out of 15000+200000
  23082 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,10n,37p,1481b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKT
-eX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 120436 bytes).
+{C:/Program Files (x86)/MiKTeX 
+2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
+rw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
+/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 120900 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
