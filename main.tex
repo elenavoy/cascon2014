@@ -129,59 +129,70 @@ Resharing resources          & Can resources be publicly reshared within the app
 \end{tabular}
 \end{table*}
 
-Although information discovery and curation tasks elicit predominant portion of interactions within many Web applications today, there is lack of systematic guidelines for designing and evaluating applications that could afford these tasks. We hope to reduce this gap by developing a framework of design factors that enable digital information discovery and curation. 
+Although information discovery and curation tasks are commonly performed within many Web applications today, there is lack of systematic guidelines for designing and evaluating applications that could support these tasks. We hope to reduce this gap by developing a framework of design factors that enable digital information discovery and curation. 
 
-The framework (see Table 1) consists of two main categories of factors, discovery and curation, that are consequently broken down into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions to ask when designing or evaluating an application. This section outlines main components of the framework.
+The framework (see Table 1) consists of two main categories, discovery and curation, that are consequently broken down into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions to ask when designing or evaluating an application. This section outlines the main components of the framework.
 
 } % end section
 
 {\subsection{Information Discovery}
-A number of researchers attempted classification of information seeking tasks and methods. In our framework, we built on existing research to derive corresponding design factors. Thus, the discovery category consists of serendipitous discovery, fact discovery, rediscovery, and channel-based discovery. 
+In our framework, we built on existing classifications of information seeking tasks and methods (see Section 2) to derive corresponding design factors. Thus, the discovery category consists of serendipitous discovery, fact discovery, rediscovery, and channel-based discovery. 
 } % end subsection
 
 {\subsubsection{Serendipitous discovery}
-Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information need, and it is usually involves browsing through diverse resources with varying content types \cite{kellar2006}. The following is the key criteria that influence serendipitous information discovery:
+Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information need, and it usually involves browsing through diverse resources with varying content types \cite{kellar2006}. The following key criteria that influence serendipitous information discovery:
 
-\begin{itemize}
-  \item \textbf{Arbitrary navigation.} In order to browse through diverse information, an information discovery tool needs to provide a way to arbitrary navigate among resources adapting to continuously changing information needs and interests.
-  \item \textbf{Search-based navigation.} Search-based navigation helps retrieve information sufficient for identifying an entry point of search \cite{levene}. In case of serendipitous discovery, since the information need is not well-articulated, the search feature should provide resources related to a broad topic of interest.
-  \item \textbf{Navigation within a directory.} Similarly to search-based navigation, navigation within a directory should provide a way to narrow the results to those related to one topic. In addition, navigation with a dictionary can suggest topics of interest and help the user formulate an information need \cite{levene}.
-  \item \textbf{Integration.} To users with ambiguous information needs, one information portal might not provide access to all information of interest. If an information discovery application gives access to resources from various sources, the user should be able to navigate to original sources.
-  \item \textbf{Visual preview.} Abrams et al. \cite{abrams} identified link representation as one of the problems with traditional bookmarking. Analogously with browsing through a bookmark manager, identifying relevant information when browsing through links to diverse resources can be a challenging task. Visual preview should make it easier to evaluate relevance of resources.
-  \item \textbf{Spatial arrangement.} Similarly to link representation, spatial visualization of numerous links is another problem that occurs when browsing through diverse content \cite{abrams}. Therefore, meaningful spatial arrangement is important when displaying links to diverse resources.
-\end{itemize}
+\textbf{Arbitrary navigation.} In order to browse diverse information, an information discovery tool needs to provide a way to arbitrarily navigate among resources to support evolving information needs and interests.
+
+\textbf{Search-based navigation.} Search-based navigation often serves as an entry point of information seeking \cite{levene}. In case of serendipitous discovery, since the information need is not well articulated, the search feature should retrieve resources related to a broad topic.
+
+\textbf{Navigation within a directory.} Similar to search-based navigation, navigation within a directory should provide a way to narrow the results to those related to one topic. In addition, navigation with a dictionary can suggest topics of interest and help the user formulate an information need \cite{levene}.
+
+\textbf{Integration.} To users with ambiguous information needs, one information portal might not provide access to all information of interest. If an information discovery application gives access to resources from various sources, the user should be able to navigate to those sources.
+
+\textbf{Visual preview.} Abrams et al. \cite{abrams} identified link representation as one of the problems with traditional bookmarking. Analogous with browsing through a bookmark manager, identifying relevant information when browsing through links to diverse resources can be a challenging task. A visual preview should make it easier to evaluate the relevance of resources.
+
+\textbf{Spatial arrangement.} Similarly to link representation, spatial visualization of numerous links is another problem that occurs when browsing through diverse content \cite{abrams}. Therefore, meaningful spatial arrangement is important when displaying links to diverse resources.
+
 
 
 } % end subsubsection
 
 {\subsubsection{Fact discovery}
-Fact discovery refers to information discovery resulting from looking for a specific piece of information. It is characterized by a well-defined information need and is easier to perform within systems that provide access to homogeneous types of information \cite{kellar2006, lindley}. Below is the list of factors that influence fact discovery: 
-\begin{itemize}
-  \item \textbf{Search-based navigation.} Since with fact discovery an information need is known, the goal of search-based navigation is to navigate to the resource of interest as directly as possible. Therefore search should limit resources to make it possible to find the one resource of interest. 
-  \item \textbf{Navigation within a directory.} Navigation within a directory is used to direct the user to relevant resources. In case of fact discovery, it should narrow the results to a specific type of resource so that further fact discovery is bounded by that type. 
-  \item \textbf{Uniform representation.} Uniform representation is a method of displaying diverse resources in a common way, with each resource having the same set of components. Such representation assures that each resource has the same set of facts associated with it, and therefore, the user can afford to have expectations about information that she can find when looking for a specific fact.
-\end{itemize}
+Fact discovery refers to information discovery resulting from looking for a specific piece of information. It is characterized by a well-defined information need and is easier to perform within systems that provide access to homogeneous types of information \cite{kellar2006, lindley}. Below is a list of factors that influence fact discovery: 
+
+\textbf{Search-based navigation.} With fact discovery, an information need is known \cite{kellar2006}. Therefore, the goal of a search-based navigation for fact discovery is to directly navigate to the resource of interest, as opposed to retrieving diverse information, as in serendipitous discovery.
+
+\textbf{Navigation within a directory.} Navigation within a directory is used to direct the user to relevant resources. In case of fact discovery, it should narrow the results to a specific type of resource so that further fact discovery is bounded by that type. 
+
+\textbf{Uniform representation.} Uniform representation is a method of displaying diverse resources in a common way, with each resource having the same set of components. Such representation assures that each resource has the same set of facts associated with it, and therefore, the user can afford to have expectations about information that can be found when looking for a specific fact.
+
 
 } % end subsubsection
 
 {\subsubsection{Rediscovery}
-Rediscovery refers to to information discovery resulting from revisiting previously discovered resources. The following is a list of factors that enable rediscovery:
-\begin{itemize}
-  \item \textbf{History-based rediscovery.} A Web application needs to automatically backup browsing history in order to enable history-based rediscovery. History-based rediscovery can be useful when no bookmarking took place when the resource was discovered for the first time.  
-  \item \textbf{Bookmark-based rediscovery.} Bookmark-based rediscovery is one of the most common ways of information revisitation. The majority of Web browsers are equipped with bookmarking mechanisms. However, some modern Web applications provide integrated mechanisms for bookmarking and bookmark-based information rediscovery within application itself.
-  \item \textbf{Search-based rediscovery.} Search-based rediscovery is not always a reliable way of refinding information. In information portals that provide access to fairly ambiguous information and that have information regularly repopulated and updated,   search is usually designed around retrieving information related to some topic but not very specific. In order to revisit a resource, search must provide consistent results.
-\end{itemize}
+Rediscovery refers to information discovery resulting from revisiting previously discovered resources. The following is a list of factors that enable rediscovery:
+
+\textbf{History-based rediscovery.} A Web application needs to automatically back up browsing history in order to enable history-based rediscovery.   
+
+\textbf{Bookmark-based rediscovery.} Bookmark-based revisitation is one of the most common ways of information rediscovery. The majority of Web browsers are equipped with bookmarking features. However, some modern Web applications provide integrated mechanisms for bookmarking and bookmark-based information rediscovery.
+
+\textbf{Search-based rediscovery.} Search-based rediscovery is not always a reliable way of refinding information. In information portals that provide access to fairly ambiguous information and that have information regularly repopulated and updated, the search feature is usually designed around retrieving information related to some topic but not very specific. In order to revisit a resource, search must provide consistent results.
+
 } % end subsubsection
 
-{\subsubsection{Subscription-based discovery}
-Subscription-based discovery is based on a combination of monitoring and awareness types of information seeking. It occurs when information is suggested to users based on their subscriptions. If users can actively look for updates, then an application affords monitoring. If users can receive notifications about updates, then an application facilitates awareness.                            
+{\subsubsection{Channel-based discovery}
+Channel-based discovery can be thought of as a combination of monitoring and awareness. It occurs when information is suggested to users based on the content that they are subscribed to. If users can actively look for updates, then an application affords monitoring. If users can receive notifications about updates, then an application facilitates awareness.                            
 
-\begin{itemize}
-  \item \textbf{Site subscription.} Subscriptions to updates from a site help users follow the news. In order to support subscription-based discovery, an application must provide a subscription mechanism.
-  \item \textbf{User subscription.} Similarly to site subscriptions, user subscriptions  help following individual users and their activities. Such subscriptions help to further filter the content delivered to the user.
-  \item \textbf{Notifications.} Notification mechanisms enable user awareness about the  new content on the subscribed channel. 
-  \item \textbf{News stream.} Displaying news stream within application further promotes awareness and can serve as a monitoring mechanism.
-\end{itemize}
+
+\textbf{Site subscription.} Subscriptions to updates from a site help users follow the news. In order to support subscription-based discovery, an application must provide a subscription mechanism.
+
+\textbf{User subscription.} Similar to site subscriptions, user subscriptions help follow individuals and their activities. Such subscriptions help to further filter new content delivered to the user.
+
+\textbf{Notifications.} Notification mechanisms enable user awareness about the  new content on the subscribed channel. 
+
+\textbf{News stream.} Displaying the news stream within application further promotes awareness and can serve as a monitoring mechanism.
+
 } % end subsubsection
 
 {\subsection{Information Curation}
@@ -190,18 +201,18 @@ By definition, digital information curation is the notion of managing, preservin
 
 {\subsubsection{Management}
 Information management is one of the key elements of information curation. In the context of Web information management, the following factor plays the major role:
-\begin{itemize}
-  \item \textbf{Categorization.} Resource categorization helps establish relationships between various resources. Allowing to customary categorize information can aid rediscovery, discovery in a socially curated space, as well add value to the resource.
-\end{itemize}
+
+\textbf{Categorization.} Resource categorization helps establish relationships between various resources. Allowing to sort information into custom categories can aid rediscovery, discovery in a socially curated space, as well add more value to resources.
+
 } % end subsubsection
 
 {\subsubsection{Information Preservation}
-Information preservation, or information gathering, is a common Web tasks that is usually performed with an intent of information revisitation. However, in the case of opportunistic web use, information gathering is sometimes performed with just a goal of collecting information rather than revisiting it in the future. Traditional information preservation mechanism is bookmarking. Many Web applications apply variations  of bookmarking mechanisms. 
-\begin{itemize}
-  \item \textbf{Internal Preservation.} Internal information preservation means bookmarking resources within application to be accessible within the same application. Such bookmarking facilitates information curation within the system.
+Information preservation is a common Web task that is usually performed with intent to revisit information. However, in the case of opportunistic Web use, information gathering is sometimes performed with just the goal of collecting information rather than revisiting it in the future. Bookmarking is a traditional way of preserving information - many Web applications provide diverse bookmarking mechanisms. 
+
+\textbf{Internal preservation.} Internal preservation means bookmarking resources within application to be accessible within the same application. Such bookmarking facilitates information curation within the system.
   
-  \item \textbf{External Preservation.} External preservation means bookmarking resources to be available within some other bookmarking system. An application must facilitate integration with other applications in order to enable external preservation.
-\end{itemize}
+\textbf{External preservation.} External preservation means bookmarking resources to be available within some other bookmarking system. An application must facilitate integration with other applications in order to enable external preservation.
+
 } % end subsubsection
 
 {\subsubsection{Information Enhancement}

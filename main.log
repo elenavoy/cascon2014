@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  29 JUN 2014 10:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  29 JUN 2014 14:35
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -448,148 +448,165 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 75--130
 
 LaTeX Warning: Float too large for page by 55.28978pt on input line 130.
 
+
+Underfull \hbox (badness 2635) in paragraph at lines 134--135
+\OT1/ptm/m/n/10 main cat-e-gories, dis-cov-ery and cu-ra-tion, that
+ []
+
 [3] [4]
 Underfull \hbox (badness 3229) in paragraph at lines 143--144
 \OT1/ptm/m/n/10 cov-ery re-sult-ing from serendip-i-tous brows-ing.
  []
 
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
+
+Underfull \hbox (badness 1082) in paragraph at lines 149--150
+[]\OT1/ptm/b/n/10 Navigation within a di-rec-tory. \OT1/ptm/m/n/10 Sim-i-lar to
+
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 178--179
+[]\OT1/ptm/b/n/10 Bookmark-based re-dis-cov-ery. \OT1/ptm/m/n/10 Bookmark-
+ []
+
 [5]
-Underfull \hbox (badness 2753) in paragraph at lines 194--195
-[]\OT1/ptm/b/n/10 Categorization. \OT1/ptm/m/n/10 Re-source cat-e-go-riza-tion
+Underfull \hbox (badness 2197) in paragraph at lines 212--213
+\OT1/ptm/m/n/10 to be ac-ces-si-ble within the same ap-pli-ca-tion.
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 201--202
-\OT1/ptm/m/n/10 preser-va-tion means book-mark-ing re-sources
+Underfull \hbox (badness 2269) in paragraph at lines 214--215
+[]\OT1/ptm/b/n/10 External preser-va-tion. \OT1/ptm/m/n/10 Ex-ter-nal preser-va
+-
  []
 
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
 [6]
-Underfull \hbox (badness 1546) in paragraph at lines 220--221
+Underfull \hbox (badness 1546) in paragraph at lines 231--232
 \OT1/ptm/m/n/10 ex-ist-ing within the sys-tem re-sources sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 256--257
+Underfull \hbox (badness 1292) in paragraph at lines 267--268
 \OT1/ptm/m/n/10 rep-re-sen-ta-tion tech-niques. Social-bookmarking
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 258--259
+Underfull \hbox (badness 1533) in paragraph at lines 269--270
 []\OT1/ptm/m/n/10 When users have spe-cific in-for-ma-tion need,
  []
 
-[8]
-Underfull \hbox (badness 5036) in paragraph at lines 264--265
+
+Underfull \hbox (badness 5036) in paragraph at lines 275--276
 []\OT1/ptm/m/n/10 Subscription-based in-for-ma-tion dis-cov-ery is
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 266--267
+Underfull \hbox (badness 1953) in paragraph at lines 277--278
 \OT1/ptm/m/n/10 im-ple-men-ta-tions de-pend-ing on the pur-pose of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 []\OT1/ptm/m/n/10 Information cat-e-go-riza-tion mech-a-nisms are
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 278--279
+Underfull \hbox (badness 1824) in paragraph at lines 289--290
 []\OT1/ptm/m/n/10 Socially cu-rated in-for-ma-tion dis-cov-ery tools
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 280--281
+Underfull \hbox (badness 3417) in paragraph at lines 291--292
 []\OT1/ptm/m/n/10 Information cu-ra-tion is a com-mon ac-tiv-ity
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 314--315
+[]\OT1/ptm/m/n/10 Abrams, David, Ron Baecker, and Mark
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Underfull \hbox (badness 2626) in paragraph at lines 303--304
-[]\OT1/ptm/m/n/10 Abrams, David, Ron Baecker, and Mark
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 312--314
+Underfull \hbox (badness 3679) in paragraph at lines 323--325
 \OT1/ptm/m/n/10 (2000). In-for-ma-tion seek-ing on the web:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 \OT1/ptm/m/n/10 An in-te-grated model of brows-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 \OT1/ptm/m/n/10 search-ing. \OT1/ptm/m/it/10 First-Mon-day\OT1/ptm/m/n/10 , 5(2
 ). Avail-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 \OT1/ptm/m/n/10 from http://firstmonday.org/issues/issue5[]
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 326--327
+Underfull \hbox (badness 7468) in paragraph at lines 337--338
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 328--329
+Underfull \hbox (badness 7468) in paragraph at lines 339--340
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 334--335
+Underfull \hbox (badness 1990) in paragraph at lines 345--346
 []\OT1/ptm/m/n/10 Locke, Ed-win A., and Gary P. Latham.
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 334--335
+Underfull \hbox (badness 4872) in paragraph at lines 345--346
 \OT1/ptm/m/n/10 set-ting and task mo-ti-va-tion: A 35-year
  []
 
-[10]
-Underfull \hbox (badness 1048) in paragraph at lines 340--341
+
+Underfull \hbox (badness 1048) in paragraph at lines 351--352
 []\OT1/ptm/m/n/10 Proper, Hen-derik Alex, and P. D. Bruza.
  []
 
-[11
+[10] [11
 
 ] (C:\Users\Elena\git\cascon2014\cascon2014\main.aux) ) 
 Here is how much of TeX's memory you used:
@@ -608,7 +625,7 @@ type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
 bi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 123674 bytes).
+Output written on main.pdf (11 pages, 122927 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
