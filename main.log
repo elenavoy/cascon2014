@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  29 JUN 2014 00:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  29 JUN 2014 09:25
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -535,10 +535,7 @@ Underfull \hbox (badness 3417) in paragraph at lines 280--281
 []\OT1/ptm/m/n/10 Information cu-ra-tion is a com-mon ac-tiv-ity
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
+[9]
 Underfull \hbox (badness 2626) in paragraph at lines 303--304
 []\OT1/ptm/m/n/10 Abrams, David, Ron Baecker, and Mark
  []
@@ -574,7 +571,7 @@ Underfull \hbox (badness 7468) in paragraph at lines 328--329
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
-
+[10]
 Underfull \hbox (badness 1990) in paragraph at lines 334--335
 []\OT1/ptm/m/n/10 Locke, Ed-win A., and Gary P. Latham.
  []
@@ -584,7 +581,7 @@ Underfull \hbox (badness 4872) in paragraph at lines 334--335
 \OT1/ptm/m/n/10 set-ting and task mo-ti-va-tion: A 35-year
  []
 
-[10]
+
 Underfull \hbox (badness 1048) in paragraph at lines 340--341
 []\OT1/ptm/m/n/10 Proper, Hen-derik Alex, and P. D. Bruza.
  []
@@ -595,7 +592,7 @@ Underfull \hbox (badness 1048) in paragraph at lines 340--341
 Here is how much of TeX's memory you used:
  2329 strings out of 493921
  31180 string characters out of 3144876
- 108255 words of memory out of 3000000
+ 109255 words of memory out of 3000000
  5599 multiletter control sequences out of 15000+200000
  23082 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -608,7 +605,7 @@ type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
 bi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 123713 bytes).
+Output written on main.pdf (11 pages, 123853 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
