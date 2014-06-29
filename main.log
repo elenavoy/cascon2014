@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  28 JUN 2014 21:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  28 JUN 2014 23:16
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -432,11 +432,6 @@ Underfull \hbox (badness 5345) in paragraph at lines 61--62
 \OT1/ptm/m/n/10 not nec-es-sar-ily give full in-sight about how
  []
 
-
-Underfull \hbox (badness 1048) in paragraph at lines 63--64
-\OT1/ptm/m/n/10 look-ing at use modes that oc-cur when peo-ple
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -591,17 +586,22 @@ Underfull \hbox (badness 4872) in paragraph at lines 334--335
 \OT1/ptm/m/n/10 set-ting and task mo-ti-va-tion: A 35-year
  []
 
-[10] [11
+[10]
+Underfull \hbox (badness 1048) in paragraph at lines 340--341
+[]\OT1/ptm/m/n/10 Proper, Hen-derik Alex, and P. D. Bruza.
+ []
+
+[11
 
 ] (C:\Users\Elena\git\cascon2014\cascon2014\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2328 strings out of 493921
- 31172 string characters out of 3144876
- 108251 words of memory out of 3000000
- 5598 multiletter control sequences out of 15000+200000
+ 2329 strings out of 493921
+ 31180 string characters out of 3144876
+ 108255 words of memory out of 3000000
+ 5599 multiletter control sequences out of 15000+200000
  23082 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,37p,1480b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,37p,1486b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
@@ -610,7 +610,7 @@ type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
 bi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 123639 bytes).
+Output written on main.pdf (11 pages, 123817 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
