@@ -54,7 +54,7 @@ People often engage in information seeking activities to close some knowledge ga
 
 A number of researchers have studied information seeking behavior \cite{bates2002, bates1986, choo, ellis1989, ellis1997, ellis1993}. Ellis et al \cite{ellis1989, ellis1997, ellis1993}, proposed a model of information seeking characterized by six different patterns: starting, chaining, browsing, extracting, monitoring, and differentiating. Consequently, Choo et al. \cite{choo} derived anticipated Web tasks that correspond to these patterns. According to the authors, when users identify sources of interest, they usually identify which Websites can point to that information of interest.  Chaining occurs when users navigate through links on those initial pages. When people browse, they scan top-level pages, headings, lists, and site maps. Differentiating takes place when people bookmark, print, copy and paste information, or choose an earlier selected sites. Monitoring occurs when users revisit web pages or receive updates from some earlier visited sites. Finally, extracting can occur when the user systematically searches site to extract information of interest. 
 
-In 1986, Bates \cite{bates1986} proposed a model of four information seeking modes being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the levels of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterized as undirected active information seeking because users do not know directly what information they are looking for, but they are actively looking. Searching falls under active directed information seeking because the information need is clearly defined and the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed and being aware is undirected.   
+Bates \cite{bates1986} proposed a model of four information seeking modes being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the levels of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterized as undirected active information seeking because users do not know directly what information they are looking for, but they are actively looking. Searching falls under active directed information seeking because the information need is clearly defined and the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed and being aware is undirected.   
 
 In 2002, Bates \cite{bates2002} extended her research with the notion of information farming. Information farming involves people collecting and organizing information for future use and revisitation. More commonly, it is referred to as digital curation, which is the notion of collecting and managing digital information for the purpose of adding value to the collection, and revisitation \cite{beagrie}. Wittaker \cite{wittaker} believes that in terms of Web use, a significant shift is happening from information consumption to information curation, which means that people no longer just use the web to find and consume the information that they are interested in, but they also try to save and manage that information so that  it can be reaccessed and exploited later. 
 
@@ -73,10 +73,11 @@ A number of researchers have studied how people search for and curate informatio
 \caption{Conceptual Framework.}
 \centering
 \small
-\begin{tabular}{|p{0.30\linewidth}|p{0.70\linewidth}|}
+\begin{tabular}{|p{0.28\linewidth}|p{0.72\linewidth}|}
 \hline
 \textbf{\large{Factors}}   & \textbf{\large{Questions}}  \\
 \hline
+&\\
 \textbf{\large{Discovery}}                     &                                                                                                           \\
 
 &\\
@@ -111,15 +112,16 @@ Content news stream                  & Can content updates be visible within the
 &\\
 \hline     
 &\\                                        
-\textbf{\large{Curation}}                     &                                                                                                        \\       
+\textbf{\large{Curation}}                     &                                                                                                        \\     
+&\\  
 \emph{\textbf{Management}}                    &                                                                                                           \\
 List-based categorization               & Does the application support information information sorting into list-like structures privately or publicly?                                                  \\
 Tag-based categorization               & Does the application support tagging privately or publicly?                                                  \\
 &\\
 \emph{\textbf{Preservation}}                   &                                                                                                           \\
-Internal Preservation of Internal Resources       & Does the application support bookmarking mechanism(s) for preserving internal information within the application?        \\
-Internal Preservation of External Resources       & Does the application support bookmarking mechanism(s) for preserving external information within the application?        \\
-External Preservation of Internal Resources      & Does the application support bookmarking mechanism(s) for preserving internal information outside of the application? \\ 
+Internal preservation of internal resources       & Does the application support bookmarking mechanism(s) for preserving internal information within the application?        \\
+Internal preservation of external resources       & Does the application support bookmarking mechanism(s) for preserving external information within the application?        \\
+External preservation of internal resources      & Does the application support bookmarking mechanism(s) for preserving internal information outside of the application? \\ 
 &\\
 \emph{\textbf{Augmentation}}            &                                                                                                           \\
 Evaluation                   & Can the resource evaluations be recorded privately or publicly? \\
@@ -134,9 +136,11 @@ External sharing          & Can internal resources be publicly reshared outside 
 \end{tabular}
 \end{table*}
 
-Although information discovery and curation tasks are commonly performed Web tasks today, there is lack of literature on how to support them when building applications. We reduce this gap by developing a framework of design factors facilitating digital information discovery and curation. 
+Although information discovery and curation tasks are commonly performed Web tasks today, there is lack of literature on how to support them when building applications. We reduce this gap by presenting a framework of design factors facilitating digital information discovery and curation (see Table 1). 
 
-The framework (see Table 1) consists of two main categories, discovery and curation, that are consequently decomposed into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions that can help application design and evaluation. This section outlines the main components of the framework.
+Development of the framework began with deriving design factors based on Web tasks described in existing literature. Through analyzing twenty information discovery applications, we iteratively expanded the framework, added concepts, and established relations. Perhaps, the framework can be expanded further; however, having most essential factors makes the framework more usable. 
+
+The framework consists of two main categories, discovery and curation, that are consequently decomposed into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions that can help application design and evaluation. This section outlines the main components of the framework.
 
 } % end section
 
@@ -145,19 +149,19 @@ In our framework, we built on existing classifications of information seeking ta
 } % end subsection
 
 {\subsubsection{Serendipitous discovery}
-Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information needs, and it usually involves browsing through diverse resources with varying content types \cite{kellar2006}. The following key criteria that influence serendipitous information discovery:
+Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information needs, and it usually involves browsing through diverse resources with varying content types \cite{kellar2006, kellar2007}. The following key criteria that influence serendipitous information discovery:
 
-\textbf{Arbitrary navigation.} In order to browse diverse information, an information discovery tool needs to provide a way to arbitrarily navigate among resources to support evolving information needs and interests.
+\textbf{Arbitrary navigation.} In order to browse diverse information, an information discovery tool needs to provide a way to arbitrarily navigate among resources to support purely serendipitous information discovery \cite{foster}.
 
-\textbf{Search-based navigation.} Search-based navigation often serves as an entry point of information seeking \cite{levene}. In case of serendipitous discovery, since the information need is not well articulated, the search feature should retrieve resources related to a broad topic.
+\textbf{Search-based navigation.} Search-based navigation often serves as an entry point of information seeking \cite{levene}. In case of serendipitous discovery, since the information need is not well articulated, the search engine should retrieve diverse resources related to a topic.
 
-\textbf{Navigation within a directory.} Similar to search-based navigation, navigation within a directory should provide a way to narrow the results to those related to one topic. In addition, navigation with a dictionary can suggest topics of interest and help the user formulate an information need \cite{levene}.
+\textbf{Category-guided navigation.} Similar to search-based navigation, category-guided navigation should provide a way to narrow the results to those related to one topic. In addition, categories can help the user formulate an information need by suggesting topics \cite{levene}.
 
 \textbf{Integration.} To users with ambiguous information needs, one information portal might not provide access to all information of interest. If an information discovery application gives access to resources from various sources, the user should be able to navigate to those sources.
 
-\textbf{Visual preview.} Abrams et al. \cite{abrams} identified link representation as one of the problems with traditional bookmarking. Analogous with browsing through a bookmark manager, identifying relevant information when browsing through links to diverse resources can be a challenging task. A visual preview should make it easier to evaluate the relevance of resources.
+\textbf{Visual link preview.} Abrams et al. \cite{abrams} identified link representation as one of the problems with traditional bookmarking. Analogous with browsing through a bookmark manager, identifying relevant information when browsing through links to diverse resources can be a challenging task. A visual preview should make it easier to evaluate the relevance of resources.
 
-\textbf{Spatial arrangement.} Similarly to link representation, spatial visualization of numerous links is another problem that occurs when browsing through diverse content \cite{abrams}. Therefore, meaningful spatial arrangement is important when displaying links to diverse resources.
+\textbf{Spatial arrangement.} Similarly to link representation, spatial visualization of numerous links is another problem that occurs when browsing through diverse content \cite{abrams}. Therefore, a semantic to the spatial arrangement of resources is of major importance.
 
 
 
@@ -166,74 +170,88 @@ Serendipitous discovery refers to information discovery resulting from serendipi
 {\subsubsection{Fact discovery}
 Fact discovery refers to information discovery resulting from looking for a specific piece of information. It is characterized by a well-defined information need and is easier to perform within systems that provide access to homogeneous types of information \cite{kellar2006, lindley}. Below is a list of factors that influence fact discovery: 
 
-\textbf{Search-based navigation.} With fact discovery, an information need is known \cite{kellar2006}. Therefore, the goal of a search-based navigation for fact discovery is to directly navigate to the resource of interest, as opposed to retrieving diverse information, as in serendipitous discovery.
+\textbf{Search-based navigation.} With fact discovery, an information need is known \cite{kellar2006, kellar 2007}. Therefore, the goal of a search-based navigation for fact discovery is to directly navigate to the resource of interest, as opposed to retrieving diverse information, as in serendipitous discovery.
 
-\textbf{Navigation within a directory.} Navigation within a directory is used to direct the user to relevant resources. In case of fact discovery, it should narrow the results to a specific type of resource so that further fact discovery is bounded by that type. 
+\textbf{Category-guided navigation.} Category-guided navigation is used to direct the user to relevant resources \cite{levene}. In case of fact discovery, such navigation should narrow the results to a specific type of resources so that further fact discovery is bounded by that type. 
 
-\textbf{Uniform representation.} Uniform representation is a method of displaying diverse resources in a common way, with each resource having the same set of components. Such representation assures that each resource has the same set of facts associated with it, and therefore, the user can afford to have expectations about information that can be found when looking for a specific fact.
+\textbf{Uniform representation.} Uniform representation is a method of displaying diverse resources in a common way, with each resource having the same set of components \cite{herrera}. Such representation assures that each resource has the same set of facts associated with it, and therefore, the user can afford to have expectations about information that can be found when looking for a specific fact.
+
+\textbf{Integration.} Similar to serendipitous discovery, if an information discovery application gives access to resources from various sources, the user should be able to navigate to those sources since they may contain the facts of interest.
+
+\textbf{Visual link preview.} If an application provided links to resources, a visual preview makes it easier to recognize the relevance of the resource \cite{abrams}. 
+
+\textbf{Spatial arrangement.} Similar to serendipitous information discovery, apatial arrangement of resources is important \cite{abrams}, as a poor semantic to the arrangement can make it difficult to visually navigate to the fact of interest.
 
 
 } % end subsubsection
 
 {\subsubsection{Rediscovery}
-Rediscovery refers to information discovery resulting from revisiting previously discovered resources. The following is a list of factors that enable rediscovery:
+Rediscovery refers to information discovery resulting from revisiting previously discovered resources \cite{tauscher}. The following is a list of factors that enable rediscovery:
 
-\textbf{History-based rediscovery.} A Web application needs to automatically back up browsing history in order to enable history-based rediscovery.   
+\textbf{History-based rediscovery.} A Web application needs to automatically back up browsing history in order to enable history-based rediscovery \cite{tauscher}.   
 
-\textbf{Bookmark-based rediscovery.} Bookmark-based revisitation is one of the most common ways of information rediscovery. The majority of Web browsers are equipped with bookmarking features. However, some modern Web applications provide integrated mechanisms for bookmarking and bookmark-based information rediscovery.
+\textbf{Bookmark-based rediscovery.} Bookmark-based revisitation is one of the most common ways of information rediscovery \cite{abrams}. The majority of Web browsers are equipped with bookmarking features. However, some modern Web applications provide integrated mechanisms for bookmarking and bookmark-based information rediscovery.
 
-\textbf{Search-based rediscovery.} Search-based rediscovery is not always a reliable way of refinding information. In information portals that provide access to fairly ambiguous information and that have information regularly repopulated and updated, the search feature is usually designed around retrieving information related to some topic but not very specific. In order to revisit a resource, search must provide consistent results.
+\textbf{Search-based rediscovery.} Search-based rediscovery is not always a reliable way of refinding information \cite{cockburn}. In information portals that provide access to fairly ambiguous information and that have information regularly repopulated and updated, the search feature is usually designed around retrieving information related to some topic but not very specific. In order to revisit a resource, search must provide consistent results.
 
 } % end subsubsection
 
 {\subsubsection{Channel-based discovery}
-Channel-based discovery can be thought of as a combination of monitoring and awareness. It occurs when information is suggested to users based on the content that they are subscribed to. If users can actively look for updates, then an application affords monitoring. If users can receive notifications about updates, then an application facilitates awareness.                            
+Channel-based discovery can incorporate two different information seeking tasks, monitoring and awareness. It occurs when information is suggested to users based on the content that they are subscribed to. If users can actively look for updates, then an application affords monitoring \cite{morrison}. If users can receive notifications about updates, then an application facilitates awareness \cite{bates2002, bates1986}.                            
 
 
-\textbf{Site subscription.} Subscriptions to updates from a site help users follow the news. In order to support subscription-based discovery, an application must provide a subscription mechanism.
+\textbf{Site subscription.} Subscriptions to updates from a site help users follow the news \cite{java}. In order to support subscription-based discovery, an application must provide a subscription mechanism.
 
-\textbf{User subscription.} Similar to site subscriptions, user subscriptions help follow individuals and their activities. Such subscriptions help to further filter new content delivered to the user.
+\textbf{User subscription.} Similar to site subscriptions, user subscriptions help networking and following users' activities \cite{millen}. Such subscriptions help to further filter new content delivered to the user.
 
-\textbf{Notifications.} Notification mechanisms enable user awareness about the  new content on the subscribed channel. 
+\textbf{Notifications.} Notification mechanisms enable user awareness about the  new content on the subscribed channel \cite{millen}. 
 
-\textbf{News stream.} Displaying the news stream within application further promotes awareness and can serve as a monitoring mechanism.
+\textbf{Subscription news stream.} Displaying the news stream within application further promotes awareness and can serve as a monitoring mechanism.
+
+\textbf{Content news stream.} Displaying the news stream within application further promotes awareness and can serve as a monitoring mechanism.
 
 } % end subsubsection
 
 {\subsection{Information Curation}
-By definition, digital information curation is the notion of managing, preserving, and adding value to collections of information. Thus, the curation category consists of information management, preservation, information enhancement, and social curation.  
+By definition, digital information curation is the notion of managing, preserving, and adding value to collections of information \cite{beagrie, wittaker}. Thus, the curation category consists of information management, preservation, information enhancement, and sharing.  
 } % end subsection
 
 {\subsubsection{Management}
-Information management is one of the key elements of information curation. In the context of Web information management, the following factor plays the major role:
+Information management is one of the key elements of information curation \cite{beagrie, wittaker}. In the context of Web information management, the following factors plays the major role:
 
-\textbf{Categorization.} Resource categorization helps establish relationships between various resources. Allowing to sort information into custom categories can aid rediscovery, discovery in a socially curated space, as well add more value to resources.
+\textbf{List-based categorization.} Resource categorization helps establish relationships between various resources \cite{beagrie, wittaker}. Allowing to sort information into custom categories can aid rediscovery, discovery in a socially curated space, as well add more value to resources.
+
+\textbf{Tag-based categorization.} Similar to list-based categorization, tagging aids rediscovery, adds value to resources, and aids discovery, especially in a socially curated spaces \cite{gruber}.
 
 } % end subsubsection
 
 {\subsubsection{Information Preservation}
-Information preservation is a common Web task that is usually performed with intent to revisit information. However, in the case of opportunistic Web use, information gathering is sometimes performed with just the goal of collecting information rather than revisiting it in the future. Bookmarking is a traditional way of preserving information; many Web applications provide diverse bookmarking mechanisms. 
+Information preservation is a common Web task that is usually performed with intent to revisit information \cite{abrams, wittaker}. However, in the case of opportunistic Web use, information gathering is sometimes performed with just the goal of collecting information rather than revisiting it in the future \cite{lindley}. Bookmarking is a traditional way of preserving information; many Web applications provide diverse bookmarking mechanisms. 
 
-\textbf{Internal preservation.} Internal preservation means bookmarking resources to be reaccessed within the same application. Such bookmarking facilitates information curation within the system.
+\textbf{Internal preservation of internal resources.} Internal preservation internal resources means bookmarking resources to be reaccessed within the same application. Such bookmarking facilitates information curation within the system.
+
+\textbf{Internal preservation of external resources.} Internal preservation of external resources signifies bookmarking other Web pages within the application. 
   
-\textbf{External preservation.} External preservation means bookmarking resources so that they are available in other bookmarking systems. An application must facilitate integration with other applications in order to enable external preservation.
+\textbf{External preservation of internal resources.} External preservation means bookmarking resources so that they become through other bookmarking systems. An application must facilitate integration with other applications in order to enable external preservation \cite{abrams}.
 
 } % end subsubsection
 
-{\subsubsection{Information Enhancement}
-One of the most important elements of digital curation is adding value to information over time, enhancing already present information. Some forms of information enhancement are prevalent mainly in the context of social curation. Others can be performed in the context of personal curation. 
+{\subsubsection{Augmentation}
+One of the most important elements of digital curation is augmentsion, adding value to information \cite{beagrie, wittaker}. It is often performed within social bookmarking systems.
 
 \textbf{Evaluation.} Evaluation methods can have various forms. They usually take place in socially curated information systems. However, evaluation can also contribute to personal reflection and information preservation. 
 
-\textbf{Annotation.} Annotations are metadata attached to a resource, such as comments, tags, descriptions, etc. Annotations make it easier to search and interpret information. 
+\textbf{Annotation.} Annotations are metadata attached to a resource, such as comments and descriptions. Annotations make it easier to search and interpret information . 
 } % end subsubsection
 
-{\subsubsection{Social Curation}
-In addition to public resource sharing, social information curation encapsulates all of the elements of digital curation. Therefore, adding resources and resharing those resources are the two key factors that empower social curation.
+{\subsubsection{Sharing}
+Sharing information is key to empowering social information curation \cite{beagrie}. Therefore, the main components that facilitate sharing are adding resources, and external and internal information sharing.
 
 \textbf{Adding resources.} Adding resources does not only facilitate global Web information curation, but it also scales the information available through the system providing more opportunities for information discovery.
 
-\textbf{Resharing resources.} Resharing resources within the system supports channel-based information discovery. 
+\textbf{External sharing.} Sharing resources through different media supports channel-based information discovery within the media channels. 
+
+\textbf{Internal sharing.} Resharing resources within the system supports channel-based information discovery. 
  
 
 } % end subsubsection
@@ -382,6 +400,8 @@ APA
 \bibitem{choo}Choo, C. W., Detlor, B., and Tunbull, D. (2000). Information seeking on the web: An integrated model of browsing and searching.  \emph{FirstMonday}, 5(2). Available from http://firstmonday.org/issues/issue5\_
 2/choo/index.html.
 
+\bibitem{cockburn}Cockburn, Andy, et al. Improving Web page revisitation: Analysis, design, and evaluation. Department of Computer Science \& Software Engineering, \emph{University of Canterbury}, 2002.
+
 \bibitem{ellis1989}Ellis, David. "A behavioural model for information retrieval system design." \emph{Journal of information science} 15.4-5 (1989): 237-247.
 
 \bibitem{ellis1993}Ellis, David, Deborah Cox, and Katherine Hall. "A comparison of the information seeking patterns of researchers in the physical and social sciences." \emph{Journal of documentation} 49.4 (1993): 356-369.
@@ -390,8 +410,11 @@ APA
 
 \bibitem{foster}Foster, Allen, and Nigel Ford. "Serendipity and information seeking: an empirical study." \emph{Journal of Documentation} 59.3 (2003): 321-340.
 
-\bibitem{subscr}
-	Java, Akshay, et al. "Feeds That Matter: A Study of Bloglines Subscriptions." \emph{ ICWSM.} 2007.
+\bibitem{gruber}Gruber, Thomas. "Ontology of folksonomy: A mash-up of apples and oranges." emph{International Journal on Semantic Web and Information Systems (IJSWIS)} 3.1 (2007): 1-11.
+
+\bibitem{herrera}Herrera, Francisco, L. Martınez, and Pedro J. Sánchez. "Managing non-homogeneous information in group decision making." \emph{European Journal of Operational Research} 166.1 (2005): 115-132.
+
+\bibitem{java}Java, Akshay, et al. "Feeds That Matter: A Study of Bloglines Subscriptions." \emph{ ICWSM.} 2007.
    
 \bibitem{kellar2006} Kellar, Melanie, Carolyn Watters, and Michael Shepherd. "A Goal-based Classification of Web Information Tasks." \emph{Proceedings of the American Society for Information Science and Technology} 43.1 (2006): 1-22.
 
@@ -401,7 +424,7 @@ APA
 
 \bibitem{lindley}Lindley, Siân E., et al. "It's simply integral to what I do: enquiries into how the web is weaved into everyday life." \emph{Proceedings of the 21st international conference on World Wide Web.} ACM, 2012.
 
-\bibitem{locke}Locke, Edwin A., and Gary P. Latham. "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey." \emph{American psychologist} 57.9 (2002): 705.
+\bibitem{millen}Millen, David, Jonathan Feinberg, and Bernard Kerr. "Social bookmarking in the enterprise." \emph{Proceedings of the SIGCHI conference on Human Factors in computing systems. ACM} 2006.
 
 \bibitem{mishne}Mishne, Gilad, and Maarten De Rijke. "A study of blog search." \emph{Advances in information retrieval.} Springer Berlin Heidelberg, 2006. 289-301.
 
@@ -409,11 +432,17 @@ APA
 
 \bibitem{proper}Proper, Henderik Alex, and P. D. Bruza. "What is information discovery about?." \emph{Journal of the American Society for Information Science} 50.9 (1999): 737-750.
 
+
+
 \bibitem{sellen}Sellen, Abigail J., Rachel Murphy, and Kate L. Shaw. "How knowledge workers use the web." \emph{Proceedings of the SIGCHI conference on Human factors in computing systems.} ACM, 2002.
+
+\bibitem{tauscher}Tauscher, Linda, and Saul Greenberg. "How people revisit web pages: Empirical findings and implications for the design of history systems." \emph{International Journal of Human-Computer Studies} 47.1 (1997): 97-137.
 
 \bibitem{wittaker}Whittaker, Steve. "Personal information management: from information consumption to curation." \emph{Annual review of information science and technology} 45.1 (2011): 1-62.
 
 \bibitem{yin} Yin, R. K. 2009. \emph{Case study research}, 4th, Thousand Oaks, CA: Sage.
+
+
     
 \end{thebibliography}
 } % end references
