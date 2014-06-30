@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 00:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 01:12
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -433,39 +433,52 @@ Underfull \hbox (badness 5345) in paragraph at lines 61--62
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              <9> on input line 76.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 84.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 83.
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 75--130
+Underfull \hbox (badness 3000) in paragraph at lines 121--121
+[]\OT1/ptm/m/n/9 Internal Preser-va-tion of Ex-ter-nal
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 122--122
+[]\OT1/ptm/m/n/9 External Preser-va-tion of In-ter-nal
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 76--135
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 55.28978pt on input line 130.
+LaTeX Warning: Float too large for page by 35.99371pt on input line 135.
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 134--135
+Underfull \hbox (badness 2635) in paragraph at lines 139--140
 \OT1/ptm/m/n/10 main cat-e-gories, dis-cov-ery and cu-ra-tion, that
  []
 
 [3] [4]
-Underfull \hbox (badness 3229) in paragraph at lines 143--144
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+
+Underfull \hbox (badness 3229) in paragraph at lines 148--149
 \OT1/ptm/m/n/10 cov-ery re-sult-ing from serendip-i-tous brows-ing.
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 149--150
+Underfull \hbox (badness 1082) in paragraph at lines 154--155
 []\OT1/ptm/b/n/10 Navigation within a di-rec-tory. \OT1/ptm/m/n/10 Sim-i-lar to
 
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 178--179
+Underfull \hbox (badness 2662) in paragraph at lines 183--184
 []\OT1/ptm/b/n/10 Bookmark-based re-dis-cov-ery. \OT1/ptm/m/n/10 Bookmark-
  []
 
@@ -473,189 +486,187 @@ Underfull \hbox (badness 2662) in paragraph at lines 178--179
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 231--232
+Underfull \hbox (badness 1975) in paragraph at lines 236--237
 []\OT1/ptm/b/n/10 Resharing re-sources. \OT1/ptm/m/n/10 Re-shar-ing re-sources
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 239--241
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 263.
 
-Underfull \hbox (badness 1102) in paragraph at lines 270--271
+Underfull \hbox (badness 1102) in paragraph at lines 275--276
 []\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
 -maiton re-dis-cov-ery,
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 272--273
+Underfull \hbox (badness 1102) in paragraph at lines 277--278
 []\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
 -maiton re-dis-cov-ery,
  []
 
 
-Overfull \hbox (1.80106pt too wide) in paragraph at lines 274--274
+Overfull \hbox (1.80106pt too wide) in paragraph at lines 279--279
 []\OT1/ptm/m/n/9 StambleUpon| 
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 274--275
+Underfull \hbox (badness 1102) in paragraph at lines 279--280
 []\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
 -maiton re-dis-cov-ery,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\OT1/ptm/m/n/9 Google
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\OT1/ptm/m/n/9 Rotten
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 288--289
+Underfull \hbox (badness 1102) in paragraph at lines 293--294
 []\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
 -maiton re-dis-cov-ery,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 []\OT1/ptm/m/n/9 Google
  []
 
 
-Overfull \hbox (31.66615pt too wide) in paragraph at lines 263--311
+Overfull \hbox (31.66615pt too wide) in paragraph at lines 268--316
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 151.48967pt on input line 311.
+LaTeX Warning: Float too large for page by 140.48967pt on input line 316.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
 [7] [8]
-Underfull \hbox (badness 1292) in paragraph at lines 321--322
+Underfull \hbox (badness 1292) in paragraph at lines 326--327
 \OT1/ptm/m/n/10 rep-re-sen-ta-tion tech-niques. Social-bookmarking
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 323--324
+Underfull \hbox (badness 1533) in paragraph at lines 328--329
 []\OT1/ptm/m/n/10 When users have spe-cific in-for-ma-tion need,
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 329--330
+Underfull \hbox (badness 5036) in paragraph at lines 334--335
 []\OT1/ptm/m/n/10 Subscription-based in-for-ma-tion dis-cov-ery is
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 331--332
+Underfull \hbox (badness 1953) in paragraph at lines 336--337
 \OT1/ptm/m/n/10 im-ple-men-ta-tions de-pend-ing on the pur-pose of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 []\OT1/ptm/m/n/10 Information cat-e-go-riza-tion mech-a-nisms are
  []
 
 [9]
-Underfull \hbox (badness 1824) in paragraph at lines 343--344
+Underfull \hbox (badness 1824) in paragraph at lines 348--349
 []\OT1/ptm/m/n/10 Socially cu-rated in-for-ma-tion dis-cov-ery tools
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 345--346
+Underfull \hbox (badness 3417) in paragraph at lines 350--351
 []\OT1/ptm/m/n/10 Information cu-ra-tion is a com-mon ac-tiv-ity
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 368--369
+Underfull \hbox (badness 2626) in paragraph at lines 373--374
 []\OT1/ptm/m/n/10 Abrams, David, Ron Baecker, and Mark
  []
 
 [10]
-Underfull \hbox (badness 3679) in paragraph at lines 377--379
+Underfull \hbox (badness 3679) in paragraph at lines 382--384
 \OT1/ptm/m/n/10 (2000). In-for-ma-tion seek-ing on the web:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
 \OT1/ptm/m/n/10 An in-te-grated model of brows-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
 \OT1/ptm/m/n/10 search-ing. \OT1/ptm/m/it/10 First-Mon-day\OT1/ptm/m/n/10 , 5(2
 ). Avail-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
 \OT1/ptm/m/n/10 from http://firstmonday.org/issues/issue5[]
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 391--392
+Underfull \hbox (badness 7468) in paragraph at lines 396--397
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 393--394
+Underfull \hbox (badness 7468) in paragraph at lines 398--399
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 399--400
+Underfull \hbox (badness 1990) in paragraph at lines 404--405
 []\OT1/ptm/m/n/10 Locke, Ed-win A., and Gary P. Latham.
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 399--400
+Underfull \hbox (badness 4872) in paragraph at lines 404--405
 \OT1/ptm/m/n/10 set-ting and task mo-ti-va-tion: A 35-year
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 405--406
+Underfull \hbox (badness 1048) in paragraph at lines 410--411
 []\OT1/ptm/m/n/10 Proper, Hen-derik Alex, and P. D. Bruza.
  []
 
 [11] (C:\Users\Elena\git\cascon2014\cascon2014\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2336 strings out of 493921
- 31240 string characters out of 3144876
- 110255 words of memory out of 3000000
- 5602 multiletter control sequences out of 15000+200000
- 25579 words of font info for 50 fonts, out of 3000000 for 9000
+ 2338 strings out of 493921
+ 31265 string characters out of 3144876
+ 111255 words of memory out of 3000000
+ 5604 multiletter control sequences out of 15000+200000
+ 26646 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,37p,1477b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,37p,1477b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
@@ -663,7 +674,7 @@ onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 119013 bytes).
+Output written on main.pdf (11 pages, 119277 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -72,12 +72,11 @@ A number of researchers have studied how people search for and curate informatio
 \begin{table*}[htbp]
 \caption{Conceptual Framework.}
 \centering
+\small
 \begin{tabular}{|p{0.30\linewidth}|p{0.70\linewidth}|}
 \hline
-&\\
 \textbf{\large{Factors}}   & \textbf{\large{Questions}}  \\
 \hline
-&\\
 \textbf{\large{Discovery}}                     &                                                                                                           \\
 
 &\\
@@ -88,48 +87,54 @@ Search-based navigation      & Does the search engine help retrieve diverse reso
 Category-guided navigation & Do categories suggest and help with navigating to resources related to the topic of interest?           \\
 Integration                  & If resources originate from a different site, do they link to their original sources?                   \\
 Visual link preview               & If resources are delivered as links, do they have visual previews?                                                                        \\
-Spatial arrangement          & Are resources presented in a spatially meaningful way?                                                    \\
+Spatial arrangement          & Is there a semantic to the spatial arrangement of resources?                                                    \\
 &\\
 \emph{\textbf{Fact discovery}}                &                                                                                                           \\
 Search-based navigation      & Does the search feature help discover the specific resource of interest?                                  \\
 Category-guided navigation & Do categories help narrow results to specific types of resources?                                   \\
-Uniform representation       & Are resources presented in a uniform way?                                                                 \\
+Integration                  & If resources originate from a different site, do they link to their original sources?                   \\
+Uniform representation       & If resources are uniform, are they presented in a uniform way? \\
+Visual link preview               & If resources are delivered as links, do they have visual previews?                                                                        \\
+Spatial arrangement          & Is there a semantic to the spatial arrangement of resources?                                                    \\
 &\\
 \emph{\textbf{Rediscovery}}                     &                                                                                                           \\
 History-based rediscovery    & Does the application save and provide access to browsing history?                                        \\
 Bookmark-based rediscovery   & Does the application support bookmark-based resource revisitation?                                        \\
 Search-based rediscovery     & Is the search a reliable method for resource revisitation?                             \\
 &\\
-\emph{\textbf{Subscription-based discovery}}          &                                                                                                           \\
+\emph{\textbf{Channel-based discovery}}          &                                                                                                           \\
 Site subscription            & Does the application allow subscriptions to news and updates?                                             \\
 User subscription             & Does the application allow subscriptions to other users' activities?                                      \\
 Notifications                & Does the application have one or more notification mechanisms?                                                      \\
-News stream                  & Are subscription updates visible within the application?  \\
+Subscription news stream                  & Can subscription updates be visible within the application?  \\
+Content news stream                  & Can content updates be visible within the application? \\
 &\\
 \hline     
 &\\                                        
-\textbf{\large{Curation}}                     &                                                                                                        \\
-&\\        
+\textbf{\large{Curation}}                     &                                                                                                        \\       
 \emph{\textbf{Management}}                    &                                                                                                           \\
-Categorization               & Does the application support information categorization?                                                  \\
+List-based categorization               & Does the application support information information sorting into list-like structures privately or publicly?                                                  \\
+Tag-based categorization               & Does the application support tagging privately or publicly?                                                  \\
 &\\
 \emph{\textbf{Preservation}}                   &                                                                                                           \\
-Internal Preservation        & Does the application support bookmarking mechanism(s) for preserving information within the application?        \\
-External Preservation        & Does the application support bookmarking mechanism(s) for preserving information outside of the application? \\
+Internal Preservation of Internal Resources       & Does the application support bookmarking mechanism(s) for preserving internal information within the application?        \\
+Internal Preservation of External Resources       & Does the application support bookmarking mechanism(s) for preserving external information within the application?        \\
+External Preservation of Internal Resources      & Does the application support bookmarking mechanism(s) for preserving internal information outside of the application? \\ 
 &\\
-\emph{\textbf{Information enhancement}}            &                                                                                                           \\
-Evaluation                   & Can resources be evaluated?                                                                               \\
-Annotation                   & Can resources be annotated?                                                                               \\
-&\\
-\emph{\textbf{Social curation}}              &                                                                                                           \\
-Adding resources             & Can resources be added to the publicly available information from other Web pages?     \\
-Resharing resources          & Can resources be publicly reshared within the application?         \\     
-&\\          
+\emph{\textbf{Augmentation}}            &                                                                                                           \\
+Evaluation                   & Can the resource evaluations be recorded privately or publicly? \\
+Annotation                   & Can resources be annotated privately or publicly?                                                                               \\    
+&\\        
+\emph{\textbf{Sharing}}            &                                                                                                           \\
+Adding resources             & Can resources be publicly added to the collection of information within the application from other Web pages?     \\
+Internal sharing         & Can internal resources be publicly reshared within the application?         \\ 
+External sharing          & Can internal resources be publicly reshared outside of the application?         \\ 
+&\\           
 \hline
 \end{tabular}
 \end{table*}
 
-Although information discovery and curation tasks are commonly performed Web tasks today, there is lack of literature on how to support them in Web applications. We reduce this gap by developing a framework of design factors facilitating digital information discovery and curation. 
+Although information discovery and curation tasks are commonly performed Web tasks today, there is lack of literature on how to support them when building applications. We reduce this gap by developing a framework of design factors facilitating digital information discovery and curation. 
 
 The framework (see Table 1) consists of two main categories, discovery and curation, that are consequently decomposed into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions that can help application design and evaluation. This section outlines the main components of the framework.
 
@@ -283,7 +288,7 @@ Rotten Tomatoes & \raggedright Movie and TV database. Available at www.rottentom
 \hline
 BucketList      & \raggedright Goal tracking and discovery service. Available at bucketlist.org             & The application supports serendipitous discovery, rediscovery, and channel-based discovery. It lacks fact discovery because navigation does not help finding a specific resource. Information curation is well-supported, except for categorization.                                                            \\
 \hline
-Flickr          & \raggedright Online photo management and sharing application. Available at www.flickr.com & The application supports serendipitous  discovery for images and fact discovery for cameras. It lacks folder-based categorization but supports all other aspects of curation.                                                                                                                                   \\
+Flickr          & \raggedright Online photo sharing application. Available at www.flickr.com & The application supports serendipitous  discovery for images and fact discovery for cameras. It lacks folder-based categorization but supports all other aspects of curation.                                                                                                                                   \\
 \hline
 We Heart It     & \raggedright Visual discovery tool. Available at weheartit.com                            & The application supports serendipitous browsing, informaiton rediscovery, channel-based infomration discovery, and information curation. It lacks support for fact finding due to difficulties with navigation to a specific information.                                                                       \\
 \hline
