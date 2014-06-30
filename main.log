@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 04:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 05:33
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -490,109 +490,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
  []
 
 [7]
-Underfull \hbox (badness 1102) in paragraph at lines 293--294
-[]\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
--maiton re-dis-cov-ery,
+Overfull \hbox (2.30511pt too wide) in paragraph at lines 300--300
+[]\OT1/ptm/m/n/9 StumbleUpon| 
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 295--296
-[]\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
--maiton re-dis-cov-ery,
- []
-
-
-Overfull \hbox (1.80106pt too wide) in paragraph at lines 297--297
-[]\OT1/ptm/m/n/9 StambleUpon| 
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 297--298
-[]\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
--maiton re-dis-cov-ery,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []\OT1/ptm/m/n/9 Google
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []\OT1/ptm/m/n/9 Rotten
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 311--312
-[]\OT1/ptm/m/n/9 The ap-pli-ca-tion sup-ports serendip-i-tous brows-ing, in-for
--maiton re-dis-cov-ery,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []\OT1/ptm/m/n/9 Google
  []
 
 
-Overfull \hbox (31.66615pt too wide) in paragraph at lines 286--334
+Overfull \hbox (35.99998pt too wide) in paragraph at lines 286--335
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 140.48967pt on input line 334.
+LaTeX Warning: Float too large for page by 52.48967pt on input line 335.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 2181) in paragraph at lines 337--338
+\OT1/ptm/m/n/10 of fac-tors and ques-tions that fa-cil-i-tate dig-i-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 344--345
+Underfull \hbox (badness 1292) in paragraph at lines 345--346
 \OT1/ptm/m/n/10 rep-re-sen-ta-tion tech-niques. Social-bookmarking
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 346--347
+Underfull \hbox (badness 1533) in paragraph at lines 347--348
 []\OT1/ptm/m/n/10 When users have spe-cific in-for-ma-tion need,
  []
 
 [8] [9]
-Underfull \hbox (badness 5036) in paragraph at lines 352--353
+Underfull \hbox (badness 5036) in paragraph at lines 353--354
 []\OT1/ptm/m/n/10 Subscription-based in-for-ma-tion dis-cov-ery is
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 354--355
+Underfull \hbox (badness 1953) in paragraph at lines 355--356
 \OT1/ptm/m/n/10 im-ple-men-ta-tions de-pend-ing on the pur-pose of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 []\OT1/ptm/m/n/10 Information cat-e-go-riza-tion mech-a-nisms are
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 366--367
+Underfull \hbox (badness 1824) in paragraph at lines 367--368
 []\OT1/ptm/m/n/10 Socially cu-rated in-for-ma-tion dis-cov-ery tools
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 368--369
+Underfull \hbox (badness 3417) in paragraph at lines 369--370
 []\OT1/ptm/m/n/10 Information cu-ra-tion is a com-mon ac-tiv-ity
  []
 
@@ -600,58 +581,58 @@ Underfull \hbox (badness 3417) in paragraph at lines 368--369
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-Underfull \hbox (badness 2626) in paragraph at lines 391--392
+Underfull \hbox (badness 2626) in paragraph at lines 392--393
 []\OT1/ptm/m/n/10 Abrams, David, Ron Baecker, and Mark
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 400--402
+Underfull \hbox (badness 3679) in paragraph at lines 401--403
 \OT1/ptm/m/n/10 (2000). In-for-ma-tion seek-ing on the web:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 \OT1/ptm/m/n/10 An in-te-grated model of brows-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 \OT1/ptm/m/n/10 search-ing. \OT1/ptm/m/it/10 First-Mon-day\OT1/ptm/m/n/10 , 5(2
 ). Avail-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 \OT1/ptm/m/n/10 from http://firstmonday.org/issues/issue5[]
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 419--420
+Underfull \hbox (badness 7468) in paragraph at lines 420--421
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 421--422
+Underfull \hbox (badness 7468) in paragraph at lines 422--423
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
 [11]
-Underfull \hbox (badness 5954) in paragraph at lines 427--428
+Underfull \hbox (badness 5954) in paragraph at lines 428--429
 []\OT1/ptm/m/n/10 Millen, David, Jonathan Fein-berg, and
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 433--434
+Underfull \hbox (badness 1048) in paragraph at lines 434--435
 []\OT1/ptm/m/n/10 Proper, Hen-derik Alex, and P. D. Bruza.
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 439--440
+Underfull \hbox (badness 1371) in paragraph at lines 440--441
 \OT1/ptm/m/n/10 peo-ple re-visit web pages: Em-pir-i-cal find-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 439--440
+Underfull \hbox (badness 1406) in paragraph at lines 440--441
 \OT1/ptm/m/n/10 sys-tems." \OT1/ptm/m/it/10 In-ter-na-tional Jour-nal of Human-
 
  []
@@ -676,7 +657,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x8
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (12 pages, 123328 bytes).
+Output written on main.pdf (12 pages, 122692 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
