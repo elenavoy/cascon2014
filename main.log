@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 05:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 05:56
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -543,11 +543,6 @@ Underfull \hbox (badness 1533) in paragraph at lines 347--348
  []
 
 [8] [9]
-Underfull \hbox (badness 5036) in paragraph at lines 353--354
-[]\OT1/ptm/m/n/10 Subscription-based in-for-ma-tion dis-cov-ery is
- []
-
-
 Underfull \hbox (badness 1953) in paragraph at lines 355--356
 \OT1/ptm/m/n/10 im-ple-men-ta-tions de-pend-ing on the pur-pose of
  []
@@ -657,7 +652,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x8
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (12 pages, 122692 bytes).
+Output written on main.pdf (12 pages, 122993 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
