@@ -85,9 +85,9 @@ A number of researchers have studied how people search for and curate informatio
 
 Arbitrary navigation         & Does the application provide a means for arbitrary navigation among resources?                              \\
 Search-based navigation      & Does the search engine help retrieve diverse resources related to the topic of interest?               \\
-Category-guided navigation & Do categories suggest and help navigating to resources related to the topic of interest?           \\
+Category-guided navigation & Do categories suggest and help with navigating to resources related to the topic of interest?           \\
 Integration                  & If resources originate from a different site, do they link to their original sources?                   \\
-Visual preview               & If resources are delivered as links, do they have visual previews?                                                                        \\
+Visual link preview               & If resources are delivered as links, do they have visual previews?                                                                        \\
 Spatial arrangement          & Are resources presented in a spatially meaningful way?                                                    \\
 &\\
 \emph{\textbf{Fact discovery}}                &                                                                                                           \\
@@ -98,7 +98,7 @@ Uniform representation       & Are resources presented in a uniform way?        
 \emph{\textbf{Rediscovery}}                     &                                                                                                           \\
 History-based rediscovery    & Does the application save and provide access to browsing history?                                        \\
 Bookmark-based rediscovery   & Does the application support bookmark-based resource revisitation?                                        \\
-Search-based rediscovery     & Is the search within application a reliable method for resource revisitation?                             \\
+Search-based rediscovery     & Is the search a reliable method for resource revisitation?                             \\
 &\\
 \emph{\textbf{Subscription-based discovery}}          &                                                                                                           \\
 Site subscription            & Does the application allow subscriptions to news and updates?                                             \\
@@ -122,16 +122,16 @@ Evaluation                   & Can resources be evaluated?                      
 Annotation                   & Can resources be annotated?                                                                               \\
 &\\
 \emph{\textbf{Social curation}}              &                                                                                                           \\
-Adding resources             & Can resources be added to the publicly available information from outside of the application?     \\
+Adding resources             & Can resources be added to the publicly available information from other Web pages?     \\
 Resharing resources          & Can resources be publicly reshared within the application?         \\     
 &\\          
 \hline
 \end{tabular}
 \end{table*}
 
-Although information discovery and curation tasks are commonly performed within many Web applications today, there is lack of systematic guidelines for designing and evaluating applications that could support these tasks. We hope to reduce this gap by developing a framework of design factors that enable digital information discovery and curation. 
+Although information discovery and curation tasks are commonly performed Web tasks today, there is lack of literature on how to support them in Web applications. We reduce this gap by developing a framework of design factors facilitating digital information discovery and curation. 
 
-The framework (see Table 1) consists of two main categories, discovery and curation, that are consequently broken down into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions to ask when designing or evaluating an application. This section outlines the main components of the framework.
+The framework (see Table 1) consists of two main categories, discovery and curation, that are consequently decomposed into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions that can help application design and evaluation. This section outlines the main components of the framework.
 
 } % end section
 
@@ -140,7 +140,7 @@ In our framework, we built on existing classifications of information seeking ta
 } % end subsection
 
 {\subsubsection{Serendipitous discovery}
-Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information need, and it usually involves browsing through diverse resources with varying content types \cite{kellar2006}. The following key criteria that influence serendipitous information discovery:
+Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information needs, and it usually involves browsing through diverse resources with varying content types \cite{kellar2006}. The following key criteria that influence serendipitous information discovery:
 
 \textbf{Arbitrary navigation.} In order to browse diverse information, an information discovery tool needs to provide a way to arbitrarily navigate among resources to support evolving information needs and interests.
 
@@ -217,26 +217,26 @@ Information preservation is a common Web task that is usually performed with int
 
 {\subsubsection{Information Enhancement}
 One of the most important elements of digital curation is adding value to information over time, enhancing already present information. Some forms of information enhancement are prevalent mainly in the context of social curation. Others can be performed in the context of personal curation. 
-\begin{itemize}
-  \item \textbf{Evaluation.} Evaluation methods vary from ratings to 'likes'. They usually take place in socially curated information systems. However, evaluation can also contribute to personal reflection and information preservation. 
-  \item \textbf{Annotation.} Annotations are metadata attached to a resource, such as comments, tags, descriptions, etc. Annotations make it easier to search and interpret information. 
- 
-\end{itemize}
+
+\textbf{Evaluation.} Evaluation methods can have various forms. They usually take place in socially curated information systems. However, evaluation can also contribute to personal reflection and information preservation. 
+
+\textbf{Annotation.} Annotations are metadata attached to a resource, such as comments, tags, descriptions, etc. Annotations make it easier to search and interpret information. 
 } % end subsubsection
 
 {\subsubsection{Social Curation}
 In addition to public resource sharing, social information curation encapsulates all of the elements of digital curation. Therefore, adding resources and resharing those resources are the two key factors that empower social curation.
-\begin{itemize}
-  \item \textbf{Adding resources.} Adding resources does not only facilitate global Web information curation, but it also scales the information available through the system providing more opportunities for information discovery.
-  \item \textbf{Resharing resources.} Resharing resources within the system supports channel-based information discovery. 
+
+\textbf{Adding resources.} Adding resources does not only facilitate global Web information curation, but it also scales the information available through the system providing more opportunities for information discovery.
+
+\textbf{Resharing resources.} Resharing resources within the system supports channel-based information discovery. 
  
-\end{itemize}
+
 } % end subsubsection
 
 The following section describes the methodology for evaluating the conceptual framework and understanding how to address the elements of the framework when designing real world applications.
 
 {\section{Methodology}
-The study presented in this paper is motivated by two primary goals. The first goal is to validate the conceptual framework of factors that enable digital information discovery and curation. The second goal of the study is to gain perspectives on how to address different elements of our framework when designing real-world applications. Therefore, 
+The study presented in this paper is motivated by two primary goals. The first goal is to validate the conceptual framework of factors that enable digital information discovery and curation. The second goal of the study is to gain perspectives on how different elements of our framework support real-world applications. Therefore, 
 \\
 
 \emph{RQ1: How do existing Web applications support information discovery?}
