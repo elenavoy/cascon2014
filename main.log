@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 14:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 14:44
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -537,11 +537,6 @@ Underfull \hbox (badness 2617) in paragraph at lines 345--346
 []\OT1/ptm/m/n/10 Applications that fa-cil-i-tate serendip-i-tous in-
  []
 
-
-Underfull \hbox (badness 1533) in paragraph at lines 347--348
-[]\OT1/ptm/m/n/10 When users have spe-cific in-for-ma-tion need,
- []
-
 [8] [9]
 Underfull \hbox (badness 1953) in paragraph at lines 355--356
 \OT1/ptm/m/n/10 im-ple-men-ta-tions de-pend-ing on the pur-pose of
@@ -608,12 +603,12 @@ Underfull \hbox (badness 7468) in paragraph at lines 422--423
 []\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
-[11]
+
 Underfull \hbox (badness 5954) in paragraph at lines 428--429
 []\OT1/ptm/m/n/10 Millen, David, Jonathan Fein-berg, and
  []
 
-
+[11]
 Underfull \hbox (badness 1048) in paragraph at lines 434--435
 []\OT1/ptm/m/n/10 Proper, Hen-derik Alex, and P. D. Bruza.
  []
@@ -651,7 +646,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x8
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (12 pages, 122730 bytes).
+Output written on main.pdf (12 pages, 122605 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
