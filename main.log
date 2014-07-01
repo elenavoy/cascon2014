@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 19:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  30 JUN 2014 20:17
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -466,23 +466,20 @@ Underfull \hbox (badness 5771) in paragraph at lines 161--162
 []\OT1/ptm/b/n/10 Category-guided nav-i-ga-tion. \OT1/ptm/m/n/10 Sim-i-lar to
  []
 
-
-LaTeX Warning: Citation `kellar 2007' on page 5 undefined on input line 176.
-
 [5]
 Underfull \hbox (badness 2662) in paragraph at lines 196--197
 []\OT1/ptm/b/n/10 Bookmark-based re-dis-cov-ery. \OT1/ptm/m/n/10 Bookmark-
  []
 
 
-Underfull \vbox (badness 6859) has occurred while \output is active []
-
- [6]
-Underfull \hbox (badness 3229) in paragraph at lines 234--235
-\OT1/ptm/m/n/10 In-ter-nal preser-va-tion in-ter-nal re-sources means
+Underfull \hbox (badness 1953) in paragraph at lines 227--228
+\OT1/ptm/m/n/10 based cat-e-go-riza-tion, tag-ging aids re-dis-cov-ery,
  []
 
 
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+ [6]
 Underfull \hbox (badness 3815) in paragraph at lines 238--239
 \OT1/ptm/m/n/10 Ex-ter-nal preser-va-tion means book-mark-ing re-
  []
@@ -526,8 +523,8 @@ Overfull \hbox (35.99998pt too wide) in paragraph at lines 289--338
 LaTeX Warning: Float too large for page by 52.48967pt on input line 338.
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 340--341
-\OT1/ptm/m/n/10 of fac-tors and ques-tions that fa-cil-i-tate dig-i-tal
+Underfull \hbox (badness 1371) in paragraph at lines 340--341
+\OT1/ptm/m/n/10 in-for-ma-tion dis-cov-ery tools (see Ta-ble 2), we
  []
 
 
@@ -632,27 +629,23 @@ Underfull \hbox (badness 1406) in paragraph at lines 443--444
 
  []
 
-[12] (C:\Users\Elena\git\cascon2014\cascon2014\main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[12] (C:\Users\Elena\git\cascon2014\cascon2014\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2345 strings out of 493921
- 31328 string characters out of 3144876
+ 2344 strings out of 493921
+ 31315 string characters out of 3144876
  113271 words of memory out of 3000000
- 5610 multiletter control sequences out of 15000+200000
+ 5609 multiletter control sequences out of 15000+200000
  27724 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,37p,1477b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on main.pdf (12 pages, 124682 bytes).
+ 34i,10n,37p,1478b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (12 pages, 124283 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
