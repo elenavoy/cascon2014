@@ -44,25 +44,49 @@ The remainder of this paper is organized as follows. Section 2 highlights some o
 
 {\section{Web-based Information Discovery and Curation}
 
-Several researchers have studied various aspects of Web-based information discovery. To gain an understanding of how current Web tools support information discovery and curation, we first studied known characteristics of information-related Web usage, including high-level Web tasks, information seeking behavior, information curation, and modes of Web use. 
+Several researchers have studied various aspects of Web-based information discovery. To gain an understanding of how current Web tools support information discovery and curation, we first studied known characteristics of information-related Web usage, including high-level Web tasks, information seeking behavior, information curation, collaboration in information seeking, and modes of Web use. 
+
+{\subsection{Web Tasks}
 
 Kellar et al. ~\cite{kellar2006} separated Web tasks into five categories: transactions, browsing, fact finding, information gathering, and other uncategorized tasks, with information seeking being composed of browsing, fact finding, and information gathering. Although the authors categorized information gathering as part of information seeking, it is in fact more closely related to digital curation ~\cite{beagrie, wittaker}. In their later work, Kellar et al. ~\cite{kellar2007} added communication and maintenance as additional Web tasks. 
 
 Similarly to Kellar, Sellen et al. ~\cite{sellen} identified six tasks that are commonly performed by Web users: browsing, finding, housekeeping, information gathering, communicating, and transacting. Therefore, Kellar et al. and Sellen et al. both identified browsing, fact finding, and information gathering as information-related tasks that users perform online.   
 
-People often engage in information seeking activities to close some knowledge gap that occurred as a result of not having enough information to perform task ~\cite{proper}. Therefore, when providing tool support for various information discovery tasks, it is useful to consider the motivation behind these tasks, as it may differ. Morrison et al. ~\cite{morrison} make a distinction between methods of Web use and purposes. The authors derived a purposes taxonomy of Web use, including three purposes or motivations: finding information, comparing or choosing to make a decision, and using the Web to find relevant information to gain understanding of some subject. Consequently, methods of finding information identified by Morrison et al. are collecting, finding, exploring, and monitoring. The differences between the two taxonomies suggest that different information seeking tasks may be performed to satisfy more than one information seeking purpose. Therefore, each purpose may require more than one task-supporting mechanism. 
+People often engage in information seeking activities to close some knowledge gap that occurred as a result of not having enough information to perform task ~\cite{proper}. Therefore, when providing tool support for various information discovery tasks, it is useful to consider the motivation behind these tasks, as it may differ. Morrison et al. ~\cite{morrison} make a distinction between methods of Web use and purposes. The authors derived a purposes taxonomy of Web use, including three purposes or motivations: finding information, comparing or choosing to make a decision, and using the Web to find relevant information to gain understanding of some subject. Consequently, methods of finding information identified by Morrison et al. are collecting, finding, exploring, and monitoring. The differences between the two taxonomies suggest that different information seeking tasks may be performed to satisfy more than one information seeking purpose. Therefore, each purpose may require more than one task-supporting mechanisms. 
 
-A number of researchers have studied information seeking behavior ~\cite{bates2002, bates1986, choo, ellis1989, ellis1997, ellis1993}. Ellis et al. ~\cite{ellis1989, ellis1997, ellis1993}, proposed a model of information seeking characterized by six different patterns: starting, chaining, browsing, extracting, monitoring, and differentiating. Subsequently, Choo et al. ~\cite{choo} derived anticipated Web tasks that correspond to these patterns. According to the authors, when users identify sources of interest, they usually identify which Websites can point to that information of interest.  Chaining occurs when users navigate through links on those initial pages. When people browse, they scan top-level pages, headings, lists, and site maps. Differentiating takes place when people bookmark, print, copy and paste information, or choose an earlier selected sites. Monitoring occurs when users revisit web pages or receive updates from some earlier visited sites. Finally, extraction can occur when the user systematically searches site to extract information of interest.
+Morrison also draws distinction between finding or looking up information and exploratory search. Whereas information lookup involves tasks such as fact retrieval, navigation, and verification, exploration is more cognitively demanding and involves learning and investigation ~\cite{marchionini}. Learning and investigation can be performed over multiple iterations, and they can involve learning though various media, "social searching", and serendipitous browsing performed with goals of knowledge acquisition, socialization, forecasting, and planning. 
 
-Furthermore, other researchers investigated information seeking behavior. 
+} % end subsection
 
-Bates ~\cite{bates1986} proposed a model of four information seeking modes being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the levels of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterized as undirected active information seeking because users do not know directly what information they are looking for, but they are actively looking. Searching falls under active directed information seeking because the information need is clearly defined and the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed and being aware is undirected.   
+{\subsection{Information Behavior Models}
 
-In 2002, Bates ~\cite{bates2002} extended her research with the notion of information farming. Information farming involves people collecting and organizing information for future use and revisitation. More commonly, it is referred to as digital curation, which is the notion of collecting and managing digital information for the purpose of adding value to the collection, and revisitation ~\cite{beagrie}. Wittaker ~\cite{wittaker} believes that in terms of Web use, a significant shift is happening from information consumption to information curation, which means that people no longer just use the web to find and consume the information that they are interested in, but they also try to save and manage that information so that  it can be reaccessed and exploited later. 
+A number of researchers have proposed models of information-seeking and information behavior. Wilson ~\cite{wilson1999} summarized some of the key work ~\cite{ellis1989, dervin, kuhlthau, wilson1997, wilson1981} on information behavior along with proposing a new model. According to Wilson's original model of information behavior ~\cite{wilson1981}, information-seeking behavior results form the user trying to satisfy her perceived information need. Consequently, the user makes demands on information systems. Success or failure of such demands dictates whether the process is repeated or, if the information need is satisfied, used or communicated with other people. In addition, Wilson defined possible barriers that can impede information seeking behaviors, as well as context that influences formation of the information need. These underlying ideas remained in the revision of Wilson's model ~\cite{wilson1997}. Finally, Wilson proposed a "problem solving model" of information-seeking behavior. The model reflects on the idea that people engage in information seeking and searching in order to resolve some uncertainty that stands in a way of solving, defining, or identifying a problem.  
 
+Ellis et al. ~\cite{ellis1989, ellis1997, ellis1993}, proposed a model of information seeking characterized by six different patterns: starting, chaining, browsing, extracting, monitoring, and differentiating. Subsequently, Choo et al. ~\cite{choo} derived anticipated Web tasks that correspond to these patterns. According to the authors, when users identify sources of interest, they usually identify which Websites can point to that information of interest.  Chaining occurs when users navigate through links on those initial pages. When people browse, they scan top-level pages, headings, lists, and site maps. Differentiating takes place when people bookmark, print, copy and paste information, or choose an earlier selected sites. Monitoring occurs when users revisit web pages or receive updates from some earlier visited sites. Finally, extraction can occur when the user systematically searches site to extract information of interest. Ellis' model is also complemented Kuhlthau's ~\cite{kuhlthau} work, who corresponded stages of information seeking with feelings, thoughts, actions, as well as anticipated information tasks.
+
+Information retrieval behaviors are further studied by Saracevic ~\cite{saracevic} and Ingwersen ~\cite{ingwersen} 
+ 
+Bates ~\cite{bates1986} proposed a model of four information seeking modes being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the levels of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterized as undirected active information seeking because users do not know directly what information they are looking for, but they are actively looking. Searching falls under active directed information seeking because the information need is clearly defined and the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed and being aware is undirected.
+
+} % end subsection
+   
+{\subsection{Digital Curation}
+
+In 2002, Bates ~\cite{bates2002} extended her research with the notion of information farming. Information farming involves people collecting and organizing information for future use and revisitation. More commonly, it is referred to as digital curation, which is the notion of collecting and managing digital information for the purpose of adding value to the collection, and revisitation ~\cite{beagrie}. Wittaker ~\cite{wittaker} believes that in terms of Web use, a significant shift is happening from information consumption to information curation, which means that people no longer just use the web to find and consume the information that they are interested in, but they also try to save and manage that information so that it can be reaccessed and exploited later. 
+
+{\subsection{Collaboration and Information Seeking}
+By surveying 204 Web users, Morris found that people often have desire to or do collaborate on information seeking tasks ~\cite{morris}. To collaborate on information seeking, people often use instant messaging, email, and create documents and Webpages to share information. Occationally collaborative information seeking occurs when collaborators work side by side, and they share search results in person.
+
+Collaborative information-related activities on the web are not limited to information seeking. Collaborative information tagging is a way of organizing content for future search and navigation. Although it is usually performed for personal reasons, tagging greatly enhances information retrieval ~\cite{golder}.
+
+} % end subsection
+
+{\subsection{Modes of Web Use}
 Categorizing web usage into information seeking,  digital curation, and other web tasks does not necessarily give full insight about how information-related tasks are performed. Lindley et al. ~\cite{lindley} conducted a qualitative study involving 24 participants tracking their daily web usages in the form of a diary. As a result of this study, the researchers identified five distinct modes of web use: respite, orienting, opportunistic, purposeful, and lean-back. According to the authors, people web browse opportunistically when they look for information related to some personal interest, long-term goal, or future ambition. Purposeful use occurs when the user knows what information she needs to acquire or what online action she needs to perform in order to continue or finish some other activity. Respite mode usually occurs when users are in the process of waiting for something or taking a break, and it serves as a means for people to temporarily occupy themselves when high engagement with the content is not a requirement. Orienting mode usually occurs when people want to be updated on what has been happening in their environment. Examples of this mode are checking email at work or looking at the news and updates on a social networking site. Finally, lean-back mode of web use can be thought of as listening to the radio or watching TV. It usually involves watching videos online or browsing through other types of entertainment content. 
 
 Lindley et al.'s primary motivations behind looking at use modes that occur when people browse the Internet was that traditional Web use studies and Web tasks discovered by other researchers cannot reflect the depth of user's intentions online. Understanding the characteristics of different modes guides the design of Web interaction. For example, opportunistic use can have blurry and continuously changing information needs. People often cannot indicate the completion of Web task, and they finish whenever they have been browsing the Internet for too long, or whenever they need to complete some other task of higher priority. Then, they will often resume their opportunistic information seeking. Finally, opportunistic use is 'grasshopper-like', which means that users jump from one resource to another. From these factors, we can assume that to support such Web usage, we would need to consider mechanisms for supporting users' information needs, and support revisitation and arbitrary navigation.
+
+} % end subsection
 
 Today, there are a multitude of tools that support different aspects of information and curation, but understanding how these tools are similar (or differ) is difficult. Moreover, the existing research is not useful at helping identify gaps in current tools or ways that current tools may be improved to support information
 exploration and curation. Thus, we present a framework of Web application design factors and questions that facilitate information discovery and curation.
@@ -375,10 +399,17 @@ Information curation is a common activity within many information discovery appl
  
 } % end subsection
 
-{\section{Sample Framework Application}
+{\section{Framework Application}
 Google Maps Evaluation
 
 Place discovery application
+
+
+} % end subsection
+
+{\section{Research and design implications}
+
+
 } % end subsection
 
 {\section{Limitations}
@@ -414,6 +445,8 @@ APA
 
 \bibitem{cockburn}Cockburn, Andy, et al. Improving Web page revisitation: Analysis, design, and evaluation. Department of Computer Science \& Software Engineering, \emph{University of Canterbury}, 2002.
 
+\bibitem{dervin}Dervin, Brenda. "Sense-making theory and practice: an overview of user interests in knowledge seeking and use." Journal of knowledge management 2.2 (1998): 36-46.
+
 \bibitem{ellis1989}Ellis, David. "A behavioural model for information retrieval system design." \emph{Journal of information science} 15.4-5 (1989): 237-247.
 
 \bibitem{ellis1993}Ellis, David, Deborah Cox, and Katherine Hall. "A comparison of the information seeking patterns of researchers in the physical and social sciences." \emph{Journal of documentation} 49.4 (1993): 356-369.
@@ -424,33 +457,55 @@ APA
 
 \bibitem{gruber}Gruber, Thomas. "Ontology of folksonomy: A mash-up of apples and oranges." emph{International Journal on Semantic Web and Information Systems (IJSWIS)} 3.1 (2007): 1-11.
 
+\bibitem{golder}Golder, Scott A., and Bernardo A. Huberman. "Usage patterns of collaborative tagging systems." Journal of information science 32.2 (2006): 198-208.
+
 \bibitem{herrera}Herrera, Francisco, L. Martınez, and Pedro J. Sánchez. "Managing non-homogeneous information in group decision making." \emph{European Journal of Operational Research} 166.1 (2005): 115-132.
 
 \bibitem{java}Java, Akshay, et al. "Feeds That Matter: A Study of Bloglines Subscriptions." \emph{ ICWSM.} 2007.
+
+\bibitem{ingwersen}Ingwersen, Peter. "Cognitive perspectives of information retrieval interaction: elements of a cognitive IR theory." Journal of documentation 52.1 (1996): 3-50.
    
 \bibitem{kellar2006} Kellar, Melanie, Carolyn Watters, and Michael Shepherd. "A Goal-based Classification of Web Information Tasks." \emph{Proceedings of the American Society for Information Science and Technology} 43.1 (2006): 1-22.
 
 \bibitem{kellar2007}Kellar, Melanie, Carolyn Watters, and Michael Shepherd. "A field study characterizing Web-based information-seeking tasks." \emph{Journal of the American Society for Information Science and Technology} 58.7 (2007): 999-1018.
 
+\bibitem{kuhlthau}Kuhlthau, Carol C. "Inside the search process: Information seeking from the user's perspective." JASIS 42.5 (1991): 361-371.
+
 \bibitem{levene}Levene, Mark.  \emph{An introduction to search engines and web navigation.} John Wiley \& Sons, 2011.
 
 \bibitem{lindley}Lindley, Siân E., et al. "It's simply integral to what I do: enquiries into how the web is weaved into everyday life." \emph{Proceedings of the 21st international conference on World Wide Web.} ACM, 2012.
+
+
+\bibitem{marchionini}Marchionini, Gary. "Exploratory search: from finding to understanding."Communications of the ACM 49.4 (2006): 41-46.
+
+
 
 \bibitem{millen}Millen, David, Jonathan Feinberg, and Bernard Kerr. "Social bookmarking in the enterprise." \emph{Proceedings of the SIGCHI conference on Human Factors in computing systems. ACM} 2006.
 
 \bibitem{mishne}Mishne, Gilad, and Maarten De Rijke. "A study of blog search." \emph{Advances in information retrieval.} Springer Berlin Heidelberg, 2006. 289-301.
 
+\bibitem{morris}Morris, Meredith Ringel. "A survey of collaborative web search practices." Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2008.
+
 \bibitem{morrison}Morrison, Julie B., Peter Pirolli, and Stuart K. Card. "A taxonomic analysis of what World Wide Web activities significantly impact people's decisions and actions." \emph{CHI'01 extended abstracts on Human factors in computing systems.} ACM, 2001.
 
 \bibitem{proper}Proper, Henderik Alex, and P. D. Bruza. "What is information discovery about?." \emph{Journal of the American Society for Information Science} 50.9 (1999): 737-750.
 
-
+\bibitem{saracevic}Saracevic, T. Modeling interaction in information retrieval (IR): a review
+and proposal. In: Hardin, S., ed. 59th Annual Meeting of the American
+Society for Information Science. Silver Spring, MD: American Society for
+Information Science, 1996, 3–9.
 
 \bibitem{sellen}Sellen, Abigail J., Rachel Murphy, and Kate L. Shaw. "How knowledge workers use the web." \emph{Proceedings of the SIGCHI conference on Human factors in computing systems.} ACM, 2002.
 
 \bibitem{tauscher}Tauscher, Linda, and Saul Greenberg. "How people revisit web pages: Empirical findings and implications for the design of history systems." \emph{International Journal of Human-Computer Studies} 47.1 (1997): 97-137.
 
 \bibitem{wittaker}Whittaker, Steve. "Personal information management: from information consumption to curation." \emph{Annual review of information science and technology} 45.1 (2011): 1-62.
+
+\bibitem{wilson1999}Wilson, Tom D. "Models in information behaviour research." Journal of documentation 55.3 (1999): 249-270.
+
+\bibitem{wilson1997}Wilson, Thomas Daniel. "Information behaviour: an interdisciplinary perspective." Information processing \& management 33.4 (1997): 551-572.
+
+\bibitem{wilson1981}Wilson, Tom D. "On user studies and information needs." Journal of documentation 37.1 (1981): 3-15.
 
 \bibitem{yin} Yin, R. K. 2009. \emph{Case study research}, 4th, Thousand Oaks, CA: Sage.
 
