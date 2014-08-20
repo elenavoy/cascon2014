@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  19 AUG 2014 23:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  20 AUG 2014 00:15
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -459,6 +459,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 103--165
 
 LaTeX Warning: Float too large for page by 68.99371pt on input line 165.
 
+[4] [5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
 
@@ -466,10 +467,13 @@ Underfull \hbox (badness 3229) in paragraph at lines 181--182
 \OT1/ptm/m/n/10 cov-ery re-sult-ing from serendip-i-tous brows-ing.
  []
 
-[4] [5]
+
 Underfull \hbox (badness 5771) in paragraph at lines 187--188
 []\OT1/ptm/b/n/10 Category-guided nav-i-ga-tion. \OT1/ptm/m/n/10 Sim-i-lar to
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 2662) in paragraph at lines 222--223
@@ -477,9 +481,6 @@ Underfull \hbox (badness 2662) in paragraph at lines 222--223
  []
 
 [6]
-Underfull \vbox (badness 3601) has occurred while \output is active []
-
-
 Underfull \hbox (badness 1953) in paragraph at lines 253--254
 \OT1/ptm/m/n/10 based cat-e-go-riza-tion, tag-ging aids re-dis-cov-ery,
  []
@@ -583,9 +584,6 @@ Underfull \hbox (badness 2626) in paragraph at lines 434--435
  []
 
 
-Underfull \vbox (badness 1354) has occurred while \output is active []
-
-
 Underfull \hbox (badness 3679) in paragraph at lines 443--445
 \OT1/ptm/m/n/10 (2000). In-for-ma-tion seek-ing on the web:
  []
@@ -682,7 +680,7 @@ Underfull \hbox (badness 2698) in paragraph at lines 506--507
 Here is how much of TeX's memory you used:
  2354 strings out of 493921
  31420 string characters out of 3144876
- 112311 words of memory out of 3000000
+ 111311 words of memory out of 3000000
  5619 multiletter control sequences out of 15000+200000
  27724 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -694,7 +692,7 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 129094 bytes).
+Output written on main.pdf (14 pages, 129237 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
