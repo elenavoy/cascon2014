@@ -256,8 +256,8 @@ Search-based rediscovery     & Is the search a reliable method for resource revi
 Site subscription            & Does the application allow subscriptions to news and updates?                                             \\
 User subscription             & Does the application allow subscriptions to other users' activities?                                      \\
 Notifications                & Does the application have one or more notification mechanisms?                                                      \\
-Subscription news stream                  & Can subscription updates be visible within the application?  \\
-Content news stream                  & Can content updates be visible within the application? \\
+Subscription to news feed                  & Can subscription updates be visible within the application?  \\
+Content news feed                  & Can content updates be visible within the application? \\
 &\\
 \hline     
 &\\                                        
@@ -287,9 +287,6 @@ External sharing          & Can internal resources be publicly reshared outside 
 
 Although information discovery and curation tasks are commonly performed Web tasks today, as we mentioned above, there is a lack of literature on how to support them when building applications. We reduce this gap by presenting a framework of design factors facilitating digital information discovery and curation (see Table 1). 
 
-
- 
-
 The framework consists of two main categories, discovery and curation, that are consequently decomposed into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions that can help application design and evaluation. This section outlines the main components of the framework.
 
 } % end section
@@ -299,7 +296,7 @@ In our framework, we built on existing classifications of information seeking ta
 } % end subsection
 
 {\subsubsection{Serendipitous discovery}
-Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information needs, and it usually involves browsing through diverse resources with varying content types ~\cite{kellar2006, kellar2007}. The following are key criteria that influence serendipitous information discovery:
+Serendipitous discovery refers to information discovery resulting from serendipitous  browsing. Such discovery is characterized by underdefined, absent, or hidden information needs, and it usually involves browsing through diverse resources with varying content types ~\cite{kellar2006, kellar2007}. Here, resource is defined as a collection of information about a single unit of inquiry, usually bundled together for presentation purposes. Some examples of resources are places, images, blog posts, and Web pages. The following are key criteria that influence serendipitous information discovery:
 
 \textbf{Arbitrary navigation.} In order to browse diverse information, an information discovery tool needs to provide a way to arbitrarily navigate among resources to support purely serendipitous information discovery ~\cite{foster}.
 
@@ -307,7 +304,7 @@ Serendipitous discovery refers to information discovery resulting from serendipi
 
 \textbf{Category-guided navigation.} Similar to search-based navigation, category-guided navigation should provide a way to narrow the results to those related to one topic. In addition, categories can help the user formulate an information need by suggesting topics ~\cite{levene}.
 
-\textbf{Integration.} To users with ambiguous information needs, one information portal might not provide access to all information of interest. If an information discovery application gives access to resources from various sources, the user should be able to navigate to those sources.
+\textbf{Integration.} To users with ambiguous information needs, one information portal might not provide access to all information of interest. If an information discovery application gives access to resources from various sources, such as other Websites, the user should be able to navigate back to those sources.
 
 \textbf{Visual link preview.} Abrams et al. ~\cite{abrams} identified link representation as one of the problems with traditional bookmarking. Analogous with browsing through a bookmark manager, identifying relevant information when browsing through links to diverse resources can be a challenging task. A visual preview should make it easier to evaluate the relevance of resources.
 
@@ -326,7 +323,7 @@ Fact discovery refers to information discovery resulting from looking for a spec
 
 \textbf{Uniform representation.} Uniform representation is a method of displaying diverse resources in a common way, with each resource having the same set of components ~\cite{herrera}. Such a representation assures that each resource has the same set of facts associated with it, and therefore, the user can afford to have expectations about information that can be found when looking for a specific fact.
 
-\textbf{Integration.} Similarly to serendipitous discovery, if an information discovery application gives access to resources from various sources, the user should be able to navigate to those sources since they may contain the facts of interest.
+\textbf{Integration.} Similarly to serendipitous discovery, if an information discovery application gives access to resources from other Websites, the user should be able to navigate to those sites since they may contain the facts of interest.
 
 \textbf{Visual link preview.} If an application provided links to resources, a visual preview makes it easier to recognize the relevance of the resource ~\cite{abrams}. 
 
@@ -350,15 +347,15 @@ Rediscovery refers to information discovery resulting from revisiting previously
 Channel-based discovery can incorporate two different information seeking tasks, monitoring and awareness. It occurs when information is suggested to users based on the content that they are subscribed to. If users can actively look for updates, then an application affords monitoring ~\cite{morrison}. If users can receive notifications about updates, then an application facilitates awareness ~\cite{bates2002, bates1986}.                            
 
 
-\textbf{Site subscription.} Subscriptions to updates from a site help users follow the news ~\cite{java}. In order to support subscription-based discovery, an application must provide a subscription mechanism.
+\textbf{Site subscription.} Subscriptions to updates from a site help users follow the news ~\cite{java}. In order to support subscription-based discovery, an application must provide a subscription mechanism. 
 
-\textbf{User subscription.} Similar to site subscriptions, user subscriptions help networking and following users' activities ~\cite{millen}. Such subscriptions help to further filter new content delivered to the user.
+\textbf{User subscription.} Similar to site subscriptions, user subscriptions, which are subscriptions to activity updates from individual users rather than all of the content updates, help networking and following users' activities ~\cite{millen}. Such subscriptions help to further filter new content delivered to the user.
 
 \textbf{Notifications.} Notification mechanisms enable user awareness about the  new content on the subscribed channel ~\cite{millen}. 
 
-\textbf{Subscription news stream.} Displaying the news stream within the application further promotes awareness and can serve as a monitoring mechanism.
+\textbf{Subscription news feed.} Displaying the news feed within the application further promotes awareness and can serve as a monitoring mechanism. For such 
 
-\textbf{Content news stream.} Similarly to displaying the subscription news stream, displaying the content news stream promotes awareness and can serve as a monitoring mechanism.
+\textbf{Content news feed.} Similarly to displaying the subscription news feed, displaying the content news feed promotes awareness and can serve as a monitoring mechanism.
 
 } % end subsubsection
 
@@ -420,7 +417,7 @@ Through examining twenty different Web applications that were selected among the
 
 Current Web-based information discovery applications can support one or more types of information discovery: \textbf{serendipitous discovery}, \textbf{fact discovery}, \textbf{rediscovery}, or \textbf{channel-based discovery}.
 
-The main challenge with serendipitous discovery is facilitating browsing with upderdefined or absent information need. Many applications , such as Tumblr and StumbleUpon, support \textbf{arbitrary navigation} to allow for opportunistic jumping from one resource to another.  Alternatively, applications use \textbf{category-guided navigation}. For example, Google Images, with every search query, suggests related categories of images to help users with defining an information need. \textbf{Search-based navigation} is also common with serendipitous browsing, where a search query returns many diverse resources, many of which can be valuable to the user. For instance, searching for a location within Pinterest returns numerous images of that location that link to (or \textbf{integrate} with) other resources, blogs, and Web pages, whereas searching for the same place on Google Maps usually returns a small set of possible locations with precise addresses of those places. 
+The main challenge with serendipitous discovery is facilitating browsing with underdefined or absent information need. Many applications , such as Tumblr and StumbleUpon, support \textbf{arbitrary navigation} to allow for opportunistic jumping from one resource to another.  Alternatively, applications use \textbf{category-guided navigation}. For example, Google Images, with every search query, suggests related categories of images to help users with defining an information need. \textbf{Search-based navigation} is also common with serendipitous browsing, where a search query returns many diverse resources, many of which can be valuable to the user. For instance, searching for a location within Pinterest returns numerous images of that location that link to (or \textbf{integrate} with) other resources, blogs, and Web pages, whereas searching for the same place on Google Maps usually returns a small set of possible locations with precise addresses of those places. 
 
 Applications that facilitate serendipitous information discovery often employ elaborate resource representation techniques. Many social-bookmarking systems, such as Scoop.it! and StumbleUpon, support \textbf{visual previews} of bookmarked pages. Delicious is a social-bookmarking application that lacks this type of link representation support, which makes it harder to determine if the link will lead to a relevant resource. In addition, information discovery applications that support serendipitous discovery often have a special way of \textbf{spatially arranging} resources to make it easier to browse through large amounts of information. For example, similarly to Pinterest, many tools use a 'pinboard' layout of resources.
 
@@ -434,7 +431,7 @@ Channel-based information discovery is usually enabled at sites that have regula
 
 Information discovery tools can have different implementations depending on the purpose of discovery. Using information discovery factors of the framework (see Table 1), we described and evaluated currently existing tools. Similarly, the framework can be used for identifying gaps in information discovery support and developing new technologies.   \\
 
-\emph{RQ2: How do existing Web applications support information curation?}\\
+\emph{RQ2: How do existing information discovery applications support information curation?}\\
 
 Information discovery applications vary from being fully socially curated and populated by users to those that lack any curation mechanisms. 
 
