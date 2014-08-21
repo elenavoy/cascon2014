@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  20 AUG 2014 00:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  20 AUG 2014 17:09
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -440,7 +440,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
  |[]\OT1/ptm/b/n/12 Collaboration and In-for-ma-tion
  []
 
-[3]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 98--98
  \OT1/ptm/b/n/14.4 in-for-ma-tion dis-cov-ery and
  []
@@ -459,7 +462,11 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 103--165
 
 LaTeX Warning: Float too large for page by 68.99371pt on input line 165.
 
-[4] [5]
+
+Underfull \vbox (badness 3428) has occurred while \output is active []
+
+ [4]
+[5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
 
@@ -472,15 +479,15 @@ Underfull \hbox (badness 5771) in paragraph at lines 187--188
 []\OT1/ptm/b/n/10 Category-guided nav-i-ga-tion. \OT1/ptm/m/n/10 Sim-i-lar to
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[6]
 Underfull \hbox (badness 2662) in paragraph at lines 222--223
 []\OT1/ptm/b/n/10 Bookmark-based re-dis-cov-ery. \OT1/ptm/m/n/10 Bookmark-
  []
 
-[6]
+
+Underfull \vbox (badness 8000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1953) in paragraph at lines 253--254
 \OT1/ptm/m/n/10 based cat-e-go-riza-tion, tag-ging aids re-dis-cov-ery,
  []
@@ -490,7 +497,10 @@ Underfull \hbox (badness 3815) in paragraph at lines 264--265
 \OT1/ptm/m/n/10 Ex-ter-nal preser-va-tion means book-mark-ing re-
  []
 
-[7]
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
@@ -538,7 +548,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-[8] [9]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
@@ -680,7 +694,7 @@ Underfull \hbox (badness 2698) in paragraph at lines 506--507
 Here is how much of TeX's memory you used:
  2354 strings out of 493921
  31420 string characters out of 3144876
- 111311 words of memory out of 3000000
+ 112311 words of memory out of 3000000
  5619 multiletter control sequences out of 15000+200000
  27724 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -692,7 +706,7 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 129237 bytes).
+Output written on main.pdf (14 pages, 129367 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
