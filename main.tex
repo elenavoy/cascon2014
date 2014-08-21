@@ -89,11 +89,132 @@ Lindley et al.'s primary motivations behind looking at use modes that occur when
 } % end subsection
 
 Today, there are a multitude of tools that support different aspects of information exploration and curation, but understanding how these tools are similar (or differ) is difficult. Moreover, the existing research is not useful at helping identify gaps in current tools or ways that current tools may be improved to support information
-exploration and curation. Thus, we present a framework of Web application design factors and questions that facilitate information discovery and curation.
+exploration and curation. Thus, we present a framework of Web application design factors and questions that facilitate information discovery and curation (see Sec. 4).
 } % end section
 
 
+{\section{Building and Refining the Conceptual Framework}
+\begin{table*}[htbp]
+\small
 
+\caption{Web-based information discovery and curation tools.}
+
+\begin{tabular}{|p{0.11\linewidth}| p{0.22\linewidth}| p{0.67\linewidth}|}
+
+\hline
+Application     & Description                                                                  & Summary of Findings                                                                                                                                                                                                                                                                                            
+\\
+\hline
+Pinterest       & \raggedright
+Visual discovery tool. Available at www.pinterest.com                        & - Supports serendipitous browsing, bookmark-based rediscovery, channel-based information discovery, and information curation. 
+
+-Lacks support for search- and history-based rediscovery and fact finding.                                                                       \\
+\hline
+Delicious       & \raggedright
+Social bookmarking service. Available at delicious.com &                                                                - Supports channel-based discovery, bookmark-based rediscovery, and supports social curation. 
+
+- Lacks support for visual link preview and list-based categorization. \\
+\hline
+Tumblr          & \raggedright Microblogging platform. Available at www.tumblr.com                         & - Supports serendipitous browsing, bookmark-based rediscovery, channel-based information discovery.
+
+- Lacks support for fact finding and list-based categorization.                                                                                                 \\
+\hline
+StumbleUpon     & \raggedright Web page discovery tool. Available at www.stumbleupon.com                    & - Supports serendipitous browsing, bookmark- and history-based information rediscovery, channel-based infomration discovery, and information curation. 
+
+- Lacks support for fact finding.                                                                       \\
+\hline
+Wikipedia       & \raggedright Free content Internet encyclopedia. Availabe at en.wikipedia.org             & - Supports serendipitous discovery, fact finding, search-based rediscovery.
+
+- Lacks support for history-based and bookmark-based rediscovery, personal preservation and resource evaluation. \\
+\hline
+Google Maps     & \raggedright Web mapping service. Available at www.google.ca/maps                         & 
+- Supports fact finding and rediscovery. 
+
+- Lacks support for curation mechanisms, except for personal information preservation. 
+\\
+\hline
+Rotten Tomatoes & \raggedright Movie and TV database. Available at www.rottentomatoes.com                   & - Supports fact discovery, serendipitous browsing, and search-based rediscovery. 
+
+-Lacks support for history-based and bookmark-based rediscovery, information preservation, and management. \\
+\hline
+500px           & \raggedright Photography site. Available at 500px.com            & - Supports serendipitous browsing, channel-based discovery, and social curation. 
+
+- Lacks support for fact discovery and list-based categorization. \\
+\hline
+BucketList      & \raggedright Goal tracking and discovery service. Available at bucketlist.org             & - Supports serendipitous discovery, bookmark-based rediscovery, and channel-based discovery. 
+
+- Lacks support for fact discovery, search- and history-based rediscovery. \\
+\hline
+We Heart It     & \raggedright Visual discovery tool. Available at weheartit.com                            & - Supports serendipitous browsing, bookmark-based rediscovery, channel-based information discovery, and information curation.
+
+- Lacks support for fact finding.                                                                       \\
+\hline
+Scoop.it!       & \raggedright Online publishing platform. Available at www.scoop.it                        & - Supports serendipitous browsing, bookmark-based information rediscovery, channel-based information discovery, and information curation. 
+
+- Lacks support for fact finding.                                                 \\
+\hline
+Google Images   & \raggedright Image discovery service. Available at images.google.com                      & - Supports serendipitous browsing. 
+
+- Lacks support for rediscovery, channel-based discovery, fact finding, or  information curation.                                                                                                         \\
+\hline
+Vimeo           & \raggedright Video sharing Website. Available at vimeo.com                                & - Supports serendipitous discovery, bookmark-based rediscovery, and channel-based discovery, and information curation. 
+
+- Lacks support for fact discovery and list-based categorization. \\
+\hline
+LifeHacker      & \raggedright Daily weblog. Available at lifehacker.com                                    & - Supports serendipitous discovery. 
+
+- Lacks support for channel-based discovery and information curation.                                                                                                                                                                                                 \\
+\hline
+YouTube         & \raggedright Video hosting platform. Available at www.youtube.com                         & - Allows for serendipitous discovery, channel-based discovery, history- and bookmark-based revisitation, and information curation. 
+
+- Lacks support for internal sharing.                                                                                                                                                \\
+\hline
+Yelp            & \raggedright Business review site. Available at www.yelp.ca                               & - Supports fact finding, serendipitous browsing, search-based rediscovery, certain aspects of information curation, such as evaluation and annotation.                                                                                                
+
+ - Lacks support for channel-based discovery.   \\
+\hline
+IMDb            & \raggedright Movie database. Available at www.imdb.com                                    & - Supports fact discovery, serendipitous discovery, and rediscovery. 
+
+- Lacks support for channel-based discovery.                                                                                                                                                          \\
+\hline
+Trip Adviser    & \raggedright Travel site. Available at www.tripadvisor.ca                                 & - Supports serendipitous discovery, fact finding, and personal information curation. 
+
+- Lacks support for history-based rediscovery.                                                                                                                                 \\
+\hline
+Urban Spoon     & \raggedright Online bar and restaurant guide. Available at www.urbanspoon.com             & 
+- Supports serendipitous browsing, fact finding, evaluation and annotations. 
+
+- Lacks support for channel-based discovery.  \\
+\hline
+Thesaurus       & \raggedright Online thesaurus. Available at thesaurus.com                                 & - Supports serendipitous browsing and fact discovery. 
+
+- Lacks support for information curation.                                                                                \\
+\hline
+\end{tabular}
+\end{table*}
+Development of the framework began with an extensive literature review. Although the previous section outlines only the key research that was considered, it evidently illustrates the diversity of topics that contributed to forming an understanding of information seeking. From this review we derived preliminary design factors. 
+
+Through a careful analysis of twenty information discovery applications (see Table 1), we iteratively expanded the framework, added concepts, and established relations between those concepts. The framework can be expanded further; however, we selected the most popular information discovery applications in use today and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). The popularity of information discovery applications was determined using Website popularity rank provided by Alexa\footnotetext[1]{Alexa is available at www.alexa.com}, commercial Web traffic data provider. The focus was on applications that had strong information discovery components, and lesser priority was given to applications whose purpose revolved only around curation. For presentation purposes, we present the final version of the framework we developed as the framework was refined iteratively as explored the literature and available tools. 
+
+The exploration of information discovery tools was motivated by the following research questions:
+\\
+
+\emph{RQ1: How do existing Web applications support information discovery?}
+
+\emph{RQ2: How do existing information discovery applications support information curation?}\\
+
+
+We used Yin’s strategies for designing a case study ~\cite{yin} for guidance. The motivation behind choosing a case study over other methods of qualitative research was based on our choice of research questions (which have an explanatory nature), lack of control over existing applications and their development, and having to focus on contemporary use of real-life Web applications. According to Yin ~\cite{yin}, a case study would be an optimal research strategy given the above characteristics.
+
+For each case of our study, we chose a Web application whose primary purpose is to support information discovery. We examined the overall purpose of each application, its description, as defined within the application, literature and documentation related to the application (if they were available) against the features that the application provided. For example, if an application provided bookmarking features, we checked if it was indeed intended to be used for information preservation. 
+
+To increase external validity of our study, we chose the cases based on replication logic ~\cite{yin}. Using replication logic in a case study design means carefully selecting each case so that it either predicts analogous results or predicts contrasting results but for anticipated reasons. Therefore, we used our preliminary conceptual framework to predict if an application supported each of the information discovery and curation tasks based on the features that the application provided. If our predictions were inaccurate, we would modify the framework accordingly and move onto the next case. 
+
+Consequently, our methodology was an iterative process of selecting cases, analyzing each case, and determining whether or not it can be described and evaluated using our famework. If we found a key feature that cannot be described, we adapted the framework according to the finding. We repeated the process of case selection and evaluation until the framework was usable for all cases. We then grouped the elements of the framework into categories, and recorded corresponding questions to ask in order to evaluate that and other applications.
+
+A list of the tools that were used as cases, as well as brief summaries of our findings for each tool are presented in Table 1. Provided summaries are limited and provide a general idea of the results of examining the tools using the framework. Other tools were considered throughout the study; however, only the presented twenty underwent systematic examination. The framework itself is covered in the next section and presented in Table 2. Limitations of our study are outlined in Section 6.
+
+} % end section
 
 {\section{A conceptual framework for information discovery and curation on the Web}
 \begin{table*}[htbp]
@@ -166,7 +287,7 @@ External sharing          & Can internal resources be publicly reshared outside 
 
 Although information discovery and curation tasks are commonly performed Web tasks today, as we mentioned above, there is a lack of literature on how to support them when building applications. We reduce this gap by presenting a framework of design factors facilitating digital information discovery and curation (see Table 1). 
 
-Development of the framework began with an extensive literature review. From this review we derived design factors. Through a careful analysis of twenty information discovery applications, we iteratively expanded the framework, added concepts, and established relations between those concepts. The framework can be expanded further; however, we selected the most popular information discovery applications in use today  \footnotetext[1]{Most applications were selected based on Website popularity rank provided by Alexa, commercial Web traffic data provider, available at www.alexa.com} and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). For presentation purposes, we present the final version of the framework we developed as the framework was refined iteratively as explored the literature and available tools. 
+
  
 
 The framework consists of two main categories, discovery and curation, that are consequently decomposed into subcategories. Each subcategory contains factors that determine use case enablers and corresponding questions that can help application design and evaluation. This section outlines the main components of the framework.
@@ -287,81 +408,11 @@ Sharing information is key to empowering social information curation ~\cite{beag
 
 The following section describes the methodology for evaluating (and consequently refining) the conceptual framework and understanding how to address the elements of the framework when designing real world applications.
 
-{\section{Evaluating and Refining the Conceptual Framework}
-The study presented in this paper is motivated by two primary goals. The first goal is to evaluate the conceptual framework of factors that enable digital information discovery and curation. The second goal of the study is to gain perspectives on how different elements of our framework support real-world applications. Therefore, our questions are:
-\\
 
-\emph{RQ1: How do existing Web applications support information discovery?}
-
-\emph{RQ2: How do existing Web applications support information curation?}\\
-
-
-We used Yin’s strategies for designing a case study ~\cite{yin} for guidance. The motivation behind choosing a case study over other methods of qualitative research was based on our choice of research questions (which have an explanatory nature), lack of control over existing applications and their development, and having to focus on contemporary use of real-life Web applications. According to Yin ~\cite{yin}, a case study would be an optimal research strategy given the above characteristics.
-
-To answer our research questions, we analyzed twenty different applications. For each case, we chose a Web application whose primary purpose is to support information discovery. We examined the overall purpose of each application, its description, as defined within the application, literature and documentation related to the application (if they were available) against the features that the application provided. For example, if an application provided bookmarking features, we checked if it was indeed intended to be used for information preservation. 
-
-To increase external validity of our study, we chose the cases based on replication logic ~\cite{yin}. Using replication logic in a case study design means carefully selecting each case so that it either predicts analogous results or predicts contrasting results but for anticipated reasons. Therefore, we used our conceptual framework (see Section 3) to predict if an application supported each of the information discovery and curation tasks based on the features that the application provided. 
-
-Consequently, our methodology was an iterative process of selecting cases, analyzing each case, and determining whether or not it can be described and evaluated using our famework. If we found a feature that cannot be described, we adapted the framework according to the finding. We repeated the process of case selection and evaluation until the framework was usable for all cases. We then grouped the elements of the framework into categories, and recorded corresponding questions to ask in order to evaluate that and other applications. The resulting framework is presented in Table 1. Limitations of our study are outlined in Section 6.
-} % end section
 
 
 {\section{Trends in Digital Information Discovery and Curation}
-\begin{table*}[htbp]
-\small
 
-\caption{Web-based information discovery and curation tools.}
-
-\begin{tabular}{|p{0.11\linewidth}| p{0.22\linewidth}| p{0.67\linewidth}|}
-
-\hline
-Application     & Description                                                                  & Summary of Findings                                                                                                                                                                                                                                                                                            
-\\
-\hline
-Pinterest       & \raggedright
-Visual discovery tool. Available at www.pinterest.com                        & The application supports serendipitous browsing, bookmark-based rediscovery, channel-based information discovery, and information curation. It lacks support for search- and history-based rediscovery and fact finding.                                                                       \\
-\hline
-Delicious       & \raggedright
-Social bookmarking service. Available at delicious.com &                                                                The application supports channel-based discovery, bookmark-based rediscovery, and supports social curation. It lacks support for visual link preview and list-based categorization. \\
-\hline
-Tumblr          & \raggedright Microblogging platform. Available at www.tumblr.com                         & The application supports serendipitous browsing, bookmark-based rediscovery, channel-based information discovery. It lacks support for fact finding and list-based categorization.                                                                                                 \\
-\hline
-StumbleUpon     & \raggedright Web page discovery tool. Available at www.stumbleupon.com                    & The application supports serendipitous browsing, bookmark- and history-based information rediscovery, channel-based infomration discovery, and information curation. It lacks support for fact finding.                                                                       \\
-\hline
-Wikipedia       & \raggedright Free content Internet encyclopedia. Availabe at en.wikipedia.org             & The application supports serendipitous discovery, fact finding, search-based rediscovery. It lacks support for history-based and bookmark-based rediscovery, personal preservation and resource evaluation. \\
-\hline
-Google Maps     & \raggedright Web mapping service. Available at www.google.ca/maps                         & The application supports fact finding and rediscovery. It lacks support for serendipitous browsing and curation mechanisms, except for personal information preservation.   \\
-\hline
-Rotten Tomatoes & \raggedright Movie and TV database. Available at www.rottentomatoes.com                   & The application supports fact discovery, serendipitous browsing, and search-based rediscovery. It lacks support for history-based and bookmark-based rediscovery, information preservation, and management. \\
-\hline
-500px           & \raggedright Photography site. Available at 500px.com            & The application supports serendipitous browsing, channel-based discovery, and social curation. It lacks support for fact discovery and list-based categorization. \\
-\hline
-BucketList      & \raggedright Goal tracking and discovery service. Available at bucketlist.org             & The application supports serendipitous discovery, bookmark-based rediscovery, and channel-based discovery. It lacks support for fact discovery, search- and history-based rediscovery. \\
-\hline
-We Heart It     & \raggedright Visual discovery tool. Available at weheartit.com                            & The application supports serendipitous browsing, bookmark-based rediscovery, channel-based information discovery, and information curation. It lacks support for fact finding.                                                                       \\
-\hline
-Scoop.it!       & \raggedright Online publishing platform. Available at www.scoop.it                        & The application supports serendipitous browsing, bookmark-based information rediscovery, channel-based information discovery, and information curation. It lacks support for fact finding.                                                 \\
-\hline
-Google Images   & \raggedright Image discovery service. Available at images.google.com                      & The application supports serendipitous browsing. It lacks support for rediscovery, channel-based discovery, fact finding, or  information curation.                                                                                                         \\
-\hline
-Vimeo           & \raggedright Video sharing Website. Available at vimeo.com                                & The application supports serendipitous discovery, bookmark-based rediscovery, and channel-based discovery, and information curation. It lacks support for fact discovery and list-based categorization. \\
-\hline
-LifeHacker      & \raggedright Daily weblog. Available at lifehacker.com                                    & The application supports serendipitous discovery, but lacks support for channel-based discovery and information curation.                                                                                                                                                                                                 \\
-\hline
-YouTube         & \raggedright Video hosting platform. Available at www.youtube.com                         & The application allows for serendipitous discovery, channel-based discovery, history- and bookmark-based revisitation, and information curation. It lacks support for internal sharing.                                                                                                                                                \\
-\hline
-Yelp            & \raggedright Business review site. Available at www.yelp.ca                               & The application supports fact finding serendipitous browsing, search-based rediscovery, but not channel-based discovery. I supports certain aspects of information curation, sush as evaluation and annotation.                                                                                                 \\
-\hline
-IMDb            & \raggedright Movie database. Available at www.imdb.com                                    & The application supports fact discovery, serendipitous discovery, and rediscovery. It lacks support for channel-based discovery.                                                                                                                                                          \\
-\hline
-Trip Adviser    & \raggedright Travel site. Available at www.tripadvisor.ca                                 & The application supports serendipitous discovery, fact finding, and personal information curation. It lacks support for history-based rediscovery.                                                                                                                                 \\
-\hline
-Urban Spoon     & \raggedright Online bar and restaurant guide. Available at www.urbanspoon.com             & The application supports serendipitous browsing, fact finding, evaluation and annotations. It lacks support for channel-based discovery.  \\
-\hline
-Thesaurus       & \raggedright Online thesaurus. Available at thesaurus.com                                 & The application supports serendipitous browsing and fact discovery. It lacks support for information curation.                                                                                \\
-\hline
-\end{tabular}
-\end{table*}
 
 Through examining twenty different Web applications that were selected among the most popular information discovery tools (see Table 2), we were able to build and validate the conceptual framework of factors and questions that facilitate digital information discovery and curation. In this section, we further expand our findings and answer research questions, RQ1 and RQ2. \\
 
