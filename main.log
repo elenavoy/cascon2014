@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  22 AUG 2014 13:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  22 AUG 2014 16:12
 entering extended mode
 **main.tex
 (C:\Users\Elena\git\cascon2014\cascon2014\main.tex
@@ -472,6 +472,8 @@ Overfull \hbox (35.99998pt too wide) in paragraph at lines 103--195
 
 LaTeX Warning: Float too large for page by 41.48967pt on input line 195.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 198.
 
 Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
@@ -561,48 +563,40 @@ Underfull \hbox (badness 4156) in paragraph at lines 422--423
 \OT1/ptm/m/n/10 some pos-si-bil-i-ties for serendip-i-tous dis-cov-ery
  []
 
-[11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-Underfull \hbox (badness 2626) in paragraph at lines 482--483
+[11] [12]
+Underfull \hbox (badness 2626) in paragraph at lines 484--485
 []\OT1/ptm/m/n/10 Abrams, David, Ron Baecker, and Mark
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 491--493
+Underfull \hbox (badness 3679) in paragraph at lines 493--495
 \OT1/ptm/m/n/10 (2000). In-for-ma-tion seek-ing on the web:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--493
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
 \OT1/ptm/m/n/10 An in-te-grated model of brows-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--493
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
 \OT1/ptm/m/n/10 search-ing. \OT1/ptm/m/it/10 First-Mon-day\OT1/ptm/m/n/10 , 5(2
 ). Avail-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--493
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
 \OT1/ptm/m/n/10 from http://firstmonday.org/issues/issue5[]
  []
 
 [13]
-Underfull \hbox (badness 1024) in paragraph at lines 496--497
+Underfull \hbox (badness 1024) in paragraph at lines 498--499
 []\OT1/ptm/m/n/10 Dervin, Brenda. "Sense-making the-ory and
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 496--497
+Underfull \hbox (badness 1248) in paragraph at lines 498--499
 \OT1/ptm/m/n/10 prac-tice: an overview of user in-ter-ests in
- []
-
-
-Underfull \hbox (badness 7468) in paragraph at lines 516--517
-[]\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
  []
 
 
@@ -611,48 +605,53 @@ Underfull \hbox (badness 7468) in paragraph at lines 518--519
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
+Underfull \hbox (badness 7468) in paragraph at lines 520--521
+[]\OT1/ptm/m/n/10 Kellar, Melanie, Car-olyn Wat-ters, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 []\OT1/ptm/m/n/10 Marchionini, Gary. "Ex-ploratory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 \OT1/ptm/m/n/10 search: from find-ing to un-der-stand-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 \OT1/ptm/m/n/10 ing."Communications of the ACM 49.4
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 528--529
+Underfull \hbox (badness 5954) in paragraph at lines 530--531
 []\OT1/ptm/m/n/10 Millen, David, Jonathan Fein-berg, and
  []
 
 [14]
-Underfull \hbox (badness 1048) in paragraph at lines 536--537
+Underfull \hbox (badness 1048) in paragraph at lines 538--539
 []\OT1/ptm/m/n/10 Proper, Hen-derik Alex, and P. D. Bruza.
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 547--548
+Underfull \hbox (badness 1371) in paragraph at lines 549--550
 \OT1/ptm/m/n/10 peo-ple re-visit web pages: Em-pir-i-cal find-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 547--548
+Underfull \hbox (badness 1406) in paragraph at lines 549--550
 \OT1/ptm/m/n/10 sys-tems." \OT1/ptm/m/it/10 In-ter-na-tional Jour-nal of Human-
 
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 553--554
+Underfull \hbox (badness 1112) in paragraph at lines 555--556
 []\OT1/ptm/m/n/10 Wilson, Thomas Daniel. "In-for-ma-tion be-
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 553--554
+Underfull \hbox (badness 2698) in paragraph at lines 555--556
 \OT1/ptm/m/n/10 for-ma-tion pro-cess-ing & man-age-ment 33.4
  []
 
@@ -662,13 +661,13 @@ Underfull \hbox (badness 2698) in paragraph at lines 553--554
 ### simple group (level 1) entered at line 46 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2355 strings out of 493921
- 31430 string characters out of 3144876
- 112332 words of memory out of 3000000
- 5620 multiletter control sequences out of 15000+200000
- 28231 words of font info for 54 fonts, out of 3000000 for 9000
+ 2358 strings out of 493921
+ 31463 string characters out of 3144876
+ 111324 words of memory out of 3000000
+ 5622 multiletter control sequences out of 15000+200000
+ 29816 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,37p,1482b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,37p,1533b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
 enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Pro
@@ -676,7 +675,7 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 134393 bytes).
+Output written on main.pdf (15 pages, 134763 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

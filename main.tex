@@ -4,7 +4,7 @@
 	Elena Voyloshnikova\\
 	elenavoy@uvic.ca\\
 	\and
-	Dr. Margaret-Anne Storey\\
+	Margaret-Anne Storey\\
 	mstorey@uvic.ca
 }
 \date{
@@ -18,7 +18,7 @@
 \maketitle
 \thispagestyle{empty} % remove number on first page 
 
-{\section*{Abstract\let\thefootnote\relax\footnotetext{Copyright \copyright\ 2014 Dr. Margaret-Anne Storey and Elena Voyloshnikova. Permission to copy is hereby granted provided the original copyright notice is reproduced in copies made.}}
+{\section*{Abstract\let\thefootnote\relax\footnotetext{Copyright \copyright\ 2014 Elena Voyloshnikova and Margaret-Anne Storey. Permission to copy is hereby granted provided the original copyright notice is reproduced in copies made.}}
 
 Everyday life revolves around the discovery and curation of digital information. People search the Web continuously, from quickly looking up the information needed to complete a task, to endlessly searching for inspiration and knowledge. A variety of studies have modeled information seeking strategies and characterized information seeking and curation activities on the Web. However, there is a lack of research on how existing Web applications support the discovery and management of information, especially concerning the motivations behind them and how different approaches can be compared.
 
@@ -51,11 +51,11 @@ Several researchers have studied various aspects of Web-based information discov
 
 Kellar et al. ~\cite{kellar2006} separated Web tasks into five categories: transactions, browsing, fact finding, information gathering, and other uncategorized tasks, with information seeking being composed of browsing, fact finding, and information gathering. Although the authors categorized information gathering as part of information seeking, it is in fact more closely related to digital curation ~\cite{beagrie, wittaker}. In their later work, Kellar et al. ~\cite{kellar2007} added communication and maintenance as additional Web tasks. 
 
-Similarly to Kellar, Sellen et al. ~\cite{sellen} identified six tasks that are commonly performed by Web users: browsing, finding, housekeeping, information gathering, communicating, and transacting. Therefore, Kellar et al. and Sellen et al. both identified browsing, fact finding, and information gathering as information-related tasks that users perform online.   
+Similarly to Kellar et al., Sellen et al. ~\cite{sellen} identified six tasks that are commonly performed by Web users: browsing, finding, housekeeping, information gathering, communicating, and transacting. Therefore, Kellar et al. and Sellen et al. both identified browsing, fact finding, and information gathering as information-related tasks that users perform online.   
 
 People often engage in information seeking activities to close some knowledge gap that occurred as a result of not having enough information to perform a task ~\cite{proper}. Therefore, when providing tool support for various information discovery tasks, it is useful to consider the motivation behind these tasks as it can be different for each task. Morrison et al. ~\cite{morrison} make a distinction between methods of Web use and purposes. The authors derived a purpose-based taxonomy of Web use, including three purposes or motivations: finding information, comparing pieces of information or choosing products to make a decision, and using the Web to find relevant information to gain an understanding of some subject. Consequently, methods of finding information identified by Morrison et al. are collecting, finding, exploring, and monitoring. The differences between the two taxonomies suggest that different information seeking tasks may be performed to satisfy more than one information seeking purpose. Therefore, each purpose may require more than one task-supporting mechanism. 
 
-Morrison also draws distinction between finding or looking up information and exploratory search. Whereas information lookup involves tasks such as fact retrieval, navigation, and verification, exploration is more cognitively demanding and involves learning and investigation ~\cite{marchionini}. Learning and investigation can be performed over multiple iterations, and can involve learning though various media, "social searching", and serendipitous browsing performed with the goals of knowledge acquisition, socialization, forecasting, and planning.  
+Morrison et al. also draws distinction between finding or looking up information and exploratory search. Whereas information lookup involves tasks such as fact retrieval, navigation, and verification, exploration is more cognitively demanding and involves learning and investigation ~\cite{marchionini}. Learning and investigation can be performed over multiple iterations, and can involve learning though various media, "social searching", and serendipitous browsing performed with the goals of knowledge acquisition, socialization, forecasting, and planning.  
 
 } % end subsection
 
@@ -83,9 +83,9 @@ Collaborative information-related activities on the Web are not limited to infor
 } % end subsection
 
 {\subsection{Modes of Web Use}
-Categorizing Web usage into information seeking, digital curation, and other Web tasks does not necessarily give full insight about how information-related tasks are performed. Lindley et al. ~\cite{lindley} conducted a qualitative study involving 24 participants, tracking their daily Web usage in the form of a diary. As a result of this study, the researchers identified five distinct modes of Web use: respite, orienting, opportunistic, purposeful, and lean-back. According to the authors, people browse the Web opportunistically when they look for information related to some personal interest, long-term goal, or future ambition. Purposeful use occurs when the users know what information they need to acquire or what online action they need to perform in order to continue or finish some other activity. Respite mode usually occurs when users are in the process of waiting for something or taking a break, and it serves as a means for people to temporarily occupy themselves when high engagement with the content is not a requirement. Orienting mode usually occurs when people want to be updated on what has been happening in their environment. Examples of this mode are checking email at work or looking at the news and updates on a social networking site. Finally, lean-back mode of Web use can be thought of as listening to the radio or watching TV, and usually involves watching videos online or browsing through other types of entertainment content. 
+Categorizing Web usage into information seeking, digital curation, and other Web tasks does not necessarily give full insight about how information-related tasks are performed. Lindley et al. ~\cite{lindley} conducted a qualitative study involving 24 participants, tracking their daily Web usage in the form of a diary. As a result of this study, the researchers identified five distinct modes of Web use: respite, orienting, opportunistic, purposeful, and lean-back. According to the authors, people browse the Web \textit{opportunistically} when they look for information related to some personal interest, long-term goal, or future ambition. \textit{Purposeful use} occurs when the users know what information they need to acquire or what online action they need to perform in order to continue or finish some other activity. \textit{Respite} mode usually occurs when users are in the process of waiting for something or taking a break, and it serves as a means for people to temporarily occupy themselves when high engagement with the content is not a requirement. \textit{Orienting} mode usually occurs when people want to be updated on what has been happening in their environment. Examples of this mode are checking email at work or looking at the news and updates on a social networking site. Finally, \textit{lean-back} mode of Web use can be thought of as listening to the radio or watching TV, and usually involves watching videos online or browsing through other types of entertainment content. 
 
-Lindley et al.'s primary motivations behind looking at use modes that occur when people browse the Internet was that traditional Web use studies and Web tasks discovered by other researchers cannot reflect the depth of user's intentions online. Understanding the characteristics of different modes guides the design of Web interaction. For example, opportunistic use can have blurry and continuously changing information needs. People often cannot indicate the completion of Web tasks, and they finish whenever they have been browsing the Internet for too long, or whenever they need to complete some other task of higher priority. Then, they will often resume their opportunistic information seeking. Finally, opportunistic use is 'grasshopper-like', which means that users jump from one resource to another. From these factors, we can assume that to support such Web usage, we would need to consider mechanisms for supporting users' information needs and support revisitation and arbitrary navigation.
+Lindley et al.'s primary motivations behind looking at use modes that occur when people browse the Internet was that traditional Web use studies and Web tasks discovered by other researchers cannot reflect the depth of user's intentions online. Understanding the characteristics of different modes guides the design of Web interaction. For example, opportunistic use can have blurry and continuously changing information needs. People often cannot indicate the completion of Web tasks, and they finish whenever they have been browsing the Internet for too long, or whenever they need to complete some other task of higher priority. Then, they will often resume their opportunistic information seeking. Finally, opportunistic use is 'grasshopper-like', which means that users jump from one resource to another ~\cite{lindley}. From these factors, we can assume that to support such Web usage, we would need to consider mechanisms for supporting users' information needs and support revisitation and arbitrary navigation.
 
 } % end subsection
 
@@ -195,7 +195,7 @@ Thesaurus       & \raggedright Online thesaurus, available at thesaurus.com     
 \end{table*}
 Development of our framework began with an extensive literature review. Although the previous section outlines only the key research that was considered, it illustrates the diversity of topics that contributed to forming an understanding of information seeking. From this review, we derived preliminary design factors. 
 
-Through a careful analysis of 20 information discovery applications (see Table 1), we iteratively expanded the framework, added concepts, and established relations between those concepts. The framework can be expanded further, however, we selected the most popular information discovery applications in use today and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). The popularity of information discovery applications was determined using Website popularity ranks provided by Alexa\footnotetext[1]{Alexa is available at www.alexa.com}, a commercial Web traffic data provider. The focus was on applications that had strong information discovery components and lesser priority was given to applications whose purpose revolved only around curation. The framework was refined iteratively as we explored the literature and available tools, and for presentation purposes, we present the final version of the framework.
+Through a careful analysis of 20 information discovery applications (see Table 1), we iteratively expanded the framework, added concepts, and established relations between those concepts. The framework can be expanded further, however, we selected the most popular information discovery applications in use today and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). The popularity of information discovery applications was determined using Website popularity ranks provided by Alexa\footnote[1]{Alexa is available at www.alexa.com}, a commercial Web traffic data provider. The focus was on applications that had strong information discovery components and lesser priority was given to applications whose purpose revolved only around curation. The framework was refined iteratively as we explored the literature and available tools, and for presentation purposes, we present the final version of the framework.
 
 The exploration of information discovery tools was motivated by the following research questions:
 \\
@@ -390,7 +390,7 @@ Information preservation is a common Web task that is usually performed with the
   
 \textbf{External preservation of internal resources.} External preservation means bookmarking resources so that they become available through other bookmarking systems. An application must facilitate integration with other applications in order to enable external preservation ~\cite{abrams}.
 
-On We Heart It, users can preserve \textbf{internal  information} using \textbf{internal collections} and they can add information from \textbf{external} Websites. However, there are no integrated means for bookmarking \textbf{internal content} using other bookmarking systems.  
+On We Heart It, users can preserve \textit{internal  information} using \textit{internal collections} and they can add information from \textit{external} Websites. However, there are no integrated means for bookmarking \textit{internal content} using other bookmarking systems.  
 
 } % end subsubsection
 
@@ -435,7 +435,7 @@ To illustrate how the framework can be applied to evaluate current Web applicati
 
 \textbf{Sharing.} It is possible to add a new location to Google Maps. Sharing functionality is limited to the tool providing links and code for embedding.  
 
-Evaluating Google Maps using our conceptual framework helped expose some gaps in its design, so we propose directions for future development. From the description above, it can be estimated that Google Maps' curation mechanisms lack some functionality for public and private curation. Improving public curation mechanisms introduces the possibility of channel-based discovery. Additionally, adding category-guided navigation mechanisms can help with serendipitous discovery. By no means should an application like that be a replacement to Google Maps. However, it could be oriented towards social discovery and curation, as well as opportunistic place exploration, thereby complimenting the Google Maps application.  
+Evaluating Google Maps using our conceptual framework helped expose some gaps in its design, so we propose directions for future development. From the description above, it can be estimated that Google Maps' curation mechanisms lack some functionality for public and private curation. Improving public curation mechanisms introduces the possibility of channel-based discovery. Furthermore, adding category-guided navigation mechanisms can help with serendipitous discovery. By no means should an application like that be a replacement to Google Maps. However, it could be oriented towards social discovery and curation, as well as opportunistic place exploration, thereby complimenting the Google Maps application.  
 
 } % end section 
 
@@ -453,7 +453,9 @@ In the research domain, the framework can serve as a guide for selecting cases f
 {\section{Limitations}
 The case study we conducted has a number of limitations: a lack of documentation, literature, and formal descriptions of available features for some applications introduces a threat to construct validity of the study. In addition, information discovery tools and features can be used in manners unintended or unforeseen by designers and developers. Therefore, the use of some features within information discovery applications was recorded based on the researchers' interpretations. To compensate for such limitations, the researchers employed the tools for personal use over an extended period of time to gain a deeper understanding of their use. In addition, the researchers considered some cases with repeating functionality and design to be able to validate or clarify prior findings. 
 
-Only Web applications running in browsers on a desktop computer were considered in this study. Our study can be extended with use of various devices, such as smartphones and tablets, as information discovery patterns and mechanisms may very for different platforms.
+Many Web applications rapidly evolve. Therefore, our tool analysis only applies to tools at the moment of our study.
+
+Only Web applications running in browsers on a desktop computer were considered in this study. Our study can be extended with use of various devices, such as smartphones and tablets, as information discovery patterns and mechanisms may very for different platforms. 
 
 Another limitation was the lack of prior research studies on the subject matter. Some researchers have studied information seeking models and high-level Web tasks, but there is a lack of literature on how to enable and support different Web tasks. This opens up opportunities for future research to analyze methods of developing and building frameworks for facilitating and evaluating tools that support other Web tasks, such as communication, transactions, and goal realization.
 
@@ -469,7 +471,7 @@ Our framework opens up opportunities for structured information discovery tool e
 } % end section
 
 {\section*{Acknowledgements}
-The authors would like to thank Cassandra Petrachenko for her supportive proofreading of the paper. We also thank reviewers for their constructive comments.
+The authors would like to thank Cassandra Petrachenko for her supportive editing of the paper. We also thank reviewers for their constructive comments.
 } % end acknowledgements
 
 {\section*{About the Authors}
