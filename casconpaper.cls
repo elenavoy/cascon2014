@@ -1,4 +1,4 @@
-\LoadClass[10pt,twocolumn,letterpaper]{article}
+\LoadClass[10pt, twocolumn, letterpaper]{article}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{casconpaper}[2014/04/25 CASCON Paper class]
 
@@ -21,3 +21,6 @@
 \titlespacing*{\section}{0pt}{3ex}{1ex}
 \titlespacing*{\subsection}{0pt}{3ex}{0.5ex}
 \titlespacing*{\subsubsection}{0pt}{3ex}{0ex}
+
+\titleformat{\section}
+  {\normalfont\fontsize{15}{15}\bfseries}{\thesection}{1em}{}
