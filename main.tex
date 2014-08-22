@@ -303,7 +303,7 @@ Serendipitous discovery refers to information discovery resulting from serendipi
 
 \textbf{Arbitrary navigation.} In order to browse diverse information, an information discovery tool needs to provide a way to arbitrarily navigate among resources, thereby supporting serendipitous information discovery ~\cite{foster}. Many applications, such as Tumblr and StumbleUpon, support arbitrary navigation to allow for opportunistic jumping from one resource to another. 
 
-\textbf{Search-based navigation.} Search-based navigation often serves as an entry point for information seeking ~\cite{levene}. In case of serendipitous discovery, since the information need is not well articulated, the search engine should retrieve diverse resources related to a topic. For instance, searching for a location within Pinterest returns numerous images of the location that link to (or integrate with) other resources, blogs, and Web pages, whereas searching for the same place on Google Maps usually returns a small set of possible locations with precise addresses of those places.
+\textbf{Search-based navigation.} Search-based navigation often serves as an entry point for information seeking ~\cite{levene}. In case of serendipitous discovery, since the information need is not well articulated, the search engine should retrieve diverse resources related to a topic. For instance, searching for a location within Pinterest returns numerous images of the location that link to (or integrate with) other resources, blogs, and Web pages, whereas searching for the same place on Google Maps usually returns a small set of possible locations with limited information about those places.
 
 \textbf{Category-guided navigation.} Similar to search-based navigation, category-guided navigation should provide a way to narrow the results to those related to one topic. In addition, categories can help the user formulate an information need by suggesting topics ~\cite{levene}. For example, when using Google Images, every search query suggests related categories of images to help users define an information need.
 
@@ -406,7 +406,7 @@ Sharing information is key to empowering social information curation ~\cite{beag
 
 \textbf{Adding resources.} Adding resources not only facilitates global Web information curation, but it also scales the information available through the system,  providing more opportunities for information discovery. Resources can be created by users themselves, taken from some other source online, or both. For example, YouTube allows users to upload their own videos, whereas Pinterest permits adding images from other sites in addition to users' personal images. 
 
-\textbf{External sharing.} Sharing resources through different media supports channel-based information discovery within the media channels. Information discovery applications commonly allow for sharing information on popular networking sites \textbf{outside the application}.
+\textbf{External sharing.} Sharing resources through different media supports channel-based information discovery within the media channels. Information discovery applications commonly allow for sharing information on popular networking sites outside the application.
 
 \textbf{Internal sharing.} Resharing resources within the system supports channel-based information discovery. 
 } % end subsubsection
@@ -416,17 +416,35 @@ Information curation is a common activity within many information discovery appl
 The following section describes possible use of the conceptual framework and gives a concrete example of its application.
 
 {\section{Framework Application}
-Google Maps Evaluation
-
-Place discovery application
+To illustrate how the framework can be applied to evaluate current Web applications and suggest new tooling, we examine one of the cases of the study, Google Maps, with help of the framework. By answering the questions from the framework, we get the following description of Google Maps.
 
 
-} % end subsection
+\textbf{Serendipitous discovery.} Although there are some possibilities of serendipitous discovery within Google Maps, it is limited by a few factors. Arbitrary navigation is only possible when the user looks at the map itself or browses through the images of the places nearby. Any other information discovery must be initiated by search; thus, the user needs to formulate her information need. The application lacks category-based navigation, and thus there is nothing that aids users with information need formulation. Once the application returns search results, the possibility for serendipitous information discovery increases. Some interesting information can be discovered on the business's official Website or integrated Google+ page that the user can navigate to by clicking on 'reviews'. However, the 'reviews' link doesn't have a visual preview to indicate that there is more than just reviews on the linked page. Considering the nature of Google Maps, the semantic of resources' spatial arrangement is defined by places' actual locations. 
+
+\textbf{Fact finding.} Fact finding is very well supported in Google Maps. Since the application provides access to only one type of resources - places - there is no need for category-based navigation. Direct navigation is not always possible, but some places are visible on the map, so the user can just click on the place, and the application will display relevant information. Search-based navigation within Google Maps is usually very precise and accurate when returning search results for specific places. The application is conveniently integrated with Google+, allowing access to other relevant information, such as reviews, images, and hours of operation. Resources are displaced in a uniform fashion making it easy to find information such as address and contact. 
+
+\textbf{Rediscovery.} There are a few ways to rediscover information through Google Maps. Google Maps employs history-based revisitation mechanism, so users can see the last few places they searched for when opening the page. Users can bookmark the place onto a list called "My Places" by clicking on the star icon. Lastly, is is easy to rediscover information about a place by simply searching for it. Returned results are usually both accurate and reliable.
+
+\textbf{Channel-based discovery.} Channel-based rediscovery is common among applications with frequently updating content. Content provided my Google Maps is fairly stable; therefore, there are no channel-based discovery mechanisms used my the application.
+
+\textbf{Management.} Google Maps does not allow creation of custom lists nor it allows for tagging. Users can only bookmark places to "My Places" list. 
+
+\textbf{Preservation.}Personal preservation in Google Maps is possible though adding the place to "My Places" list as mentioned before; thus, by adding internal content to an internal storage. Other types of place preservation are possible through Google+; however, not within Google Maps itself.
+
+\textbf{Augmentation.} Users can evaluate and annotate places through Google+. However, aggregated reviews and ratings are visible on Google Maps. 
+
+\textbf{Sharing.} It is possible to add a new location to Google Maps. Sharing functionality is limited to the tool providing links and code for embedding.  
+
+Evaluation of Google Maps using our conceptual framework helped expose some gaps in its design, so we propose directions for future development. From the description above it can be estimated that curation mechanisms of  Google Maps lack some functionality for public and private curation. Improving public curation mechanisms introduces possibility of channel-based discovery. Additionally, adding category-guided navigation mechanisms can help with serendipitous discovery. By no means an application like that should be a replacement to Google Maps. On the contrary, it could be oriented towards social discovery and curation, as well as opportunistic place exploration, and therefore, compliment the Google Maps application.  
+
+} % end section 
 
 {\section{Research and Design Implications}
 
+Analogously with the example from the previous section, designers ought to face certain trade-offs when developing applications. I other words, the framework helps exposing the gaps; however, it is up to designers whether or not those gaps need to be closed.
 
-} % end subsection
+
+} % end section
 
 {\section{Limitations}
 The case study we conducted has a number of limitations, including lack of reliable data, imprecise measures used to collect and interpret the data, and lack of prior research studies on the topic. 
